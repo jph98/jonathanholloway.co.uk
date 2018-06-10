@@ -1,4 +1,4 @@
-# Personal Homepage
+# Homepage
 
 Uses:
 
