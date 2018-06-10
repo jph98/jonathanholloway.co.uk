@@ -1,8 +1,8 @@
 import React from "react"
 import { renderToStaticMarkup } from "react-dom/server"
 import { merge } from "lodash"
-import apiRunner from "./api-runner-ssr"
 import testRequireError from "./test-require-error"
+import apiRunner from "./api-runner-ssr"
 
 let HTML
 try {
@@ -17,8 +17,9 @@ try {
 }
 
 module.exports = (locals, callback) => {
-  // const apiRunner = require(`${directory}/.cache/api-runner-ssr`)
   let headComponents = []
+  let htmlAttributes = {}
+  let bodyAttributes = {}
   let preBodyComponents = []
   let postBodyComponents = []
   let bodyProps = {}
@@ -26,6 +27,14 @@ module.exports = (locals, callback) => {
 
   const setHeadComponents = components => {
     headComponents = headComponents.concat(components)
+  }
+
+  const setHtmlAttributes = attributes => {
+    htmlAttributes = merge(htmlAttributes, attributes)
+  }
+
+  const setBodyAttributes = attributes => {
+    bodyAttributes = merge(bodyAttributes, attributes)
   }
 
   const setPreBodyComponents = components => {
@@ -42,6 +51,8 @@ module.exports = (locals, callback) => {
 
   apiRunner(`onRenderBody`, {
     setHeadComponents,
+    setHtmlAttributes,
+    setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,
@@ -59,7 +70,7 @@ module.exports = (locals, callback) => {
     ]),
   })
   htmlStr = renderToStaticMarkup(htmlElement)
-  htmlStr = `<!DOCTYPE html>\n${htmlStr}`
+  htmlStr = `<!DOCTYPE html>${htmlStr}`
 
   callback(null, htmlStr)
 }

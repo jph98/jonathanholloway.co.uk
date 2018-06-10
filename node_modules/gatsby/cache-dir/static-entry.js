@@ -2,6 +2,7 @@ import React from "react"
 import { renderToString, renderToStaticMarkup } from "react-dom/server"
 import { StaticRouter, Route, withRouter } from "react-router-dom"
 import { kebabCase, get, merge, isArray, isString } from "lodash"
+
 import apiRunner from "./api-runner-ssr"
 import pages from "./pages.json"
 import syncRequires from "./sync-requires"
@@ -32,7 +33,7 @@ const getPage = path => pages.find(page => page.path === path)
 const defaultLayout = props => <div>{props.children()}</div>
 
 const getLayout = page => {
-  const layout = syncRequires.layouts[page.layoutComponentChunkName]
+  const layout = syncRequires.layouts[page.layout]
   return layout ? layout : defaultLayout
 }
 
@@ -44,18 +45,28 @@ module.exports = (locals, callback) => {
     pathPrefix = `${__PATH_PREFIX__}/`
   }
 
-  let bodyHTML = ``
+  let bodyHtml = ``
   let headComponents = []
+  let htmlAttributes = {}
+  let bodyAttributes = {}
   let preBodyComponents = []
   let postBodyComponents = []
   let bodyProps = {}
 
   const replaceBodyHTMLString = body => {
-    bodyHTML = body
+    bodyHtml = body
   }
 
   const setHeadComponents = components => {
     headComponents = headComponents.concat(components)
+  }
+
+  const setHtmlAttributes = attributes => {
+    htmlAttributes = merge(htmlAttributes, attributes)
+  }
+
+  const setBodyAttributes = attributes => {
+    bodyAttributes = merge(bodyAttributes, attributes)
   }
 
   const setPreBodyComponents = components => {
@@ -103,40 +114,28 @@ module.exports = (locals, callback) => {
     bodyComponent,
     replaceBodyHTMLString,
     setHeadComponents,
+    setHtmlAttributes,
+    setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,
   })
 
   // If no one stepped up, we'll handle it.
-  if (!bodyHTML) {
-    bodyHTML = renderToString(bodyComponent)
+  if (!bodyHtml) {
+    bodyHtml = renderToString(bodyComponent)
   }
 
   apiRunner(`onRenderBody`, {
     setHeadComponents,
+    setHtmlAttributes,
+    setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
     setBodyProps,
     pathname: locals.path,
+    bodyHtml,
   })
-
-  // Add the chunk-manifest as a head component.
-  const chunkManifest = require(`!raw!../public/chunk-manifest.json`)
-
-  headComponents.unshift(
-    <script
-      id="webpack-manifest"
-      key="webpack-manifest"
-      dangerouslySetInnerHTML={{
-        __html: `
-            //<![CDATA[
-            window.webpackManifest = ${chunkManifest}
-            //]]>
-            `,
-      }}
-    />
-  )
 
   let stats
   try {
@@ -184,29 +183,38 @@ module.exports = (locals, callback) => {
     )
   })
 
-  // Add script loader for page scripts to the head.
-  // Taken from https://www.html5rocks.com/en/tutorials/speed/script-loading/
-  const scriptsString = scripts.map(s => `"${s}"`).join(`,`)
-  headComponents.push(
+  // Add the chunk-manifest at the end of body element.
+  const chunkManifest = require(`!raw!../public/chunk-manifest.json`)
+  postBodyComponents.unshift(
     <script
-      key={`script-loader`}
+      id="webpack-manifest"
+      key="webpack-manifest"
       dangerouslySetInnerHTML={{
-        __html: `
-  !function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",[
-  ${scriptsString}
-])
-  `,
+        __html: `/*<![CDATA[*/window.webpackManifest=${chunkManifest}/*]]>*/`,
       }}
     />
   )
 
-  const html = `<!DOCTYPE html>\n ${renderToStaticMarkup(
+  // Add script loader for page scripts to the end of body element (after webpack manifest).
+  const scriptsString = scripts.map(s => `"${s}"`).join(`,`)
+  postBodyComponents.push(
+    <script
+      key={`script-loader`}
+      dangerouslySetInnerHTML={{
+        __html: `/*<![CDATA[*/[${scriptsString}].forEach(function(s){document.write('<script src="'+s+'" defer></'+'script>')})/*]]>*/`,
+      }}
+    />
+  )
+
+  const html = `<!DOCTYPE html>${renderToStaticMarkup(
     <Html
       {...bodyProps}
       headComponents={headComponents}
+      htmlAttributes={htmlAttributes}
+      bodyAttributes={bodyAttributes}
       preBodyComponents={preBodyComponents}
       postBodyComponents={postBodyComponents}
-      body={bodyHTML}
+      body={bodyHtml}
       path={locals.path}
     />
   )}`

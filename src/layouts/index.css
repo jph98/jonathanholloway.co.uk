@@ -12,131 +12,16 @@ h1 {
   font-weight: normal;
 }
 
-h1,
-p,
 ul {
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 0;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
+#container {
+  margin-top: 20px;
 }
 
 a {
   color: #000;
-}
-
-header,
-main section h1,
-footer {
-  text-align: center;
-}
-
-header > *,
-main section > *,
-footer::before,
-footer > * {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  max-width: 36rem;
-}
-
-@media (min-width: 40rem) {
-  header > *,
-  main section > *,
-  footer::before,
-  footer > * {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-header h1 {
-  font-size: 1.25rem;
-  margin-top: 2rem;
-}
-
-.home h1 {
-  font-size: 2.625rem;
-}
-
-header h1 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-header p {
-  font-size: .813rem;
-  margin-top: 1rem;
-}
-
-@media (min-width: 26rem) {
-  header p br {
-    display: none;
-  }
-}
-
-.index h1 {
-  font-size: 1rem;
-  margin-top: 4rem;
-}
-
-.index li {
-  margin-top: 1rem;
-}
-
-.index li a {
-  font-size: 1.625rem;
-}
-
-.index .author {
-  display: block;
-  font-size: .813rem;
-  line-height: 1;
-}
-
-@media (min-width: 30rem) {
-  .index .author {
-    float: right;
-    line-height: 3.126;
-  }
-}
-
-.info h1 {
-  font-size: 2.625rem;
-  margin-top: 4rem;
-}
-
-.home .info h1 {
-  font-size : 1.625rem;
-}
-
-.info p {
-  margin-top: 2rem;
-}
-
-.info .author {
-  margin-top: 0;
-  text-align: center;
-}
-
-.lipsum h1 {
-  font-size: 1.625rem;
-  margin-top: 4rem;
-}
-
-.lipsum p {
-  margin-top: 2rem;
-}
-
-footer::before {
-  content: "§";
-  display: block;
-  font-style: italic;
-  margin-top: 4rem;
-}
-
-footer p {
-  margin-top: 4rem;
 }

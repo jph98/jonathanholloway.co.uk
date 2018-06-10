@@ -1,9 +1,16 @@
 # Homepage
 
-Uses:
+Uses Gatsby - https://www.gatsbyjs.org/
 
-https://www.gatsbyjs.org/
+Install with:
 
-Development of this can be started with:
+  npm i 
+  sudo npm i gatsby --global
 
-  gatsby develop
+Develop with:
+
+  npm run build
+  npm run develop  
+
+Plugins used:
+* Helmet - generates a head section

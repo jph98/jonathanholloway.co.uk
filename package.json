@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "author": "Jonathan Holloway <jonathan.holloway@gmail.com>",
   "dependencies": {
+    "eslint": "^4.19.1",
     "gatsby": "^1.9.45",
     "gatsby-link": "^1.6.17",
     "gatsby-plugin-react-helmet": "^1.0.5",
-    "gatsby-plugin-typography": "^1.7.13",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-plugin-typography": "^1.7.18",
+    "styled-components": "^3.3.2",
     "typography-theme-lawton": "^0.15.10"
   },
   "keywords": [
@@ -19,7 +22,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no tests!\" && exit 1",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "prettier": "^1.6.1"

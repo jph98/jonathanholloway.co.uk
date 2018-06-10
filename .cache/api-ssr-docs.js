@@ -9,6 +9,10 @@
  * @param {function} $0.setHeadComponents Takes an array of components as its
  * first argument which are added to the `headComponents` array which is passed
  * to the `html.js` component.
+ * @param {function} $0.setHtmlAttributes Takes an object of props which will
+ * spread into the `<html>` component.
+ * @param {function} $0.setBodyAttributes Takes an object of props which will
+ * spread into the `<body>` component.
  * @param {function} $0.setPreBodyComponents Takes an array of components as its
  * first argument which are added to the `preBodyComponents` array which is passed
  * to the `html.js` component.
@@ -55,6 +59,10 @@ exports.replaceRenderer = true
  * @param {function} $0.setHeadComponents Takes an array of components as its
  * first argument which are added to the `headComponents` array which is passed
  * to the `html.js` component.
+ * @param {function} $0.setHtmlAttributes Takes an object of props which will
+ * spread into the `<html>` component.
+ * @param {function} $0.setBodyAttributes Takes an object of props which will
+ * spread into the `<body>` component.
  * @param {function} $0.setPreBodyComponents Takes an array of components as its
  * first argument which are added to the `preBodyComponents` array which is passed
  * to the `html.js` component.
@@ -65,13 +73,22 @@ exports.replaceRenderer = true
  * is merged with other body props and passed to `html.js` as `bodyProps`.
  * @param {Object} pluginOptions
  * @example
- * import helmet from "react-helmet"
+ * import Helmet from "react-helmet"
  *
- * exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
+ * exports.onRenderBody = (
+ *   { setHeadComponents, setHtmlAttributes, setBodyAttributes },
+ *   pluginOptions
+ * ) => {
+ *   const helmet = Helmet.renderStatic()
+ *   setHtmlAttributes(helmet.htmlAttributes.toComponent())
+ *   setBodyAttributes(helmet.bodyAttributes.toComponent())
  *   setHeadComponents([
  *     helmet.title.toComponent(),
- *     helmet.meta.toComponent(),
  *     helmet.link.toComponent(),
+ *     helmet.meta.toComponent(),
+ *     helmet.noscript.toComponent(),
+ *     helmet.script.toComponent(),
+ *     helmet.style.toComponent(),
  *   ])
  * }
  */
