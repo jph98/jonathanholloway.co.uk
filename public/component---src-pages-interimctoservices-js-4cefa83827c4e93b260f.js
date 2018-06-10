@@ -1,2 +1,0 @@
-webpackJsonp([59539786511347],{205:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(2),a=u(n),r=l(67),c=u(r),d=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Interim CTO Services"),a.default.createElement("p",null,"Welcome to CTO services"),a.default.createElement(c.default,{to:"/"},"Home"))};t.default=d,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-interimctoservices-js-4cefa83827c4e93b260f.js.map

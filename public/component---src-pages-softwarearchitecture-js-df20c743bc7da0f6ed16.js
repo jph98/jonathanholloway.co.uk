@@ -1,2 +1,0 @@
-webpackJsonp([34564191761679],{206:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(2),n=u(a),r=l(67),c=u(r),f=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Architecture"),n.default.createElement("p",null,"Welcome to software architecture"),n.default.createElement(c.default,{to:"/"},"Home"))};t.default=f,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-softwarearchitecture-js-df20c743bc7da0f6ed16.js.map
