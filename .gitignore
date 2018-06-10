@@ -1,6 +1,7 @@
 # Gatsby Specific 
 public
 site.zip
+.cache
 
 # Logs
 logs

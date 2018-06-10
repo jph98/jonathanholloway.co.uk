@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/home/jon/workspace/homepage/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/jon/workspace/homepage/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "277851dc912c21b3898995bb3fa84ac7",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -439,14 +449,16 @@
       "siteMetadata": {
         "title": "Jonathan Holloway CTO Consulting"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-10T15:57:56.785Z",
+      "buildTime": "2018-06-10T16:33:54.539Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "42f2e17d159ba88ca9481c7faff64494",
+        "contentDigest": "8c0088dac10fb0288db530267733dd72",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -467,7 +479,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "20d14189e9084a0eef29803fbefe128f",
+        "contentDigest": "c47e31267cb42c24424e505e7fe504e4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -488,7 +500,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "52ada2059c3f91667470eb0d11ff8557",
+        "contentDigest": "5a95045a82f1719817d672bfd42f44af",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -509,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c2c1645b4dfa891e23325b86b9f81e41",
+        "contentDigest": "d7dca182c3ed609eb083f7a5fb4c8764",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -530,7 +542,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c15f11d60c3294bfb5dae73fadb5e91b",
+        "contentDigest": "b4d5c3718987b6383f82569fc7aea1b7",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -551,7 +563,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1177b296fc4c307ed2839da61c059c31",
+        "contentDigest": "1f7b68b753ef9c37891d585374ffb8b5",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -563,6 +575,10 @@
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

@@ -18,7 +18,6 @@ const Architecture = () => (
       <li><b>Cloud Training</b>- training around cloud (AWS, Google)</li>
       <li><b>Cloud Transformation Projects</b> - evaluation, planning around transition to cloud (AWS, Google)</li>
     </ul>
-    <p>For more details contact me for more information or an initial consultation</p>
   </div>
 )
 
