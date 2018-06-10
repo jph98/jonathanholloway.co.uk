@@ -50,13 +50,12 @@ class ThirdPartyLinksSection extends React.Component {
           <b>Social Media, Startup, Tech Community Links</b>
         </p>
         <ul>
+          <li><a href="https://medium.com/@jonathan.holloway">Medium Tech Posts</a></li>
           <li><a href="https://www.linkedin.com/in/jonathanholloway/">Linkedin</a></li>
           <li><a href="https://stackoverflow.com/users/82865/jon">Stackoverflow</a></li>
           <li><a href="http://www.github.com/jph98">Github</a></li>
           <li><a href="http://angel.co/jph98">Angel.co Profile</a></li>
-          <li><a href="https://angel.co/jonathanholloway">Cofounders Lab Profile</a></li>
-          <li><a href="https://www.twitter.com/jph98">Twitter</a></li>
-          <li><a href="#">Technology Posts</a></li>
+          <li><a href="https://www.twitter.com/jph98">Twitter</a></li>          
         </ul>
       </div>
     )

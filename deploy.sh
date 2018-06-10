@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gatsby build 
+npm run build 
 cd public && zip -r site.zip *
 unzip -l site.zip
 scp site.zip root@jonathanholloway.co.uk:/root

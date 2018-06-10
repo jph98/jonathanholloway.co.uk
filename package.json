@@ -5,7 +5,7 @@
   "author": "Jonathan Holloway <jonathan.holloway@gmail.com>",
   "dependencies": {
     "eslint": "^4.19.1",
-    "gatsby": "^1.9.45",
+    "gatsby": "^1.9.270",
     "gatsby-link": "^1.6.17",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-styled-components": "^2.0.11",

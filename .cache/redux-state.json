@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/home/jon/workspace/homepage/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/home/jon/workspace/homepage/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d84ddf3a336d46d4c24e75270d1be525",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -400,7 +390,7 @@
           },
           {
             "name": "gatsby",
-            "version": "^1.9.45"
+            "version": "^1.9.270"
           },
           {
             "name": "gatsby-link",
@@ -449,16 +439,14 @@
       "siteMetadata": {
         "title": "Jonathan Holloway CTO Consulting"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-10T15:21:45.517Z",
+      "buildTime": "2018-06-10T15:57:56.785Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "599d8e0c7191660d89521a73c8427ab1",
+        "contentDigest": "42f2e17d159ba88ca9481c7faff64494",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -479,7 +467,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ad30a00f8d1b9d496a2290cba9743b12",
+        "contentDigest": "20d14189e9084a0eef29803fbefe128f",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -500,7 +488,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3605bd007fd12e20b485d2936ab5a631",
+        "contentDigest": "52ada2059c3f91667470eb0d11ff8557",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -521,7 +509,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9f482d61b069ff4128152d0c22342f85",
+        "contentDigest": "c2c1645b4dfa891e23325b86b9f81e41",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -542,7 +530,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "87744df1424f6029f9fff4d72a5a9a46",
+        "contentDigest": "c15f11d60c3294bfb5dae73fadb5e91b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -563,7 +551,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6de928ef0affe617b2563f90ad7eb387",
+        "contentDigest": "1177b296fc4c307ed2839da61c059c31",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -571,14 +559,10 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f4cf45c3b8ebba0550420f355ceb1446"
+    "PLUGINS_HASH": "599235bb5461047f13f1b00142bb19d5"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }

@@ -7,7 +7,6 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/home/jon/workspace/homepage/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/home/jon/workspace/homepage/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/home/jon/workspace/homepage/src/pages/index.js")),
   "component---src-pages-interimctoservices-js": preferDefault(require("/home/jon/workspace/homepage/src/pages/interimctoservices.js")),
@@ -16,7 +15,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/home/jon/workspace/homepage/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/home/jon/workspace/homepage/.cache/json/dev-404-page.json"),
   "404.json": require("/home/jon/workspace/homepage/.cache/json/404.json"),
   "index.json": require("/home/jon/workspace/homepage/.cache/json/index.json"),
   "interimctoservices.json": require("/home/jon/workspace/homepage/.cache/json/interimctoservices.json"),
