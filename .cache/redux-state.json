@@ -1,29 +1,28 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
+      "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/home/jon/workspace/homepage/.cache/dev-404-page.js",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/home/jon/workspace/homepage/.cache/dev-404-page.js",
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "277851dc912c21b3898995bb3fa84ac7",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "5117a317434491e85d6ac0faa6862ac5",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -34,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -48,37 +47,33 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2128820c3701ca9207350ec7a080f491",
+        "contentDigest": "858981aa5025ad0b3fbb440084f7eca7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-page-creator": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "id": "Plugin component-page-creator",
-      "name": "component-page-creator",
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createPagesStatefully"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
-        "name": "component-page-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
         "version": "1.0.0",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -87,56 +82,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "609e8813504458a8d114ae477032cadf",
+        "contentDigest": "4e333ea432f120219a16e734aa3058b6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-layout-creator": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "id": "Plugin component-layout-creator",
-      "name": "component-layout-creator",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "createLayouts"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "packageJson": {
-        "name": "component-layout-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
-        "version": "1.0.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "f2fe6539caa9e05516215b4278c5e98b",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin internal-data-bridge": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -148,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -162,17 +118,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "bd174ac62f98be073d62969a4b84863a",
+        "contentDigest": "1b3111149d14383d41a97c160179fdc4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -183,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -197,29 +153,28 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "61fc593cd79644431bf190ef3f11c2e3",
+        "contentDigest": "de3919b13825cbe11ae4b153e2c64515",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
+        "onCreatePage"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -233,43 +188,158 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "937750bf334e7455c73e2a748f1a453b",
+        "contentDigest": "e6e348a5c4400e856278861192e136a0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-typography": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby-plugin-typography",
-      "id": "Plugin gatsby-plugin-typography",
-      "name": "gatsby-plugin-typography",
-      "version": "1.7.18",
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "pathToConfigModule": "src/utils/typography.js"
+        "plugins": []
       },
       "nodeAPIs": [
-        "onPreBootstrap"
+        "onCreateWebpackConfig"
       ],
-      "browserAPIs": [
-        "onClientEntry"
-      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0a3d94be8d8126b08dd680547f66cc9c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
-        "name": "gatsby-plugin-typography",
-        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
-        "version": "1.7.18",
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
-          "typography",
-          "typography.js"
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "42ff6f84e3d20bdf6ad8ceb1a51333f5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0c1edc37-31e8-5769-82a2-19e7825fa485": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-source-filesystem",
+      "id": "0c1edc37-31e8-5769-82a2-19e7825fa485",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/jon/workspace/jonathanholloway.co.uk/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
         ],
         "author": {
           "name": "Kyle Mathews",
@@ -278,19 +348,1035 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
-            "name": "react-typography",
-            "version": "^0.16.1"
+            "name": "better-queue",
+            "version": "^3.8.7"
           },
           {
-            "name": "typography",
-            "version": "^0.16.0"
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
           }
         ],
         "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "df7f8d44a7cc686f720ca1d22e679eb2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9f8307a2208da47ccd9a0877652a1d48",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "10427490ada261a84eb3609db9926e88",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "228717f4-ac8d-582e-83be-307d71afc89a": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-manifest",
+      "id": "228717f4-ac8d-582e-83be-307d71afc89a",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/fav.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "47f9e69eec40274be593240b23b93966",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.5",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5847429d285fab5244b1789d883309cb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.23",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "da4389bdbdc8065b89935862774b3b89",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0bc81ebf-c93a-5193-9ba3-1e3aaef911e4": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-source-filesystem",
+      "id": "0bc81ebf-c93a-5193-9ba3-1e3aaef911e4",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cf0bb712137169947b1de6229ab47e99",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f9b2ec17-f62c-525e-aff0-521cdce0a734": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-google-analytics",
+      "id": "f9b2ec17-f62c-525e-aff0-521cdce0a734",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-134641214-1"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4c6d3def7222051271915e47ecb91af4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "9c4bc51044ba67cd9ce7fc3cfb09b36e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3d8baf8fac5a16abe6c1a88dd7e66957",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e08b0c8a-7532-58f7-ac51-1804ab53ee19": {
+      "resolve": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-page-creator",
+      "id": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
           {
             "name": "cross-env",
             "version": "^5.0.5"
@@ -299,286 +1385,2269 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^1.0.0"
+            "version": "^2.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b911b5cdeb7ed12698cc78688e96f996",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/home/jon/workspace/homepage/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
-      "name": "gatsby-plugin-react-helmet",
-      "version": "1.0.8",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/home/jon/workspace/homepage/node_modules/gatsby-plugin-react-helmet",
-      "packageJson": {
-        "name": "gatsby-plugin-react-helmet",
-        "description": "Stub description for gatsby-plugin-react-helmet",
-        "version": "1.0.8",
-        "main": "index.js",
-        "keywords": [
-          "gatsby"
-        ],
-        "author": {
-          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "react-helmet",
-            "version": "^5.1.3"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "61ab31cb98a0d126e6da3246dbe392d0",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin default-site-plugin": {
-      "resolve": "/home/jon/workspace/homepage",
-      "id": "Plugin default-site-plugin",
-      "name": "default-site-plugin",
-      "version": "7e2053acd540296eaecbe9bfb6135fe2",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/home/jon/workspace/homepage",
-      "packageJson": {
-        "name": "jonathan-holloway-profile",
-        "description": "Profile website for CTO consulting",
-        "version": "1.0.0",
-        "main": "n/a",
-        "keywords": [
-          "gatsby"
-        ],
-        "author": "Jonathan Holloway <jonathan.holloway@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "eslint",
-            "version": "^4.19.1"
-          },
-          {
-            "name": "gatsby",
-            "version": "^1.9.270"
-          },
-          {
-            "name": "gatsby-link",
-            "version": "^1.6.17"
-          },
-          {
-            "name": "gatsby-plugin-react-helmet",
-            "version": "^1.0.5"
-          },
-          {
-            "name": "gatsby-plugin-styled-components",
-            "version": "^2.0.11"
-          },
-          {
-            "name": "gatsby-plugin-typography",
-            "version": "^1.7.18"
-          },
-          {
-            "name": "styled-components",
-            "version": "^3.3.2"
-          },
-          {
-            "name": "typography-theme-lawton",
-            "version": "^0.15.10"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "prettier",
-            "version": "^1.6.1"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "75b2d76c0a56121b164a005f21960ff7",
+        "contentDigest": "fe183cafe07ec75a1a930634da517d95",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Jonathan Holloway CTO Consulting"
+        "title": "Jonathan Holloway, Consulting CTO",
+        "description": "",
+        "author": "@gatsbyjs"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-10T16:33:54.539Z",
+      "buildTime": "2019-02-20T18:04:03.724Z",
       "id": "Site",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8c0088dac10fb0288db530267733dd72",
+        "contentDigest": "6e7596d3853c5cc2c12aa4af213342cc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/home/jon/workspace/homepage/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/home/jon/workspace/homepage/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
+    "14cfb008-cc50-5064-b10f-cfebd6339a14": {
+      "id": "14cfb008-cc50-5064-b10f-cfebd6339a14",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8335b1b880779df70712df2f0b02437d",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 544,
+      "prettySize": "544 B",
+      "modifiedTime": "2019-02-17T11:58:57.421Z",
+      "accessTime": "2019-02-20T18:04:09.231Z",
+      "changeTime": "2019-02-17T11:58:57.421Z",
+      "birthTime": "2019-02-15T18:13:03.654Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 17,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9877425,
+      "blocks": 0,
+      "atimeMs": 1550685849230.6704,
+      "mtimeMs": 1550404737420.577,
+      "ctimeMs": 1550404737420.577,
+      "birthtimeMs": 1550254383654.1367,
+      "atime": "2019-02-20T18:04:09.231Z",
+      "mtime": "2019-02-17T11:58:57.421Z",
+      "ctime": "2019-02-17T11:58:57.421Z",
+      "birthtime": "2019-02-15T18:13:03.654Z"
+    },
+    "4bacd63a-a0d2-5343-baf3-45ed318d6d41": {
+      "id": "4bacd63a-a0d2-5343-baf3-45ed318d6d41",
+      "children": [
+        "827d526c-0fb9-5f4f-9c1b-74d7c8f7d13e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5e5f59a95865097d921a59a831cc9829",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/fav.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/fav.png",
+      "relativePath": "fav.png",
+      "extension": "png",
+      "size": 610,
+      "prettySize": "610 B",
+      "modifiedTime": "2019-02-16T12:07:14.000Z",
+      "accessTime": "2019-02-17T10:12:45.718Z",
+      "changeTime": "2019-02-16T12:10:22.478Z",
+      "birthTime": "2019-02-16T12:07:14.000Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "fav.png",
+      "ext": ".png",
+      "name": "fav",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9943136,
+      "blocks": 8,
+      "atimeMs": 1550398365718.4746,
+      "mtimeMs": 1550318834000,
+      "ctimeMs": 1550319022477.929,
+      "birthtimeMs": 1550318834000,
+      "atime": "2019-02-17T10:12:45.718Z",
+      "mtime": "2019-02-16T12:07:14.000Z",
+      "ctime": "2019-02-16T12:10:22.478Z",
+      "birthtime": "2019-02-16T12:07:14.000Z"
+    },
+    "827d526c-0fb9-5f4f-9c1b-74d7c8f7d13e": {
+      "id": "827d526c-0fb9-5f4f-9c1b-74d7c8f7d13e",
+      "children": [],
+      "parent": "4bacd63a-a0d2-5343-baf3-45ed318d6d41",
+      "internal": {
+        "contentDigest": "5e5f59a95865097d921a59a831cc9829",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "632ee010-c0f4-5475-b73b-5c3b5eb0dc2e": {
+      "id": "632ee010-c0f4-5475-b73b-5c3b5eb0dc2e",
+      "children": [
+        "463ab008-1ac5-5128-8366-70d5221d0f9e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6ea7ec775d9c43ba6a8f76391512d77f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/linkedin.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/linkedin.png",
+      "relativePath": "linkedin.png",
+      "extension": "png",
+      "size": 2956,
+      "prettySize": "2.96 kB",
+      "modifiedTime": "2019-02-17T11:54:09.547Z",
+      "accessTime": "2019-02-17T18:08:16.494Z",
+      "changeTime": "2019-02-17T11:54:10.560Z",
+      "birthTime": "2019-02-17T11:54:09.265Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "linkedin.png",
+      "ext": ".png",
+      "name": "linkedin",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10053242,
+      "blocks": 8,
+      "atimeMs": 1550426896493.8787,
+      "mtimeMs": 1550404449547.477,
+      "ctimeMs": 1550404450560.0176,
+      "birthtimeMs": 1550404449264.8352,
+      "atime": "2019-02-17T18:08:16.494Z",
+      "mtime": "2019-02-17T11:54:09.547Z",
+      "ctime": "2019-02-17T11:54:10.560Z",
+      "birthtime": "2019-02-17T11:54:09.265Z"
+    },
+    "73476005-d773-5e66-a278-c2ff94d3578b": {
+      "id": "73476005-d773-5e66-a278-c2ff94d3578b",
+      "children": [
+        "cdf8d2e8-736a-55d1-839d-be396ab3f6de"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1512b81b0ad1cf8d6592c2abd9224bd5",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/cv.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/cv.png",
+      "relativePath": "cv.png",
+      "extension": "png",
+      "size": 9423,
+      "prettySize": "9.42 kB",
+      "modifiedTime": "2019-02-17T11:58:57.407Z",
+      "accessTime": "2019-02-17T18:08:16.494Z",
+      "changeTime": "2019-02-17T11:58:57.431Z",
+      "birthTime": "2019-02-17T11:56:52.679Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "cv.png",
+      "ext": ".png",
+      "name": "cv",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10054428,
+      "blocks": 24,
+      "atimeMs": 1550426896493.8352,
+      "mtimeMs": 1550404737407.0383,
+      "ctimeMs": 1550404737431.116,
+      "birthtimeMs": 1550404612679.3386,
+      "atime": "2019-02-17T18:08:16.494Z",
+      "mtime": "2019-02-17T11:58:57.407Z",
+      "ctime": "2019-02-17T11:58:57.431Z",
+      "birthtime": "2019-02-17T11:56:52.679Z"
+    },
+    "c92026c8-f158-545c-a2c3-1ecb65b51094": {
+      "id": "c92026c8-f158-545c-a2c3-1ecb65b51094",
+      "children": [
+        "b5588d95-1689-506c-a9ba-ba059a38801a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2c4f03bf8d14281ab87d29898600b3f6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/angel.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/angel.png",
+      "relativePath": "angel.png",
+      "extension": "png",
+      "size": 8882,
+      "prettySize": "8.88 kB",
+      "modifiedTime": "2019-02-16T13:42:51.173Z",
+      "accessTime": "2019-02-17T10:12:42.714Z",
+      "changeTime": "2019-02-16T13:42:51.197Z",
+      "birthTime": "2019-02-16T13:04:45.872Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "angel.png",
+      "ext": ".png",
+      "name": "angel",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9955017,
+      "blocks": 24,
+      "atimeMs": 1550398362713.6387,
+      "mtimeMs": 1550324571173.1519,
+      "ctimeMs": 1550324571196.506,
+      "birthtimeMs": 1550322285871.9133,
+      "atime": "2019-02-17T10:12:42.714Z",
+      "mtime": "2019-02-16T13:42:51.173Z",
+      "ctime": "2019-02-16T13:42:51.197Z",
+      "birthtime": "2019-02-16T13:04:45.872Z"
+    },
+    "3d36d03f-18a3-55f7-84ff-9a3f797e6602": {
+      "id": "3d36d03f-18a3-55f7-84ff-9a3f797e6602",
+      "children": [
+        "54f0d49b-ff94-5695-baa3-81304b3714d2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "41bee48cbeba11b487fad1fae9ff29d2",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/github.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/github.png",
+      "relativePath": "github.png",
+      "extension": "png",
+      "size": 10378,
+      "prettySize": "10.4 kB",
+      "modifiedTime": "2019-02-16T13:43:43.268Z",
+      "accessTime": "2019-02-17T10:12:42.714Z",
+      "changeTime": "2019-02-16T13:43:43.291Z",
+      "birthTime": "2019-02-16T12:09:35.094Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "github.png",
+      "ext": ".png",
+      "name": "github",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9955106,
+      "blocks": 24,
+      "atimeMs": 1550398362713.7002,
+      "mtimeMs": 1550324623268.0466,
+      "ctimeMs": 1550324623290.861,
+      "birthtimeMs": 1550318975093.9905,
+      "atime": "2019-02-17T10:12:42.714Z",
+      "mtime": "2019-02-16T13:43:43.268Z",
+      "ctime": "2019-02-16T13:43:43.291Z",
+      "birthtime": "2019-02-16T12:09:35.094Z"
+    },
+    "c542a503-0ee7-5a3c-97ec-0636d6bfd081": {
+      "id": "c542a503-0ee7-5a3c-97ec-0636d6bfd081",
+      "children": [
+        "766ffa33-e633-5eee-8d10-f5b9ef887a08"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dd953f3598bbd21990ab3ffc79611cc2",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/medium.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/medium.png",
+      "relativePath": "medium.png",
+      "extension": "png",
+      "size": 6383,
+      "prettySize": "6.38 kB",
+      "modifiedTime": "2019-02-17T11:46:20.125Z",
+      "accessTime": "2019-02-17T11:46:20.122Z",
+      "changeTime": "2019-02-17T11:46:20.133Z",
+      "birthTime": "2019-02-16T12:09:35.095Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "medium.png",
+      "ext": ".png",
+      "name": "medium",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10051542,
+      "blocks": 16,
+      "atimeMs": 1550403980121.7795,
+      "mtimeMs": 1550403980125.2808,
+      "ctimeMs": 1550403980132.746,
+      "birthtimeMs": 1550318975095.2917,
+      "atime": "2019-02-17T11:46:20.122Z",
+      "mtime": "2019-02-17T11:46:20.125Z",
+      "ctime": "2019-02-17T11:46:20.133Z",
+      "birthtime": "2019-02-16T12:09:35.095Z"
+    },
+    "e851bade-0ca2-5e47-8425-9fbd0aa0a30a": {
+      "id": "e851bade-0ca2-5e47-8425-9fbd0aa0a30a",
+      "children": [
+        "70184562-de48-57da-8b1d-e06defdcf9c7"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a0817d0b04571327b8e7e5597e330f5a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/twitter.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/twitter.png",
+      "relativePath": "twitter.png",
+      "extension": "png",
+      "size": 7274,
+      "prettySize": "7.27 kB",
+      "modifiedTime": "2019-02-17T11:46:34.627Z",
+      "accessTime": "2019-02-17T11:46:34.623Z",
+      "changeTime": "2019-02-17T11:46:34.653Z",
+      "birthTime": "2019-02-16T12:09:35.098Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "twitter.png",
+      "ext": ".png",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10051612,
+      "blocks": 16,
+      "atimeMs": 1550403994622.5708,
+      "mtimeMs": 1550403994626.5063,
+      "ctimeMs": 1550403994653.4858,
+      "birthtimeMs": 1550318975097.689,
+      "atime": "2019-02-17T11:46:34.623Z",
+      "mtime": "2019-02-17T11:46:34.627Z",
+      "ctime": "2019-02-17T11:46:34.653Z",
+      "birthtime": "2019-02-16T12:09:35.098Z"
+    },
+    "b5588d95-1689-506c-a9ba-ba059a38801a": {
+      "id": "b5588d95-1689-506c-a9ba-ba059a38801a",
+      "children": [],
+      "parent": "c92026c8-f158-545c-a2c3-1ecb65b51094",
+      "internal": {
+        "contentDigest": "2c4f03bf8d14281ab87d29898600b3f6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "54f0d49b-ff94-5695-baa3-81304b3714d2": {
+      "id": "54f0d49b-ff94-5695-baa3-81304b3714d2",
+      "children": [],
+      "parent": "3d36d03f-18a3-55f7-84ff-9a3f797e6602",
+      "internal": {
+        "contentDigest": "41bee48cbeba11b487fad1fae9ff29d2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f2a39dc4-1b99-58be-a1ba-0fa5b0b27f43": {
+      "id": "f2a39dc4-1b99-58be-a1ba-0fa5b0b27f43",
+      "children": [
+        "f9d26ac2-e42e-5cb3-9bb2-05ee14d869c0"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b39c53f8233af33151cfa7c5c02b2329",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/question.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/question.png",
+      "relativePath": "question.png",
+      "extension": "png",
+      "size": 2539,
+      "prettySize": "2.54 kB",
+      "modifiedTime": "2019-02-16T12:09:35.096Z",
+      "accessTime": "2019-02-17T10:12:42.714Z",
+      "changeTime": "2019-02-16T12:09:35.096Z",
+      "birthTime": "2019-02-16T12:09:35.096Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "question.png",
+      "ext": ".png",
+      "name": "question",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9942932,
+      "blocks": 8,
+      "atimeMs": 1550398362713.7607,
+      "mtimeMs": 1550318975096.2424,
+      "ctimeMs": 1550318975096.333,
+      "birthtimeMs": 1550318975095.7524,
+      "atime": "2019-02-17T10:12:42.714Z",
+      "mtime": "2019-02-16T12:09:35.096Z",
+      "ctime": "2019-02-16T12:09:35.096Z",
+      "birthtime": "2019-02-16T12:09:35.096Z"
+    },
+    "d2e3cf2e-96bf-5993-a93b-896a53b46470": {
+      "id": "d2e3cf2e-96bf-5993-a93b-896a53b46470",
+      "children": [
+        "c541d9cb-ed2d-5332-a5e9-1a0946cc7ab4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2ce9c49f2f8592c9d9e0c13b0d46bc81",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/tools.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/tools.png",
+      "relativePath": "tools.png",
+      "extension": "png",
+      "size": 6371,
+      "prettySize": "6.37 kB",
+      "modifiedTime": "2019-02-16T12:09:35.097Z",
+      "accessTime": "2019-02-17T10:12:42.714Z",
+      "changeTime": "2019-02-16T12:09:35.098Z",
+      "birthTime": "2019-02-16T12:09:35.097Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "tools.png",
+      "ext": ".png",
+      "name": "tools",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9942934,
+      "blocks": 16,
+      "atimeMs": 1550398362713.7998,
+      "mtimeMs": 1550318975097.4736,
+      "ctimeMs": 1550318975097.565,
+      "birthtimeMs": 1550318975096.9644,
+      "atime": "2019-02-17T10:12:42.714Z",
+      "mtime": "2019-02-16T12:09:35.097Z",
+      "ctime": "2019-02-16T12:09:35.098Z",
+      "birthtime": "2019-02-16T12:09:35.097Z"
+    },
+    "770cb906-7689-5c0c-8cbf-db298dddc26a": {
+      "id": "770cb906-7689-5c0c-8cbf-db298dddc26a",
+      "children": [
+        "17ecd406-1d2c-5975-999e-7f9cd72cdd97"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5d5567bb2e6eee48609df8a34bfce67b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/stackoverflow.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/stackoverflow.png",
+      "relativePath": "stackoverflow.png",
+      "extension": "png",
+      "size": 5189,
+      "prettySize": "5.19 kB",
+      "modifiedTime": "2019-02-16T13:43:14.213Z",
+      "accessTime": "2019-02-17T10:12:42.714Z",
+      "changeTime": "2019-02-16T13:43:14.235Z",
+      "birthTime": "2019-02-16T12:09:35.096Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "stackoverflow.png",
+      "ext": ".png",
+      "name": "stackoverflow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9955055,
+      "blocks": 16,
+      "atimeMs": 1550398362713.78,
+      "mtimeMs": 1550324594212.617,
+      "ctimeMs": 1550324594235.0042,
+      "birthtimeMs": 1550318975096.4497,
+      "atime": "2019-02-17T10:12:42.714Z",
+      "mtime": "2019-02-16T13:43:14.213Z",
+      "ctime": "2019-02-16T13:43:14.235Z",
+      "birthtime": "2019-02-16T12:09:35.096Z"
+    },
+    "f9d26ac2-e42e-5cb3-9bb2-05ee14d869c0": {
+      "id": "f9d26ac2-e42e-5cb3-9bb2-05ee14d869c0",
+      "children": [],
+      "parent": "f2a39dc4-1b99-58be-a1ba-0fa5b0b27f43",
+      "internal": {
+        "contentDigest": "b39c53f8233af33151cfa7c5c02b2329",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c541d9cb-ed2d-5332-a5e9-1a0946cc7ab4": {
+      "id": "c541d9cb-ed2d-5332-a5e9-1a0946cc7ab4",
+      "children": [],
+      "parent": "d2e3cf2e-96bf-5993-a93b-896a53b46470",
+      "internal": {
+        "contentDigest": "2ce9c49f2f8592c9d9e0c13b0d46bc81",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "17ecd406-1d2c-5975-999e-7f9cd72cdd97": {
+      "id": "17ecd406-1d2c-5975-999e-7f9cd72cdd97",
+      "children": [],
+      "parent": "770cb906-7689-5c0c-8cbf-db298dddc26a",
+      "internal": {
+        "contentDigest": "5d5567bb2e6eee48609df8a34bfce67b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d37920a9-911a-5257-a216-b4a512357202": {
+      "id": "d37920a9-911a-5257-a216-b4a512357202",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "55bd2c93708fd9b9f0d7436072f692d2",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2019-02-17T10:14:39.384Z",
+      "accessTime": "2019-02-20T18:04:09.253Z",
+      "changeTime": "2019-02-17T10:14:39.384Z",
+      "birthTime": "2019-02-15T18:13:03.656Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9877428,
+      "blocks": 0,
+      "atimeMs": 1550685849252.9685,
+      "mtimeMs": 1550398479384.1543,
+      "ctimeMs": 1550398479384.1543,
+      "birthtimeMs": 1550254383656.0767,
+      "atime": "2019-02-20T18:04:09.253Z",
+      "mtime": "2019-02-17T10:14:39.384Z",
+      "ctime": "2019-02-17T10:14:39.384Z",
+      "birthtime": "2019-02-15T18:13:03.656Z"
+    },
+    "beac3009-5c3b-5b6b-8119-3f3f0bcb8883": {
+      "id": "beac3009-5c3b-5b6b-8119-3f3f0bcb8883",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "92e6f70212031879902ea8d31a4abeb5",
+        "type": "Directory",
+        "description": "Directory \"src/pages/archservices\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices",
+      "relativePath": "archservices",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-16T19:28:32.509Z",
+      "accessTime": "2019-02-20T18:04:09.255Z",
+      "changeTime": "2019-02-16T19:28:32.509Z",
+      "birthTime": "2019-02-16T19:28:27.945Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "archservices",
+      "ext": "",
+      "name": "archservices",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10013273,
+      "blocks": 0,
+      "atimeMs": 1550685849254.5178,
+      "mtimeMs": 1550345312508.6982,
+      "ctimeMs": 1550345312508.6982,
+      "birthtimeMs": 1550345307944.8752,
+      "atime": "2019-02-20T18:04:09.255Z",
+      "mtime": "2019-02-16T19:28:32.509Z",
+      "ctime": "2019-02-16T19:28:32.509Z",
+      "birthtime": "2019-02-16T19:28:27.945Z"
+    },
+    "5da79d75-ea51-5b0d-b198-34bbe7a77007": {
+      "id": "5da79d75-ea51-5b0d-b198-34bbe7a77007",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d4fc26a4aa5b1beecfbbd07405eb79e3",
+        "type": "Directory",
+        "description": "Directory \"src/pages/ctoservices\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices",
+      "relativePath": "ctoservices",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-16T19:23:44.183Z",
+      "accessTime": "2019-02-20T18:04:09.255Z",
+      "changeTime": "2019-02-16T19:23:44.183Z",
+      "birthTime": "2019-02-16T19:23:38.611Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "ctoservices",
+      "ext": "",
+      "name": "ctoservices",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10013035,
+      "blocks": 0,
+      "atimeMs": 1550685849254.5554,
+      "mtimeMs": 1550345024182.8608,
+      "ctimeMs": 1550345024182.8608,
+      "birthtimeMs": 1550345018611.0798,
+      "atime": "2019-02-20T18:04:09.255Z",
+      "mtime": "2019-02-16T19:23:44.183Z",
+      "ctime": "2019-02-16T19:23:44.183Z",
+      "birthtime": "2019-02-16T19:23:38.611Z"
+    },
+    "39e25758-13e1-5730-abba-4b6961d88505": {
+      "id": "39e25758-13e1-5730-abba-4b6961d88505",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "bbd69ff11f63b52d24fee768fb7543a0",
+        "type": "Directory",
+        "description": "Directory \"src/pages/engmgmt\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt",
+      "relativePath": "engmgmt",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-02-17T10:04:19.832Z",
+      "accessTime": "2019-02-20T18:04:09.255Z",
+      "changeTime": "2019-02-17T10:04:19.832Z",
+      "birthTime": "2019-02-17T09:56:29.583Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "engmgmt",
+      "ext": "",
+      "name": "engmgmt",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10029995,
+      "blocks": 0,
+      "atimeMs": 1550685849254.5864,
+      "mtimeMs": 1550397859831.665,
+      "ctimeMs": 1550397859831.665,
+      "birthtimeMs": 1550397389582.9438,
+      "atime": "2019-02-20T18:04:09.255Z",
+      "mtime": "2019-02-17T10:04:19.832Z",
+      "ctime": "2019-02-17T10:04:19.832Z",
+      "birthtime": "2019-02-17T09:56:29.583Z"
+    },
+    "91609303-c37a-5626-b0f9-ee64c3125070": {
+      "id": "91609303-c37a-5626-b0f9-ee64c3125070",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "20e09e69bc0af002111451938ecf8ebe",
+        "type": "Directory",
+        "description": "Directory \"src/pages/faq\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq",
+      "relativePath": "faq",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-16T21:56:36.249Z",
+      "accessTime": "2019-02-20T18:04:09.255Z",
+      "changeTime": "2019-02-17T09:54:18.292Z",
+      "birthTime": "2019-02-16T21:56:33.244Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "faq",
+      "ext": "",
+      "name": "faq",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10028689,
+      "blocks": 0,
+      "atimeMs": 1550685849254.543,
+      "mtimeMs": 1550354196249.3235,
+      "ctimeMs": 1550397258291.8928,
+      "birthtimeMs": 1550354193243.8523,
+      "atime": "2019-02-20T18:04:09.255Z",
+      "mtime": "2019-02-16T21:56:36.249Z",
+      "ctime": "2019-02-17T09:54:18.292Z",
+      "birthtime": "2019-02-16T21:56:33.244Z"
+    },
+    "8f6ebf4f-a9da-587d-b7e8-887b3ec71493": {
+      "id": "8f6ebf4f-a9da-587d-b7e8-887b3ec71493",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "239906241f5d4ac53fe49c33c0798e88",
+        "type": "Directory",
+        "description": "Directory \"src/pages/previouswork\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/previouswork",
+      "relativePath": "previouswork",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-16T19:35:02.151Z",
+      "accessTime": "2019-02-20T18:04:09.255Z",
+      "changeTime": "2019-02-16T19:35:02.151Z",
+      "birthTime": "2019-02-16T19:34:57.770Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "previouswork",
+      "ext": "",
+      "name": "previouswork",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10013575,
+      "blocks": 0,
+      "atimeMs": 1550685849254.5732,
+      "mtimeMs": 1550345702151.3474,
+      "ctimeMs": 1550345702151.3474,
+      "birthtimeMs": 1550345697769.7375,
+      "atime": "2019-02-20T18:04:09.255Z",
+      "mtime": "2019-02-16T19:35:02.151Z",
+      "ctime": "2019-02-16T19:35:02.151Z",
+      "birthtime": "2019-02-16T19:34:57.770Z"
+    },
+    "09ce0160-2257-5626-853a-65b96b89b973": {
+      "id": "09ce0160-2257-5626-853a-65b96b89b973",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1ef36a30860ba163ec526a7159e72463",
+        "type": "Directory",
+        "description": "Directory \"src/pages/tools\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/tools",
+      "relativePath": "tools",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-02-17T09:54:24.728Z",
+      "accessTime": "2019-02-20T18:04:09.255Z",
+      "changeTime": "2019-02-17T09:54:24.728Z",
+      "birthTime": "2019-02-17T09:54:22.387Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "tools",
+      "ext": "",
+      "name": "tools",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10029839,
+      "blocks": 0,
+      "atimeMs": 1550685849254.6292,
+      "mtimeMs": 1550397264728.4646,
+      "ctimeMs": 1550397264728.4646,
+      "birthtimeMs": 1550397262387.2964,
+      "atime": "2019-02-20T18:04:09.255Z",
+      "mtime": "2019-02-17T09:54:24.728Z",
+      "ctime": "2019-02-17T09:54:24.728Z",
+      "birthtime": "2019-02-17T09:54:22.387Z"
+    },
+    "8c7a99e5-0ed0-5af1-8caf-a2c3e6eeab93": {
+      "id": "8c7a99e5-0ed0-5af1-8caf-a2c3e6eeab93",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6a3a7e25b75556e5aae2a36cf7c6ca05",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 5273,
+      "prettySize": "5.27 kB",
+      "modifiedTime": "2019-02-18T13:18:39.680Z",
+      "accessTime": "2019-02-18T13:18:39.679Z",
+      "changeTime": "2019-02-18T13:18:39.680Z",
+      "birthTime": "2019-02-15T18:13:03.657Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9877430,
+      "blocks": 16,
+      "atimeMs": 1550495919678.5295,
+      "mtimeMs": 1550495919679.9175,
+      "ctimeMs": 1550495919679.9175,
+      "birthtimeMs": 1550254383656.6694,
+      "atime": "2019-02-18T13:18:39.679Z",
+      "mtime": "2019-02-18T13:18:39.680Z",
+      "ctime": "2019-02-18T13:18:39.680Z",
+      "birthtime": "2019-02-15T18:13:03.657Z"
+    },
+    "fde09bcf-1a78-5f06-8818-1fcc69c0311a": {
+      "id": "fde09bcf-1a78-5f06-8818-1fcc69c0311a",
+      "children": [
+        "e9e51f7c-ce91-5a39-9cad-ccca83013042"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "775c970f6e1031e819b263af9b199f34",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/ctoservices/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices/index.md",
+      "relativePath": "ctoservices/index.md",
+      "extension": "md",
+      "size": 1120,
+      "prettySize": "1.12 kB",
+      "modifiedTime": "2019-02-18T11:17:37.795Z",
+      "accessTime": "2019-02-18T11:17:37.794Z",
+      "changeTime": "2019-02-18T11:17:37.795Z",
+      "birthTime": "2019-02-16T19:23:44.183Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "ctoservices",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10013037,
+      "blocks": 8,
+      "atimeMs": 1550488657794.24,
+      "mtimeMs": 1550488657795.1316,
+      "ctimeMs": 1550488657795.1316,
+      "birthtimeMs": 1550345024182.8516,
+      "atime": "2019-02-18T11:17:37.794Z",
+      "mtime": "2019-02-18T11:17:37.795Z",
+      "ctime": "2019-02-18T11:17:37.795Z",
+      "birthtime": "2019-02-16T19:23:44.183Z"
+    },
+    "fa38fd6d-e6b2-5518-bedd-60122773ed46": {
+      "id": "fa38fd6d-e6b2-5518-bedd-60122773ed46",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "01f4bc5e79403cfd22f01c83b25e79bf",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/404.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 318,
+      "prettySize": "318 B",
+      "modifiedTime": "2019-02-15T18:13:03.656Z",
+      "accessTime": "2019-02-17T10:23:07.420Z",
+      "changeTime": "2019-02-15T18:13:03.656Z",
+      "birthTime": "2019-02-15T18:13:03.656Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 9877429,
+      "blocks": 8,
+      "atimeMs": 1550398987420.241,
+      "mtimeMs": 1550254383656.2996,
+      "ctimeMs": 1550254383656.2996,
+      "birthtimeMs": 1550254383656.2278,
+      "atime": "2019-02-17T10:23:07.420Z",
+      "mtime": "2019-02-15T18:13:03.656Z",
+      "ctime": "2019-02-15T18:13:03.656Z",
+      "birthtime": "2019-02-15T18:13:03.656Z"
+    },
+    "642b316f-9cb0-54e4-ab8f-e3dc3a8f67c8": {
+      "id": "642b316f-9cb0-54e4-ab8f-e3dc3a8f67c8",
+      "children": [
+        "bb35b8cb-2eaa-5085-b48f-013fbeba95fc"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c16caf9bdb3790121310cb49697d52ce",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/engmgmt/growthframework.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt/growthframework.md",
+      "relativePath": "engmgmt/growthframework.md",
+      "extension": "md",
+      "size": 289,
+      "prettySize": "289 B",
+      "modifiedTime": "2019-02-17T17:56:01.132Z",
+      "accessTime": "2019-02-17T17:56:01.295Z",
+      "changeTime": "2019-02-17T17:56:01.132Z",
+      "birthTime": "2019-02-17T09:56:34.844Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt",
+      "base": "growthframework.md",
+      "ext": ".md",
+      "name": "growthframework",
+      "relativeDirectory": "engmgmt",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10030003,
+      "blocks": 8,
+      "atimeMs": 1550426161295.3784,
+      "mtimeMs": 1550426161131.8762,
+      "ctimeMs": 1550426161131.8762,
+      "birthtimeMs": 1550397394844.4336,
+      "atime": "2019-02-17T17:56:01.295Z",
+      "mtime": "2019-02-17T17:56:01.132Z",
+      "ctime": "2019-02-17T17:56:01.132Z",
+      "birthtime": "2019-02-17T09:56:34.844Z"
+    },
+    "7df9b3f5-b4e7-57ce-863f-973a8ad9b908": {
+      "id": "7df9b3f5-b4e7-57ce-863f-973a8ad9b908",
+      "children": [
+        "ffaf0442-11e6-5a3d-9622-f0793c5c3e21"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4ec77b2baa830084d2c86d782fc114c7",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/archservices/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices/index.md",
+      "relativePath": "archservices/index.md",
+      "extension": "md",
+      "size": 1094,
+      "prettySize": "1.09 kB",
+      "modifiedTime": "2019-02-17T17:57:12.248Z",
+      "accessTime": "2019-02-17T17:57:12.410Z",
+      "changeTime": "2019-02-17T17:57:12.248Z",
+      "birthTime": "2019-02-16T19:28:32.509Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "archservices",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10013275,
+      "blocks": 8,
+      "atimeMs": 1550426232410.2273,
+      "mtimeMs": 1550426232247.9226,
+      "ctimeMs": 1550426232247.9226,
+      "birthtimeMs": 1550345312508.6895,
+      "atime": "2019-02-17T17:57:12.410Z",
+      "mtime": "2019-02-17T17:57:12.248Z",
+      "ctime": "2019-02-17T17:57:12.248Z",
+      "birthtime": "2019-02-16T19:28:32.509Z"
+    },
+    "e689a496-891e-5082-9e5c-596e54157d62": {
+      "id": "e689a496-891e-5082-9e5c-596e54157d62",
+      "children": [
+        "e00f34b5-de75-5ae4-ab1e-aa316a4ba947"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ae8d6a335aa31b283e3507ab4bb80235",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/faq/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq/index.md",
+      "relativePath": "faq/index.md",
+      "extension": "md",
+      "size": 592,
+      "prettySize": "592 B",
+      "modifiedTime": "2019-02-17T17:56:10.578Z",
+      "accessTime": "2019-02-17T17:56:10.740Z",
+      "changeTime": "2019-02-17T17:56:10.578Z",
+      "birthTime": "2019-02-16T21:56:36.249Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "faq",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10028690,
+      "blocks": 8,
+      "atimeMs": 1550426170740.4065,
+      "mtimeMs": 1550426170577.9192,
+      "ctimeMs": 1550426170577.9192,
+      "birthtimeMs": 1550354196249.3096,
+      "atime": "2019-02-17T17:56:10.740Z",
+      "mtime": "2019-02-17T17:56:10.578Z",
+      "ctime": "2019-02-17T17:56:10.578Z",
+      "birthtime": "2019-02-16T21:56:36.249Z"
+    },
+    "805357be-ac9d-5256-aebb-a2343d9a36df": {
+      "id": "805357be-ac9d-5256-aebb-a2343d9a36df",
+      "children": [
+        "7cb96ec9-e8d5-57ec-b781-23b419e3fc07"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d60e3afe2639c651d1cbc8443368b71a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/engmgmt/teamradar.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt/teamradar.md",
+      "relativePath": "engmgmt/teamradar.md",
+      "extension": "md",
+      "size": 282,
+      "prettySize": "282 B",
+      "modifiedTime": "2019-02-17T17:56:04.851Z",
+      "accessTime": "2019-02-17T17:56:04.912Z",
+      "changeTime": "2019-02-17T17:56:04.851Z",
+      "birthTime": "2019-02-17T10:04:19.832Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt",
+      "base": "teamradar.md",
+      "ext": ".md",
+      "name": "teamradar",
+      "relativeDirectory": "engmgmt",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10031698,
+      "blocks": 8,
+      "atimeMs": 1550426164912.4653,
+      "mtimeMs": 1550426164850.6135,
+      "ctimeMs": 1550426164850.6135,
+      "birthtimeMs": 1550397859831.6543,
+      "atime": "2019-02-17T17:56:04.912Z",
+      "mtime": "2019-02-17T17:56:04.851Z",
+      "ctime": "2019-02-17T17:56:04.851Z",
+      "birthtime": "2019-02-17T10:04:19.832Z"
+    },
+    "1d0c8f7c-13c6-572f-89c1-d8807d268b2d": {
+      "id": "1d0c8f7c-13c6-572f-89c1-d8807d268b2d",
+      "children": [
+        "9946d8f9-678f-5025-b6c4-03104b027fe4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5367fd143b5250b79cdf01ee5f320020",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/tools/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/tools/index.md",
+      "relativePath": "tools/index.md",
+      "extension": "md",
+      "size": 312,
+      "prettySize": "312 B",
+      "modifiedTime": "2019-02-17T17:56:17.197Z",
+      "accessTime": "2019-02-17T17:56:17.360Z",
+      "changeTime": "2019-02-17T17:56:17.197Z",
+      "birthTime": "2019-02-17T09:54:24.728Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/tools",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "tools",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10029840,
+      "blocks": 8,
+      "atimeMs": 1550426177359.7444,
+      "mtimeMs": 1550426177196.9282,
+      "ctimeMs": 1550426177196.9282,
+      "birthtimeMs": 1550397264728.4521,
+      "atime": "2019-02-17T17:56:17.360Z",
+      "mtime": "2019-02-17T17:56:17.197Z",
+      "ctime": "2019-02-17T17:56:17.197Z",
+      "birthtime": "2019-02-17T09:54:24.728Z"
+    },
+    "ecd188db-6262-550a-8bcb-8f2d34d0cd8e": {
+      "id": "ecd188db-6262-550a-8bcb-8f2d34d0cd8e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dfb4251df661a266a5849a2d8fda7fc7",
+        "type": "File",
+        "mediaType": "application/javascript",
+        "description": "File \"src/pages/contact.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact.js",
+      "relativePath": "contact.js",
+      "extension": "js",
+      "size": 1257,
+      "prettySize": "1.26 kB",
+      "modifiedTime": "2019-02-17T10:22:08.269Z",
+      "accessTime": "2019-02-17T10:22:27.163Z",
+      "changeTime": "2019-02-17T10:22:08.269Z",
+      "birthTime": "2019-02-17T10:13:42.182Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "contact.js",
+      "ext": ".js",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10035373,
+      "blocks": 8,
+      "atimeMs": 1550398947162.9863,
+      "mtimeMs": 1550398928269.2178,
+      "ctimeMs": 1550398928269.2178,
+      "birthtimeMs": 1550398422181.9832,
+      "atime": "2019-02-17T10:22:27.163Z",
+      "mtime": "2019-02-17T10:22:08.269Z",
+      "ctime": "2019-02-17T10:22:08.269Z",
+      "birthtime": "2019-02-17T10:13:42.182Z"
+    },
+    "af3e59b9-8814-53ba-bffb-862f1fa8a6a6": {
+      "id": "af3e59b9-8814-53ba-bffb-862f1fa8a6a6",
+      "children": [
+        "03fea4e0-d915-549c-8b1c-fc982be46558"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7f111fce2a76c939b6f0f42474bc5ed9",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/previouswork/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/previouswork/index.md",
+      "relativePath": "previouswork/index.md",
+      "extension": "md",
+      "size": 416,
+      "prettySize": "416 B",
+      "modifiedTime": "2019-02-17T17:56:12.925Z",
+      "accessTime": "2019-02-17T17:56:12.993Z",
+      "changeTime": "2019-02-17T17:56:12.925Z",
+      "birthTime": "2019-02-16T19:35:02.151Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/previouswork",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "previouswork",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10013576,
+      "blocks": 8,
+      "atimeMs": 1550426172992.5747,
+      "mtimeMs": 1550426172925.497,
+      "ctimeMs": 1550426172925.497,
+      "birthtimeMs": 1550345702151.3381,
+      "atime": "2019-02-17T17:56:12.993Z",
+      "mtime": "2019-02-17T17:56:12.925Z",
+      "ctime": "2019-02-17T17:56:12.925Z",
+      "birthtime": "2019-02-16T19:35:02.151Z"
+    },
+    "abe6eab7-6eb8-55b2-ba18-9bb8709c3a94": {
+      "id": "abe6eab7-6eb8-55b2-ba18-9bb8709c3a94",
+      "children": [
+        "fef555d1-3023-59a2-85a6-0259b1b9e422"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "33044a2c1fb9815bc5a2cd7d635e18dd",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/fractional.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/fractional.png",
+      "relativePath": "fractional.png",
+      "extension": "png",
+      "size": 2540,
+      "prettySize": "2.54 kB",
+      "modifiedTime": "2019-02-17T10:35:56.170Z",
+      "accessTime": "2019-02-17T10:37:19.817Z",
+      "changeTime": "2019-02-17T10:37:28.254Z",
+      "birthTime": "2019-02-17T10:35:56.170Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "fractional.png",
+      "ext": ".png",
+      "name": "fractional",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10040129,
+      "blocks": 8,
+      "atimeMs": 1550399839817.4133,
+      "mtimeMs": 1550399756170.4456,
+      "ctimeMs": 1550399848253.9558,
+      "birthtimeMs": 1550399756170.2434,
+      "atime": "2019-02-17T10:37:19.817Z",
+      "mtime": "2019-02-17T10:35:56.170Z",
+      "ctime": "2019-02-17T10:37:28.254Z",
+      "birthtime": "2019-02-17T10:35:56.170Z"
+    },
+    "fef555d1-3023-59a2-85a6-0259b1b9e422": {
+      "id": "fef555d1-3023-59a2-85a6-0259b1b9e422",
+      "children": [],
+      "parent": "abe6eab7-6eb8-55b2-ba18-9bb8709c3a94",
+      "internal": {
+        "contentDigest": "33044a2c1fb9815bc5a2cd7d635e18dd",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "91f97f08-0a8a-5f23-8e9f-3469a02cd19c": {
+      "id": "91f97f08-0a8a-5f23-8e9f-3469a02cd19c",
+      "children": [
+        "5a1363a7-08e9-5ba8-bbd8-a2dcca042d7d"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8fca1f3d79a05eb7c7d94d18e763dd69",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/architecture.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/architecture.png",
+      "relativePath": "architecture.png",
+      "extension": "png",
+      "size": 2448,
+      "prettySize": "2.45 kB",
+      "modifiedTime": "2019-02-17T10:38:08.379Z",
+      "accessTime": "2019-02-17T10:38:22.529Z",
+      "changeTime": "2019-02-17T10:38:29.033Z",
+      "birthTime": "2019-02-17T10:38:08.379Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "architecture.png",
+      "ext": ".png",
+      "name": "architecture",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10040662,
+      "blocks": 8,
+      "atimeMs": 1550399902529.0906,
+      "mtimeMs": 1550399888379.3145,
+      "ctimeMs": 1550399909033.0986,
+      "birthtimeMs": 1550399888379.1116,
+      "atime": "2019-02-17T10:38:22.529Z",
+      "mtime": "2019-02-17T10:38:08.379Z",
+      "ctime": "2019-02-17T10:38:29.033Z",
+      "birthtime": "2019-02-17T10:38:08.379Z"
+    },
+    "5a1363a7-08e9-5ba8-bbd8-a2dcca042d7d": {
+      "id": "5a1363a7-08e9-5ba8-bbd8-a2dcca042d7d",
+      "children": [],
+      "parent": "91f97f08-0a8a-5f23-8e9f-3469a02cd19c",
+      "internal": {
+        "contentDigest": "8fca1f3d79a05eb7c7d94d18e763dd69",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "aa436509-7e12-5555-9cde-457b53c97e48": {
+      "id": "aa436509-7e12-5555-9cde-457b53c97e48",
+      "children": [
+        "c9218730-a19f-5e58-9b0c-cd4ae834a260"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f9719dbdba102a5584434a8d8fead152",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/coaching.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/coaching.png",
+      "relativePath": "coaching.png",
+      "extension": "png",
+      "size": 3658,
+      "prettySize": "3.66 kB",
+      "modifiedTime": "2019-02-17T10:39:19.163Z",
+      "accessTime": "2019-02-17T10:39:27.218Z",
+      "changeTime": "2019-02-17T10:39:34.394Z",
+      "birthTime": "2019-02-17T10:39:19.163Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "coaching.png",
+      "ext": ".png",
+      "name": "coaching",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10041349,
+      "blocks": 8,
+      "atimeMs": 1550399967217.6409,
+      "mtimeMs": 1550399959162.9177,
+      "ctimeMs": 1550399974394.137,
+      "birthtimeMs": 1550399959162.694,
+      "atime": "2019-02-17T10:39:27.218Z",
+      "mtime": "2019-02-17T10:39:19.163Z",
+      "ctime": "2019-02-17T10:39:34.394Z",
+      "birthtime": "2019-02-17T10:39:19.163Z"
+    },
+    "c9218730-a19f-5e58-9b0c-cd4ae834a260": {
+      "id": "c9218730-a19f-5e58-9b0c-cd4ae834a260",
+      "children": [],
+      "parent": "aa436509-7e12-5555-9cde-457b53c97e48",
+      "internal": {
+        "contentDigest": "f9719dbdba102a5584434a8d8fead152",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8381b718-ac2e-5426-bd43-c6a9e2842d6e": {
+      "id": "8381b718-ac2e-5426-bd43-c6a9e2842d6e",
+      "children": [
+        "6dcd075e-ce6b-5103-aecb-aeab3a8f444e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b876d2e3865f4aa05ebdf19a065e8ba0",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/interim.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/interim.png",
+      "relativePath": "interim.png",
+      "extension": "png",
+      "size": 3249,
+      "prettySize": "3.25 kB",
+      "modifiedTime": "2019-02-17T10:40:07.956Z",
+      "accessTime": "2019-02-17T10:40:22.667Z",
+      "changeTime": "2019-02-17T10:40:38.147Z",
+      "birthTime": "2019-02-17T10:40:07.956Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "interim.png",
+      "ext": ".png",
+      "name": "interim",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 10041838,
+      "blocks": 8,
+      "atimeMs": 1550400022666.7607,
+      "mtimeMs": 1550400007956.3916,
+      "ctimeMs": 1550400038146.8643,
+      "birthtimeMs": 1550400007956.1804,
+      "atime": "2019-02-17T10:40:22.667Z",
+      "mtime": "2019-02-17T10:40:07.956Z",
+      "ctime": "2019-02-17T10:40:38.147Z",
+      "birthtime": "2019-02-17T10:40:07.956Z"
+    },
+    "6dcd075e-ce6b-5103-aecb-aeab3a8f444e": {
+      "id": "6dcd075e-ce6b-5103-aecb-aeab3a8f444e",
+      "children": [],
+      "parent": "8381b718-ac2e-5426-bd43-c6a9e2842d6e",
+      "internal": {
+        "contentDigest": "b876d2e3865f4aa05ebdf19a065e8ba0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "766ffa33-e633-5eee-8d10-f5b9ef887a08": {
+      "id": "766ffa33-e633-5eee-8d10-f5b9ef887a08",
+      "children": [],
+      "parent": "c542a503-0ee7-5a3c-97ec-0636d6bfd081",
+      "internal": {
+        "contentDigest": "dd953f3598bbd21990ab3ffc79611cc2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "70184562-de48-57da-8b1d-e06defdcf9c7": {
+      "id": "70184562-de48-57da-8b1d-e06defdcf9c7",
+      "children": [],
+      "parent": "e851bade-0ca2-5e47-8425-9fbd0aa0a30a",
+      "internal": {
+        "contentDigest": "a0817d0b04571327b8e7e5597e330f5a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cdf8d2e8-736a-55d1-839d-be396ab3f6de": {
+      "id": "cdf8d2e8-736a-55d1-839d-be396ab3f6de",
+      "children": [],
+      "parent": "73476005-d773-5e66-a278-c2ff94d3578b",
+      "internal": {
+        "contentDigest": "1512b81b0ad1cf8d6592c2abd9224bd5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "463ab008-1ac5-5128-8366-70d5221d0f9e": {
+      "id": "463ab008-1ac5-5128-8366-70d5221d0f9e",
+      "children": [],
+      "parent": "632ee010-c0f4-5475-b73b-5c3b5eb0dc2e",
+      "internal": {
+        "contentDigest": "6ea7ec775d9c43ba6a8f76391512d77f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ffaf0442-11e6-5a3d-9622-f0793c5c3e21": {
+      "id": "ffaf0442-11e6-5a3d-9622-f0793c5c3e21",
+      "children": [],
+      "parent": "7df9b3f5-b4e7-57ce-863f-973a8ad9b908",
+      "internal": {
+        "content": "\nI provide enterprise/solutions/technical services for all size companies, including:\n\n| Service | Description | \n| ------- | ----------- |\n| Product Architecture Review | Review of the architecture of your system, team structure and processes | \n| Data Architecture | Review, design of data architectures (data lake, reporting, pipelines) | \n| Solutions Architecture | Assessment of existing, development of target architectures and transition planning  | \n| Architecture Review | Recommendations around micro-servies transition, analytics/reporting and traditional app development including legacy transition plans | \n| Architecture Training | Mentoring for developers to become more adept at architecture and introduce the concepts to busineses | \n| Cloud Training | Training around cloud (AWS, Google) | \n| Cloud Transformation Projects | evaluation, planning around transition to cloud (AWS, Google) | ",
+        "type": "MarkdownRemark",
+        "contentDigest": "f5fa7ca92504a619496721270df21186",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Software Architecture",
+        "id": "architecture-services",
+        "category": "top",
+        "type": "page",
+        "description": "Architecture services page",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 2,
+        "visible": false
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI provide enterprise/solutions/technical services for all size companies, including:\n\n| Service | Description | \n| ------- | ----------- |\n| Product Architecture Review | Review of the architecture of your system, team structure and processes | \n| Data Architecture | Review, design of data architectures (data lake, reporting, pipelines) | \n| Solutions Architecture | Assessment of existing, development of target architectures and transition planning  | \n| Architecture Review | Recommendations around micro-servies transition, analytics/reporting and traditional app development including legacy transition plans | \n| Architecture Training | Mentoring for developers to become more adept at architecture and introduce the concepts to busineses | \n| Cloud Training | Training around cloud (AWS, Google) | \n| Cloud Transformation Projects | evaluation, planning around transition to cloud (AWS, Google) | ",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices/index.md",
+      "fields": {
+        "slug": "/archservices/"
+      }
+    },
+    "e00f34b5-de75-5ae4-ab1e-aa316a4ba947": {
+      "id": "e00f34b5-de75-5ae4-ab1e-aa316a4ba947",
+      "children": [],
+      "parent": "e689a496-891e-5082-9e5c-596e54157d62",
+      "internal": {
+        "content": "\n#### Why do I need a CTO?\n\n[McKinsey on why you need a CTO](https://www.mckinsey.com/business-functions/operations/our-insights/why-you-need-a-cto-and-how-to-make-her-successful)\n\n#### How is it different to a head of/VP of engineering?\n\n[Defining Roles - CTO and/or VP of Engineering](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3)",
+        "type": "MarkdownRemark",
+        "contentDigest": "ce2641bb7bb7288fcf5015352c02a8dd",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "FAQ",
+        "category": "top",
+        "type": "page",
+        "description": "Frequently asked questions on the topics of technology, engineering management and consulting",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 4,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n#### Why do I need a CTO?\n\n[McKinsey on why you need a CTO](https://www.mckinsey.com/business-functions/operations/our-insights/why-you-need-a-cto-and-how-to-make-her-successful)\n\n#### How is it different to a head of/VP of engineering?\n\n[Defining Roles - CTO and/or VP of Engineering](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3)",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq/index.md",
+      "fields": {
+        "slug": "/faq/"
+      }
+    },
+    "03fea4e0-d915-549c-8b1c-fc982be46558": {
+      "id": "03fea4e0-d915-549c-8b1c-fc982be46558",
+      "children": [],
+      "parent": "af3e59b9-8814-53ba-bffb-862f1fa8a6a6",
+      "internal": {
+        "content": "\nPrevious work includes the following:\n\n### Interim CTO Work\n\n* Blis\n* Metail\n* Ometria\n\n### Architecture/Due-Dilligence\n\n* Google\n* Photobox\n* The Collective\n* C&A\n* B&Q\n* Screwfix\n* Brightpearl\n* Globechain\n\n### Fractional CTO Work\n\n* Huggg\n* Tassomai",
+        "type": "MarkdownRemark",
+        "contentDigest": "bd072f427470bb6899f502364765f3c4",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Previous Work",
+        "id": "previous-work",
+        "category": "top",
+        "type": "page",
+        "description": "Previous work page",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 3,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPrevious work includes the following:\n\n### Interim CTO Work\n\n* Blis\n* Metail\n* Ometria\n\n### Architecture/Due-Dilligence\n\n* Google\n* Photobox\n* The Collective\n* C&A\n* B&Q\n* Screwfix\n* Brightpearl\n* Globechain\n\n### Fractional CTO Work\n\n* Huggg\n* Tassomai",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/previouswork/index.md",
+      "fields": {
+        "slug": "/previouswork/"
+      }
+    },
+    "9946d8f9-678f-5025-b6c4-03104b027fe4": {
+      "id": "9946d8f9-678f-5025-b6c4-03104b027fe4",
+      "children": [],
+      "parent": "1d0c8f7c-13c6-572f-89c1-d8807d268b2d",
+      "internal": {
+        "content": "\nThese are several tools I use during consulting for various purposes.  Free for you to use, just please credit me in blog posts/articles\netc... if these are referenced.",
+        "type": "MarkdownRemark",
+        "contentDigest": "e4bb1fe9b96308822125d6498bf6f4f2",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Exercises/Tools",
+        "category": "top",
+        "type": "page",
+        "description": "Exercises/Tools",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 5,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThese are several tools I use during consulting for various purposes.  Free for you to use, just please credit me in blog posts/articles\netc... if these are referenced.",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/tools/index.md",
+      "fields": {
+        "slug": "/tools/"
+      }
+    },
+    "7cb96ec9-e8d5-57ec-b781-23b419e3fc07": {
+      "id": "7cb96ec9-e8d5-57ec-b781-23b419e3fc07",
+      "children": [],
+      "parent": "805357be-ac9d-5256-aebb-a2343d9a36df",
+      "internal": {
+        "content": "\n#### Team Radar\n\nA radar tool for you team to use during retrospectives to understand strengths/weaknesses and where to improve.",
+        "type": "MarkdownRemark",
+        "contentDigest": "c6181f80a34f2e5b24f7af4e5246cd0a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Growth Framework",
+        "category": "top",
+        "type": "engmgmt",
+        "description": "Growth framework for engineers",
+        "date": "2019-02-16",
+        "image": "",
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n#### Team Radar\n\nA radar tool for you team to use during retrospectives to understand strengths/weaknesses and where to improve.",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt/teamradar.md",
+      "fields": {
+        "slug": "/engmgmt/teamradar/"
+      }
+    },
+    "bb35b8cb-2eaa-5085-b48f-013fbeba95fc": {
+      "id": "bb35b8cb-2eaa-5085-b48f-013fbeba95fc",
+      "children": [],
+      "parent": "642b316f-9cb0-54e4-ab8f-e3dc3a8f67c8",
+      "internal": {
+        "content": "\n#### Growth Framework\n\nA standardised growth framework for technical and management career paths in the field of software engineering.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "59f00965f1ce6906b3d8963118dcde3f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Growth Framework",
+        "category": "top",
+        "type": "engmgmt",
+        "description": "Growth framework for engineers",
+        "date": "2019-02-16",
+        "image": "",
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n#### Growth Framework\n\nA standardised growth framework for technical and management career paths in the field of software engineering.\n",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt/growthframework.md",
+      "fields": {
+        "slug": "/engmgmt/growthframework/"
+      }
+    },
+    "e9e51f7c-ce91-5a39-9cad-ccca83013042": {
+      "id": "e9e51f7c-ce91-5a39-9cad-ccca83013042",
+      "children": [],
+      "parent": "fde09bcf-1a78-5f06-8818-1fcc69c0311a",
+      "internal": {
+        "content": "\nI provide the following services in a CTO capacity:\n\n| Problem | Description | \n| ------- | ----------- | \n| Department/Team Rescue | Stabilising companies/teams when key people have left, handovers, gap analysis and problem solving | \n| Outsourcing | For companies wanting to outsource/nearshore in order to increase team capacity.  Setup of processes and team training | \n| Restructuring | Transforming teams to be high performing or to address problems | \n| Strategy/Roadmap | Reivew of strategy and process to execute on that strategy with product and engineering teams |\n| Team Resourcing | Resource Plan/Role analysis and design to address department/team gaps | \n| Product Management | Analysis of product management methodology and the interface between product/engineering   | \n| Process Coaching | Coaching around processes using pragmatic agile | \n| Due-Dilligence | Due dilligence of product engineering for seed, series A, series B etc... |       ",
+        "type": "MarkdownRemark",
+        "contentDigest": "17fba461c77e4110dffa520accfc0413",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "CTO Services",
+        "id": "cto-services",
+        "category": "top",
+        "type": "page",
+        "description": "CTO services page",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 1,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI provide the following services in a CTO capacity:\n\n| Problem | Description | \n| ------- | ----------- | \n| Department/Team Rescue | Stabilising companies/teams when key people have left, handovers, gap analysis and problem solving | \n| Outsourcing | For companies wanting to outsource/nearshore in order to increase team capacity.  Setup of processes and team training | \n| Restructuring | Transforming teams to be high performing or to address problems | \n| Strategy/Roadmap | Reivew of strategy and process to execute on that strategy with product and engineering teams |\n| Team Resourcing | Resource Plan/Role analysis and design to address department/team gaps | \n| Product Management | Analysis of product management methodology and the interface between product/engineering   | \n| Process Coaching | Coaching around processes using pragmatic agile | \n| Due-Dilligence | Due dilligence of product engineering for seed, series A, series B etc... |       ",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices/index.md",
+      "fields": {
+        "slug": "/ctoservices/"
+      }
+    },
+    "SitePage /archservices/": {
+      "jsonName": "archservices-9ad",
+      "internalComponentName": "ComponentArchservices",
+      "path": "/archservices/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/archservices/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /archservices/",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c47e31267cb42c24424e505e7fe504e4",
-        "description": "Plugin component-page-creator",
+        "contentDigest": "17496b35b5c6c2c75805ce0a6de6de87",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /faq/": {
+      "jsonName": "faq-19a",
+      "internalComponentName": "ComponentFaq",
+      "path": "/faq/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/faq/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /faq/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c699f3d4e238be7f06647c2e17aeb289",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /previouswork/": {
+      "jsonName": "previouswork-dd4",
+      "internalComponentName": "ComponentPreviouswork",
+      "path": "/previouswork/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/previouswork/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /previouswork/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d0f5874665915b1d1c80f416c3469dce",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /tools/": {
+      "jsonName": "tools-211",
+      "internalComponentName": "ComponentTools",
+      "path": "/tools/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/tools/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /tools/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3f78cc617695e4cdb173ad3163e2f5d0",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /engmgmt/teamradar/": {
+      "jsonName": "engmgmt-teamradar-b7e",
+      "internalComponentName": "ComponentEngmgmtTeamradar",
+      "path": "/engmgmt/teamradar/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/engmgmt/teamradar/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /engmgmt/teamradar/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "84481a0eba044eea415610613898b0c3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /engmgmt/growthframework/": {
+      "jsonName": "engmgmt-growthframework-376",
+      "internalComponentName": "ComponentEngmgmtGrowthframework",
+      "path": "/engmgmt/growthframework/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/engmgmt/growthframework/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /engmgmt/growthframework/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9df632c38836538700937dac6cc5679f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /ctoservices/": {
+      "jsonName": "ctoservices-683",
+      "internalComponentName": "ComponentCtoservices",
+      "path": "/ctoservices/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/ctoservices/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /ctoservices/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "64e41d7dd092409218c2d9a2191a62d3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "pluginCreatorId": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "70c7a5ce3593b1d1897d95585a3a4456",
+        "description": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "pluginCreatorId": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cefe2c6ab182c67e3f72c8515fabe590",
+        "description": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
+      "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/home/jon/workspace/homepage/src/pages/index.js",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/home/jon/workspace/homepage/src/pages/index.js",
+      "pluginCreator___NODE": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "pluginCreatorId": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js",
       "id": "SitePage /",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5a95045a82f1719817d672bfd42f44af",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /interimctoservices/": {
-      "layout": "index",
-      "jsonName": "interimctoservices.json",
-      "internalComponentName": "ComponentInterimctoservices",
-      "path": "/interimctoservices/",
-      "component": "/home/jon/workspace/homepage/src/pages/interimctoservices.js",
-      "componentChunkName": "component---src-pages-interimctoservices-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/home/jon/workspace/homepage/src/pages/interimctoservices.js",
-      "id": "SitePage /interimctoservices/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d7dca182c3ed609eb083f7a5fb4c8764",
-        "description": "Plugin component-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /softwarearchitecture/": {
-      "layout": "index",
-      "jsonName": "softwarearchitecture.json",
-      "internalComponentName": "ComponentSoftwarearchitecture",
-      "path": "/softwarearchitecture/",
-      "component": "/home/jon/workspace/homepage/src/pages/softwarearchitecture.js",
-      "componentChunkName": "component---src-pages-softwarearchitecture-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/home/jon/workspace/homepage/src/pages/softwarearchitecture.js",
-      "id": "SitePage /softwarearchitecture/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b4d5c3718987b6383f82569fc7aea1b7",
-        "description": "Plugin component-page-creator",
+        "contentDigest": "776445603361dcadb2cef5555df44842",
+        "description": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
+      "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/home/jon/workspace/homepage/src/pages/404.js",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/home/jon/workspace/homepage/src/pages/404.js",
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
       "id": "SitePage /404.html",
-      "parent": "SOURCE",
+      "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1f7b68b753ef9c37891d585374ffb8b5",
-        "description": "Plugin prod-404",
+        "contentDigest": "16f5c2c87ce7efd652ca024982d5590b",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "599235bb5461047f13f1b00142bb19d5"
+    "PLUGINS_HASH": "4f820a99d726694df0016ed608824487"
   },
   "componentDataDependencies": {
-    "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
+    "nodes": {
+      "Site": [
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
+      ],
+      "e9e51f7c-ce91-5a39-9cad-ccca83013042": [
+        "/ctoservices/"
+      ],
+      "bb35b8cb-2eaa-5085-b48f-013fbeba95fc": [
+        "/engmgmt/growthframework/"
+      ],
+      "ffaf0442-11e6-5a3d-9622-f0793c5c3e21": [
+        "/archservices/"
+      ],
+      "e00f34b5-de75-5ae4-ab1e-aa316a4ba947": [
+        "/faq/"
+      ],
+      "9946d8f9-678f-5025-b6c4-03104b027fe4": [
+        "/tools/"
+      ],
+      "7cb96ec9-e8d5-57ec-b781-23b419e3fc07": [
+        "/engmgmt/teamradar/"
+      ],
+      "03fea4e0-d915-549c-8b1c-fc982be46558": [
+        "/previouswork/"
+      ],
+      "73476005-d773-5e66-a278-c2ff94d3578b": [
+        "/"
+      ],
+      "632ee010-c0f4-5475-b73b-5c3b5eb0dc2e": [
+        "/"
+      ],
+      "c92026c8-f158-545c-a2c3-1ecb65b51094": [
+        "/"
+      ],
+      "c542a503-0ee7-5a3c-97ec-0636d6bfd081": [
+        "/"
+      ],
+      "e851bade-0ca2-5e47-8425-9fbd0aa0a30a": [
+        "/"
+      ],
+      "3d36d03f-18a3-55f7-84ff-9a3f797e6602": [
+        "/"
+      ],
+      "770cb906-7689-5c0c-8cbf-db298dddc26a": [
+        "/"
+      ],
+      "f2a39dc4-1b99-58be-a1ba-0fa5b0b27f43": [],
+      "d2e3cf2e-96bf-5993-a93b-896a53b46470": [],
+      "cdf8d2e8-736a-55d1-839d-be396ab3f6de": [
+        "/"
+      ],
+      "463ab008-1ac5-5128-8366-70d5221d0f9e": [
+        "/"
+      ],
+      "b5588d95-1689-506c-a9ba-ba059a38801a": [
+        "/"
+      ],
+      "766ffa33-e633-5eee-8d10-f5b9ef887a08": [
+        "/"
+      ],
+      "70184562-de48-57da-8b1d-e06defdcf9c7": [
+        "/"
+      ],
+      "54f0d49b-ff94-5695-baa3-81304b3714d2": [
+        "/"
+      ],
+      "17ecd406-1d2c-5975-999e-7f9cd72cdd97": [
+        "/"
+      ],
+      "f9d26ac2-e42e-5cb3-9bb2-05ee14d869c0": [],
+      "c541d9cb-ed2d-5332-a5e9-1a0946cc7ab4": [],
+      "abe6eab7-6eb8-55b2-ba18-9bb8709c3a94": [
+        "/"
+      ],
+      "fef555d1-3023-59a2-85a6-0259b1b9e422": [
+        "/"
+      ],
+      "8381b718-ac2e-5426-bd43-c6a9e2842d6e": [
+        "/"
+      ],
+      "6dcd075e-ce6b-5103-aecb-aeab3a8f444e": [
+        "/"
+      ],
+      "91f97f08-0a8a-5f23-8e9f-3469a02cd19c": [
+        "/"
+      ],
+      "5a1363a7-08e9-5ba8-bbd8-a2dcca042d7d": [
+        "/"
+      ],
+      "aa436509-7e12-5555-9cde-457b53c97e48": [
+        "/"
+      ],
+      "c9218730-a19f-5e58-9b0c-cd4ae834a260": [
+        "/"
       ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        null,
+        "sq--src-components-layout-js"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-js": 3261102345,
+    "sq--src-components-seo-js": 1025518380,
+    "ctoservices-683": "744/path---ctoservices-683-5dc-k1xSwtY7IZbNJyMZU5EBGktogc",
+    "archservices-9ad": "871/path---archservices-9-ad-0c6-DxX0LwXxl7c60PfhroJgJyn3M",
+    "previouswork-dd4": "830/path---previouswork-dd-4-f9d-BO9npzUwy2A3zPAu5KwdhY3tDD8",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "whycto-16b": "35/path---whycto-16-b-4b1-ZU3RBtDnySRbEuXiVzI0KGM6OLI",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "702/path---index-6a9-svXec6r32MkcGlNKMX6Z925dHGw",
+    "articles-18f": "520/path---articles-18-f-849-yperFCIInrQQoKhj1JKj02ylAEM",
+    "faq-19a": "436/path---faq-19-a-275-KlKvaBXdDbAPrCbBFRLx7hLW60",
+    "tools-211": "328/path---tools-211-862-fDXaYiQ76g2ADiM5NCKeegxigM",
+    "growthframework-2b6": "498/path---growthframework-2-b-6-e1d-43pY5GbJfdyMR4NpI8dBrYVmYc",
+    "engmgmt-15a": "427/path---engmgmt-15-a-ec4-TXLghDmvLrXftmAscveIgcwirvA",
+    "engmgmt-growthframework-376": "488/path---engmgmt-growthframework-376-907-vuPDYjWhMHRlfLmWULx3nz0RLgM",
+    "engmgmt-teamradar-b7e": "465/path---engmgmt-teamradar-b-7-e-191-ShN9aOrrIO5hVpjfQKG1jqsihg",
+    "content-617": "362/path---content-617-3ae-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js": {
+      "query": "query PostQuery(\n  $slug: String!\n) {\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      description\n    }\n  }\n}\n",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js"
+    },
+    "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js"
+    },
+    "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js"
+    },
+    "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact.js"
+    },
+    "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js": {
+      "query": "query ImageQuery {\n  cv: file(relativePath: {eq: \"cv.png\"}) {\n    childImageSharp {\n      fixed(width: 70, height: 70) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  linkedin: file(relativePath: {eq: \"linkedin.png\"}) {\n    childImageSharp {\n      fixed(width: 80, height: 80) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  angel: file(relativePath: {eq: \"angel.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  medium: file(relativePath: {eq: \"medium.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  twitter: file(relativePath: {eq: \"twitter.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  github: file(relativePath: {eq: \"github.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  stackoverflow: file(relativePath: {eq: \"stackoverflow.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  fractional: file(relativePath: {eq: \"fractional.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  interim: file(relativePath: {eq: \"interim.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  architecture: file(relativePath: {eq: \"architecture.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  coaching: file(relativePath: {eq: \"coaching.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___order]}, filter: {frontmatter: {type: {eq: \"page\"}}}) {\n    edges {\n      node {\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM Do YYYY\")\n          title\n          category\n          type\n          order\n          visible\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 3261102345
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
     }
   }
 }

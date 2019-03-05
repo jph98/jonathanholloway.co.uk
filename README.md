@@ -1,16 +1,14 @@
-# Homepage
+## TODO
 
-Uses Gatsby - https://www.gatsbyjs.org/
+### Core
 
-Install with:
+* Add Google Analytics
+* Fix Contact Form - send to backend, cleanup, or use Segment
+* Exercises/Tools - dynamic page for docs/skills.io
+* Consider replacing markdown pages with dynamic pages - can we mix the two?
+* 
 
-  npm i 
-  sudo npm i gatsby --global
+### Tools
 
-Develop with:
-
-  npm run build
-  npm run develop  
-
-Plugins used:
-* Helmet - generates a head section
+* Growth Framework page (or link to the tool)
+* Team Radar

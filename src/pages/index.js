@@ -1,65 +1,168 @@
-import React from 'react'
-import styled from "styled-components";
-import MultiLink from '../components/link.js';
+import React from "react"
+import { Link, graphql } from "gatsby"
 
-const StyledLink = styled(MultiLink)`
-  color: darkgrey;
-`;
+import Img from 'gatsby-image'
+import Layout from '../components/layout'
 
-const IndexPage = () => (
-  <div>
+import SEO from "../components/seo"
 
-    <div id="container">
-      <b>Profile</b>
-      <p>I'm a CTO and architect with 15+ years experience based in London/Bristol working across the UK and Europe.  I work within tech startups growing them into bigger companies in Java/Python/ Ruby/JS/PHP ecosystems.</p>
+const IndexPage = (props) => {  
+  return (
+    <Layout>     
+
+<div id="container">
+      <p>I'm a CTO/technology director, software architect and engineer with 15+ years experience based in London/Bristol working across the UK and Europe.  I work with startups/scaleups/enterprises in Java/Python/Ruby/JS/PHP ecosystems providing:.</p>
+
+      <table>
+        <tr>
+          <td><Img fixed={props.data.fractional.childImageSharp.fixed} /></td>
+          <td>Fractional CTO Services</td>
+          <td>For startups/small companies who only need a few days a month</td>
+        </tr>
+        <tr>
+          <td><Img fixed={props.data.interim.childImageSharp.fixed} /></td>
+          <td>Interim CTO Services</td>
+          <td>For companies needing someone until they find a perm CTO</td>
+        </tr>
+        <tr>
+          <td><Img fixed={props.data.architecture.childImageSharp.fixed} /></td>
+          <td>Startup Product/Software Architecture</td>
+          <td>Product management and software architecture support</td>
+        </tr>
+        <tr>
+          <td><Img fixed={props.data.coaching.childImageSharp.fixed} /></td>
+          <td>Tech/Product Coaching</td>
+          <td>For technical/product leaders and departments/teams</td>
+        </tr>
+      </table>
     </div>
 
-    <div id="container">
-      <b>Curriculum Vitae and Skills Overview</b>
-      <ul>
-        <li>
-          <StyledLink to="https://docs.google.com/document/d/1hfeLAmaF0ZgpdEFp4JiuPw8O7TK9yoawA0F04zq9FdI/edit">CV</StyledLink>
-        </li>
-        <li>
-          <StyledLink to="https://docs.google.com/document/d/1R4sUPYu7-s5CJ8t9nCVN-QwzOxSP2pZcJdhe6QD_cLI/edit#">Skills</StyledLink>
-        </li>
-      </ul>
-    </div>
+    <table>
+      <tr>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1hfeLAmaF0ZgpdEFp4JiuPw8O7TK9yoawA0F04zq9FdI/edit">
+              <Img fixed={props.data.cv.childImageSharp.fixed} />
+            </a>
+          </td>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jonathanholloway/"> 
+              <Img fixed={props.data.linkedin.childImageSharp.fixed} />
+            </a>
+          </td>           
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/82865/jon">
+              <Img fixed={props.data.stackoverflow.childImageSharp.fixed} />
+            </a>
+          </td>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="http://angel.co/jph98">
+              <Img fixed={props.data.angel.childImageSharp.fixed} />
+            </a>
+          </td>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="http://www.github.com/jph98">
+              <Img fixed={props.data.github.childImageSharp.fixed} />
+            </a>
+          </td>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@jonathan.holloway">
+              <Img fixed={props.data.medium.childImageSharp.fixed} />
+            </a>
+          </td>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/jph98">
+              <Img fixed={props.data.twitter.childImageSharp.fixed} />
+            </a>
+          </td>
+        </tr>
+    </table> 
 
-    <div id="container">
-      <b>Job Opportunities</b>
-      <p>Always open to new opportunities, especially startup advisory, interim CTO roles or startup jobs. Drop me a <a href="mailto: jonathan.holloway@gmail.com">message:)</a>
-      </p>
-    </div>
-
-    <ThirdPartyLinksSection></ThirdPartyLinksSection>
-
-    <div>
-      <p>This site was built using <StyledLink to='https://www.gatsbyjs.org/'>Gatsby</StyledLink> &amp; React</p>
-    </div>
-  </div>
-)
-
-
-class ThirdPartyLinksSection extends React.Component {
-
-  render() {
-    return (
-      <div>
-        <p>
-          <b>Social Media, Startup, Tech Community Links</b>
-        </p>
-        <ul>
-          <li><a href="https://medium.com/@jonathan.holloway">Medium Tech Posts</a></li>
-          <li><a href="https://www.linkedin.com/in/jonathanholloway/">Linkedin</a></li>
-          <li><a href="https://stackoverflow.com/users/82865/jon">Stackoverflow</a></li>
-          <li><a href="http://www.github.com/jph98">Github</a></li>
-          <li><a href="http://angel.co/jph98">Angel.co Profile</a></li>
-          <li><a href="https://www.twitter.com/jph98">Twitter</a></li>          
-        </ul>
-      </div>
-    )
-  }
+    </Layout>
+  )
 }
 
 export default IndexPage
+
+// Retrieve all our blog posts from markdown
+export const imageQuery = graphql`
+  query ImageQuery {
+
+    cv: file(relativePath: { eq: "cv.png" }) {
+      childImageSharp {
+        fixed(width: 70, height: 70) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    linkedin: file(relativePath: { eq: "linkedin.png" }) {
+      childImageSharp {
+        fixed(width: 80, height: 80) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    angel: file(relativePath: { eq: "angel.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    medium: file(relativePath: { eq: "medium.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    twitter: file(relativePath: { eq: "twitter.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    github: file(relativePath: { eq: "github.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },    
+    stackoverflow: file(relativePath: { eq: "stackoverflow.png" }) {
+      childImageSharp {
+        fixed(width: 100, height: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    fractional: file(relativePath: { eq: "fractional.png" }) {
+      childImageSharp {
+        fixed(width: 30, height: 30) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },
+    interim: file(relativePath: { eq: "interim.png" }) {
+      childImageSharp {
+        fixed(width: 30, height: 30) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },    
+    architecture: file(relativePath: { eq: "architecture.png" }) {
+      childImageSharp {
+        fixed(width: 30, height: 30) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },    
+    coaching: file(relativePath: { eq: "coaching.png" }) {
+      childImageSharp {
+        fixed(width: 30, height: 30) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },    
+  }
+`
