@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 import SEO from "../components/seo"
@@ -36,17 +36,23 @@ const Header = ({posts, siteTitle}) => {
         </Link>
       </h1>          
 
-      {         
+     <a style={{color: 'white', marginRight: '10px', paddingTop: '20px', marginBottom: '20px', textDecoration: 'none'}} href='/'><span>|&nbsp; Home &nbsp;|</span></a>
+
+      {      
         posts.edges.map(({ node }, i) => {          
             console.log('Found: ' + posts.edges.length + ' pages');            
-            if (i < (posts.edges.length - 1)) {
-              return(
-                <a style={{color: 'white', marginRight: '10px', paddingTop: '20px', marginBottom: '20px', textDecoration: 'none'}} href={node.fields.slug} key={i}><span>{node.frontmatter.title} &nbsp;|</span></a>
-              )
+            if (node.frontmatter.visible) {
+              if (i < (posts.edges.length - 1)) {                
+                return(
+                  <a style={{color: 'white', marginRight: '10px', paddingTop: '20px', marginBottom: '20px', textDecoration: 'none'}} href={node.fields.slug} key={i}><span>{node.frontmatter.title} &nbsp;|</span></a>
+                )
+              } else {
+                return(
+                  <a style={{color: 'white', marginRight: '10px', paddingTop: '20px', marginBottom: '20px', textDecoration: 'none'}} href={node.fields.slug} key={i}><span>{node.frontmatter.title}</span></a>
+                )
+              }
             } else {
-              return(
-                <a style={{color: 'white', marginRight: '10px', paddingTop: '20px', marginBottom: '20px', textDecoration: 'none'}} href={node.fields.slug} key={i}><span>{node.frontmatter.title}</span></a>
-              )
+              console.log('omitting: ' + node.frontmatter.title + ' visible: ' + node.frontmatter.visible);                      
             }
         }
       )}
@@ -66,4 +72,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header 

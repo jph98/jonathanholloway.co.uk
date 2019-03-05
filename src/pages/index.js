@@ -1,18 +1,17 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 
-import SEO from "../components/seo"
+//import SEO from "../components/seo"
 
 const IndexPage = (props) => {  
   return (
     <Layout>     
 
 <div id="container">
-      <p>I'm a CTO/technology director, software architect and engineer with 15+ years experience based in London/Bristol working across the UK and Europe.  I work with startups/scaleups/enterprises in Java/Python/Ruby/JS/PHP ecosystems providing:.</p>
-
+      <p>I'm a CTO/technology director, software architect and engineer with 15+ years experience based in London/Bristol working across the UK and Europe.  I work with startups/scaleups/enterprises providing:.</p>
       <table>
         <tr>
           <td><Img fixed={props.data.fractional.childImageSharp.fixed} /></td>
@@ -33,6 +32,11 @@ const IndexPage = (props) => {
           <td><Img fixed={props.data.coaching.childImageSharp.fixed} /></td>
           <td>Tech/Product Coaching</td>
           <td>For technical/product leaders and departments/teams</td>
+        </tr>
+        <tr>
+          <td><Img fixed={props.data.dd.childImageSharp.fixed} /></td>
+          <td>Due Dilligence</td>
+          <td>For investors looking for product/tech insight, companies who want to use agencies or companies looking to acquire/bring in-house  product/tech</td>
         </tr>
       </table>
     </div>
@@ -156,13 +160,20 @@ export const imageQuery = graphql`
           ...GatsbyImageSharpFixed
         }
       }
-    },    
+    },   
+  dd: file(relativePath: { eq: "dd.png" }) {
+      childImageSharp {
+        fixed(width: 30, height: 30) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    },  
     coaching: file(relativePath: { eq: "coaching.png" }) {
       childImageSharp {
         fixed(width: 30, height: 30) {
           ...GatsbyImageSharpFixed
         }
       }
-    },    
+    }    
   }
 `

@@ -7,7 +7,7 @@ description: Previous work page
 date: '2019-02-16'
 image: ''
 order: 3
-visible: true
+visible: false
 ---
 
 Previous work includes the following:
