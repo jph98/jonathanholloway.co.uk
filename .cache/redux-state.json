@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5117a317434491e85d6ac0faa6862ac5",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1405,16 +1396,14 @@
         "description": "",
         "author": "@gatsbyjs"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-05T16:16:33.488Z",
+      "buildTime": "2019-06-24T09:09:25.637Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "110709cd6f05705bff4cec436c4e5824",
+        "contentDigest": "8646c13ff1fedaf41328272a55d3349a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1424,7 +1413,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "03eb5232041ef27593adcd5578bb22ba",
+        "contentDigest": "13a014353470c4329cbb5055a7e7a1ce",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1435,33 +1424,33 @@
       "extension": "",
       "size": 576,
       "prettySize": "576 B",
-      "modifiedTime": "2019-03-05T15:58:38.344Z",
-      "accessTime": "2019-03-05T16:16:35.655Z",
-      "changeTime": "2019-03-05T15:58:38.344Z",
-      "birthTime": "2019-02-15T18:13:03.654Z",
+      "modifiedTime": "2019-04-08T11:14:13.087Z",
+      "accessTime": "2019-06-24T09:09:30.277Z",
+      "changeTime": "2019-04-08T11:14:13.087Z",
+      "birthTime": "2019-03-10T11:09:22.744Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src",
       "base": "images",
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 18,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 9877425,
+      "ino": 12199173,
       "blocks": 0,
-      "atimeMs": 1551802595655.1174,
-      "mtimeMs": 1551801518343.559,
-      "ctimeMs": 1551801518343.559,
-      "birthtimeMs": 1550254383654.1367,
-      "atime": "2019-03-05T16:16:35.655Z",
-      "mtime": "2019-03-05T15:58:38.344Z",
-      "ctime": "2019-03-05T15:58:38.344Z",
-      "birthtime": "2019-02-15T18:13:03.654Z"
+      "atimeMs": 1561367370276.7456,
+      "mtimeMs": 1554722053087.3533,
+      "ctimeMs": 1554722053087.3533,
+      "birthtimeMs": 1552216162744.4883,
+      "atime": "2019-06-24T09:09:30.277Z",
+      "mtime": "2019-04-08T11:14:13.087Z",
+      "ctime": "2019-04-08T11:14:13.087Z",
+      "birthtime": "2019-03-10T11:09:22.744Z"
     },
     "4bacd63a-a0d2-5343-baf3-45ed318d6d41": {
       "id": "4bacd63a-a0d2-5343-baf3-45ed318d6d41",
@@ -1614,53 +1603,6 @@
       "ctime": "2019-02-17T11:58:57.431Z",
       "birthtime": "2019-02-17T11:56:52.679Z"
     },
-    "c92026c8-f158-545c-a2c3-1ecb65b51094": {
-      "id": "c92026c8-f158-545c-a2c3-1ecb65b51094",
-      "children": [
-        "b5588d95-1689-506c-a9ba-ba059a38801a"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "2c4f03bf8d14281ab87d29898600b3f6",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/angel.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/angel.png",
-      "relativePath": "angel.png",
-      "extension": "png",
-      "size": 8882,
-      "prettySize": "8.88 kB",
-      "modifiedTime": "2019-02-16T13:42:51.173Z",
-      "accessTime": "2019-02-17T10:12:42.714Z",
-      "changeTime": "2019-02-16T13:42:51.197Z",
-      "birthTime": "2019-02-16T13:04:45.872Z",
-      "root": "/",
-      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
-      "base": "angel.png",
-      "ext": ".png",
-      "name": "angel",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 9955017,
-      "blocks": 24,
-      "atimeMs": 1550398362713.6387,
-      "mtimeMs": 1550324571173.1519,
-      "ctimeMs": 1550324571196.506,
-      "birthtimeMs": 1550322285871.9133,
-      "atime": "2019-02-17T10:12:42.714Z",
-      "mtime": "2019-02-16T13:42:51.173Z",
-      "ctime": "2019-02-16T13:42:51.197Z",
-      "birthtime": "2019-02-16T13:04:45.872Z"
-    },
     "3d36d03f-18a3-55f7-84ff-9a3f797e6602": {
       "id": "3d36d03f-18a3-55f7-84ff-9a3f797e6602",
       "children": [
@@ -1801,16 +1743,6 @@
       "mtime": "2019-02-17T11:46:34.627Z",
       "ctime": "2019-02-17T11:46:34.653Z",
       "birthtime": "2019-02-16T12:09:35.098Z"
-    },
-    "b5588d95-1689-506c-a9ba-ba059a38801a": {
-      "id": "b5588d95-1689-506c-a9ba-ba059a38801a",
-      "children": [],
-      "parent": "c92026c8-f158-545c-a2c3-1ecb65b51094",
-      "internal": {
-        "contentDigest": "2c4f03bf8d14281ab87d29898600b3f6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "54f0d49b-ff94-5695-baa3-81304b3714d2": {
       "id": "54f0d49b-ff94-5695-baa3-81304b3714d2",
@@ -1998,7 +1930,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ece36ddd3dda18f0a34f838424f8b2b2",
+        "contentDigest": "51dabba873a8debf005371ffed00dc04",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -2007,42 +1939,42 @@
       "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 352,
-      "prettySize": "352 B",
-      "modifiedTime": "2019-02-17T10:14:39.384Z",
-      "accessTime": "2019-03-05T16:16:35.669Z",
-      "changeTime": "2019-02-17T10:14:39.384Z",
-      "birthTime": "2019-02-15T18:13:03.656Z",
+      "size": 384,
+      "prettySize": "384 B",
+      "modifiedTime": "2019-06-23T13:57:02.262Z",
+      "accessTime": "2019-06-24T09:09:30.311Z",
+      "changeTime": "2019-06-23T13:57:02.262Z",
+      "birthTime": "2019-03-10T11:09:22.755Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src",
       "base": "pages",
       "ext": "",
       "name": "pages",
       "relativeDirectory": "..",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
-      "nlink": 11,
+      "nlink": 12,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 9877428,
+      "ino": 12199198,
       "blocks": 0,
-      "atimeMs": 1551802595669.0024,
-      "mtimeMs": 1550398479384.1543,
-      "ctimeMs": 1550398479384.1543,
-      "birthtimeMs": 1550254383656.0767,
-      "atime": "2019-03-05T16:16:35.669Z",
-      "mtime": "2019-02-17T10:14:39.384Z",
-      "ctime": "2019-02-17T10:14:39.384Z",
-      "birthtime": "2019-02-15T18:13:03.656Z"
+      "atimeMs": 1561367370310.966,
+      "mtimeMs": 1561298222262.3613,
+      "ctimeMs": 1561298222262.3613,
+      "birthtimeMs": 1552216162754.7993,
+      "atime": "2019-06-24T09:09:30.311Z",
+      "mtime": "2019-06-23T13:57:02.262Z",
+      "ctime": "2019-06-23T13:57:02.262Z",
+      "birthtime": "2019-03-10T11:09:22.755Z"
     },
     "beac3009-5c3b-5b6b-8119-3f3f0bcb8883": {
       "id": "beac3009-5c3b-5b6b-8119-3f3f0bcb8883",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c3a5d64d6b4bb2132606489df12e1ea5",
+        "contentDigest": "2d26e22039cca8d884ef800ff72770be",
         "type": "Directory",
         "description": "Directory \"src/pages/archservices\"",
         "owner": "gatsby-source-filesystem"
@@ -2053,40 +1985,40 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-02-16T19:28:32.509Z",
-      "accessTime": "2019-03-05T16:16:35.671Z",
-      "changeTime": "2019-02-16T19:28:32.509Z",
-      "birthTime": "2019-02-16T19:28:27.945Z",
+      "modifiedTime": "2019-03-10T11:09:22.759Z",
+      "accessTime": "2019-06-24T09:09:30.314Z",
+      "changeTime": "2019-03-10T11:09:22.759Z",
+      "birthTime": "2019-03-10T11:09:22.759Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "archservices",
       "ext": "",
       "name": "archservices",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10013273,
+      "ino": 12199212,
       "blocks": 0,
-      "atimeMs": 1551802595670.5686,
-      "mtimeMs": 1550345312508.6982,
-      "ctimeMs": 1550345312508.6982,
-      "birthtimeMs": 1550345307944.8752,
-      "atime": "2019-03-05T16:16:35.671Z",
-      "mtime": "2019-02-16T19:28:32.509Z",
-      "ctime": "2019-02-16T19:28:32.509Z",
-      "birthtime": "2019-02-16T19:28:27.945Z"
+      "atimeMs": 1561367370313.552,
+      "mtimeMs": 1552216162759.3953,
+      "ctimeMs": 1552216162759.3953,
+      "birthtimeMs": 1552216162759.1655,
+      "atime": "2019-06-24T09:09:30.314Z",
+      "mtime": "2019-03-10T11:09:22.759Z",
+      "ctime": "2019-03-10T11:09:22.759Z",
+      "birthtime": "2019-03-10T11:09:22.759Z"
     },
     "5da79d75-ea51-5b0d-b198-34bbe7a77007": {
       "id": "5da79d75-ea51-5b0d-b198-34bbe7a77007",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7aeec5bad8568cf82acf498eb1e008e3",
+        "contentDigest": "6b7537341f67dba5c6270bac431947b7",
         "type": "Directory",
         "description": "Directory \"src/pages/ctoservices\"",
         "owner": "gatsby-source-filesystem"
@@ -2097,40 +2029,40 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-02-16T19:23:44.183Z",
-      "accessTime": "2019-03-05T16:16:35.671Z",
-      "changeTime": "2019-02-16T19:23:44.183Z",
-      "birthTime": "2019-02-16T19:23:38.611Z",
+      "modifiedTime": "2019-03-10T11:09:22.758Z",
+      "accessTime": "2019-06-24T09:09:30.314Z",
+      "changeTime": "2019-03-10T11:09:22.758Z",
+      "birthTime": "2019-03-10T11:09:22.758Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "ctoservices",
       "ext": "",
       "name": "ctoservices",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10013035,
+      "ino": 12199208,
       "blocks": 0,
-      "atimeMs": 1551802595670.6138,
-      "mtimeMs": 1550345024182.8608,
-      "ctimeMs": 1550345024182.8608,
-      "birthtimeMs": 1550345018611.0798,
-      "atime": "2019-03-05T16:16:35.671Z",
-      "mtime": "2019-02-16T19:23:44.183Z",
-      "ctime": "2019-02-16T19:23:44.183Z",
-      "birthtime": "2019-02-16T19:23:38.611Z"
+      "atimeMs": 1561367370313.5103,
+      "mtimeMs": 1552216162757.9182,
+      "ctimeMs": 1552216162757.9182,
+      "birthtimeMs": 1552216162757.652,
+      "atime": "2019-06-24T09:09:30.314Z",
+      "mtime": "2019-03-10T11:09:22.758Z",
+      "ctime": "2019-03-10T11:09:22.758Z",
+      "birthtime": "2019-03-10T11:09:22.758Z"
     },
     "39e25758-13e1-5730-abba-4b6961d88505": {
       "id": "39e25758-13e1-5730-abba-4b6961d88505",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "845ad63baabfd9012a439b5abbb6e6e5",
+        "contentDigest": "07eb05892a7a8e6b77095243aa6928dc",
         "type": "Directory",
         "description": "Directory \"src/pages/engmgmt\"",
         "owner": "gatsby-source-filesystem"
@@ -2141,40 +2073,40 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2019-02-17T10:04:19.832Z",
-      "accessTime": "2019-03-05T16:16:35.671Z",
-      "changeTime": "2019-02-17T10:04:19.832Z",
-      "birthTime": "2019-02-17T09:56:29.583Z",
+      "modifiedTime": "2019-03-10T11:09:22.756Z",
+      "accessTime": "2019-06-24T09:09:30.314Z",
+      "changeTime": "2019-03-10T11:09:22.756Z",
+      "birthTime": "2019-03-10T11:09:22.756Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "engmgmt",
       "ext": "",
       "name": "engmgmt",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10029995,
+      "ino": 12199201,
       "blocks": 0,
-      "atimeMs": 1551802595670.5815,
-      "mtimeMs": 1550397859831.665,
-      "ctimeMs": 1550397859831.665,
-      "birthtimeMs": 1550397389582.9438,
-      "atime": "2019-03-05T16:16:35.671Z",
-      "mtime": "2019-02-17T10:04:19.832Z",
-      "ctime": "2019-02-17T10:04:19.832Z",
-      "birthtime": "2019-02-17T09:56:29.583Z"
+      "atimeMs": 1561367370313.598,
+      "mtimeMs": 1552216162756.173,
+      "ctimeMs": 1552216162756.173,
+      "birthtimeMs": 1552216162755.6099,
+      "atime": "2019-06-24T09:09:30.314Z",
+      "mtime": "2019-03-10T11:09:22.756Z",
+      "ctime": "2019-03-10T11:09:22.756Z",
+      "birthtime": "2019-03-10T11:09:22.756Z"
     },
     "91609303-c37a-5626-b0f9-ee64c3125070": {
       "id": "91609303-c37a-5626-b0f9-ee64c3125070",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "800fd2be6c69a97c57d6b47cd03fe4d4",
+        "contentDigest": "6d7823b6d0fe9420ed992220bd3eca2c",
         "type": "Directory",
         "description": "Directory \"src/pages/faq\"",
         "owner": "gatsby-source-filesystem"
@@ -2185,40 +2117,40 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-02-16T21:56:36.249Z",
-      "accessTime": "2019-03-05T16:16:35.671Z",
-      "changeTime": "2019-02-17T09:54:18.292Z",
-      "birthTime": "2019-02-16T21:56:33.244Z",
+      "modifiedTime": "2019-03-10T11:09:22.757Z",
+      "accessTime": "2019-06-24T09:09:30.314Z",
+      "changeTime": "2019-03-10T11:09:22.757Z",
+      "birthTime": "2019-03-10T11:09:22.757Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "faq",
       "ext": "",
       "name": "faq",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10028689,
+      "ino": 12199206,
       "blocks": 0,
-      "atimeMs": 1551802595670.5952,
-      "mtimeMs": 1550354196249.3235,
-      "ctimeMs": 1550397258291.8928,
-      "birthtimeMs": 1550354193243.8523,
-      "atime": "2019-03-05T16:16:35.671Z",
-      "mtime": "2019-02-16T21:56:36.249Z",
-      "ctime": "2019-02-17T09:54:18.292Z",
-      "birthtime": "2019-02-16T21:56:33.244Z"
+      "atimeMs": 1561367370313.5469,
+      "mtimeMs": 1552216162757.2983,
+      "ctimeMs": 1552216162757.2983,
+      "birthtimeMs": 1552216162757.0945,
+      "atime": "2019-06-24T09:09:30.314Z",
+      "mtime": "2019-03-10T11:09:22.757Z",
+      "ctime": "2019-03-10T11:09:22.757Z",
+      "birthtime": "2019-03-10T11:09:22.757Z"
     },
     "8f6ebf4f-a9da-587d-b7e8-887b3ec71493": {
       "id": "8f6ebf4f-a9da-587d-b7e8-887b3ec71493",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "8863bb243da6525b728152f6f29ea8d2",
+        "contentDigest": "740e273ee534edc6883120fb202ac255",
         "type": "Directory",
         "description": "Directory \"src/pages/previouswork\"",
         "owner": "gatsby-source-filesystem"
@@ -2229,40 +2161,40 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-02-16T19:35:02.151Z",
-      "accessTime": "2019-03-05T16:16:35.671Z",
-      "changeTime": "2019-02-16T19:35:02.151Z",
-      "birthTime": "2019-02-16T19:34:57.770Z",
+      "modifiedTime": "2019-03-10T11:09:22.755Z",
+      "accessTime": "2019-06-24T09:09:30.314Z",
+      "changeTime": "2019-03-10T11:09:22.755Z",
+      "birthTime": "2019-03-10T11:09:22.755Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "previouswork",
       "ext": "",
       "name": "previouswork",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10013575,
+      "ino": 12199199,
       "blocks": 0,
-      "atimeMs": 1551802595670.6274,
-      "mtimeMs": 1550345702151.3474,
-      "ctimeMs": 1550345702151.3474,
-      "birthtimeMs": 1550345697769.7375,
-      "atime": "2019-03-05T16:16:35.671Z",
-      "mtime": "2019-02-16T19:35:02.151Z",
-      "ctime": "2019-02-16T19:35:02.151Z",
-      "birthtime": "2019-02-16T19:34:57.770Z"
+      "atimeMs": 1561367370313.5605,
+      "mtimeMs": 1552216162755.2754,
+      "ctimeMs": 1552216162755.2754,
+      "birthtimeMs": 1552216162755.0955,
+      "atime": "2019-06-24T09:09:30.314Z",
+      "mtime": "2019-03-10T11:09:22.755Z",
+      "ctime": "2019-03-10T11:09:22.755Z",
+      "birthtime": "2019-03-10T11:09:22.755Z"
     },
     "09ce0160-2257-5626-853a-65b96b89b973": {
       "id": "09ce0160-2257-5626-853a-65b96b89b973",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b778dc8055bcb2e97180447cd142c751",
+        "contentDigest": "0d1ed4dc7f6879e2ec1b9906f1d1079e",
         "type": "Directory",
         "description": "Directory \"src/pages/tools\"",
         "owner": "gatsby-source-filesystem"
@@ -2273,40 +2205,40 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-02-17T09:54:24.728Z",
-      "accessTime": "2019-03-05T16:16:35.671Z",
-      "changeTime": "2019-02-17T09:54:24.728Z",
-      "birthTime": "2019-02-17T09:54:22.387Z",
+      "modifiedTime": "2019-03-10T11:09:22.757Z",
+      "accessTime": "2019-06-24T09:09:30.314Z",
+      "changeTime": "2019-03-10T11:09:22.757Z",
+      "birthTime": "2019-03-10T11:09:22.757Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "tools",
       "ext": "",
       "name": "tools",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10029839,
+      "ino": 12199204,
       "blocks": 0,
-      "atimeMs": 1551802595670.6406,
-      "mtimeMs": 1550397264728.4646,
-      "ctimeMs": 1550397264728.4646,
-      "birthtimeMs": 1550397262387.2964,
-      "atime": "2019-03-05T16:16:35.671Z",
-      "mtime": "2019-02-17T09:54:24.728Z",
-      "ctime": "2019-02-17T09:54:24.728Z",
-      "birthtime": "2019-02-17T09:54:22.387Z"
+      "atimeMs": 1561367370313.6282,
+      "mtimeMs": 1552216162756.72,
+      "ctimeMs": 1552216162756.72,
+      "birthtimeMs": 1552216162756.5212,
+      "atime": "2019-06-24T09:09:30.314Z",
+      "mtime": "2019-03-10T11:09:22.757Z",
+      "ctime": "2019-03-10T11:09:22.757Z",
+      "birthtime": "2019-03-10T11:09:22.757Z"
     },
     "8c7a99e5-0ed0-5af1-8caf-a2c3e6eeab93": {
       "id": "8c7a99e5-0ed0-5af1-8caf-a2c3e6eeab93",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "dbee04510eb086451984d7e353cafc81",
+        "contentDigest": "823a18385d4695cc79424843efa9bed7",
         "type": "File",
         "mediaType": "application/javascript",
         "description": "File \"src/pages/index.js\"",
@@ -2316,35 +2248,35 @@
       "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js",
       "relativePath": "index.js",
       "extension": "js",
-      "size": 5693,
-      "prettySize": "5.69 kB",
-      "modifiedTime": "2019-03-05T16:04:21.633Z",
-      "accessTime": "2019-03-05T16:04:21.932Z",
-      "changeTime": "2019-03-05T16:04:21.633Z",
-      "birthTime": "2019-02-15T18:13:03.657Z",
+      "size": 6140,
+      "prettySize": "6.14 kB",
+      "modifiedTime": "2019-06-23T18:40:51.312Z",
+      "accessTime": "2019-06-23T18:40:51.303Z",
+      "changeTime": "2019-06-23T18:40:51.312Z",
+      "birthTime": "2019-03-10T11:09:22.759Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
       "base": "index.js",
       "ext": ".js",
       "name": "index",
       "relativeDirectory": "",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 9877430,
+      "ino": 12199211,
       "blocks": 16,
-      "atimeMs": 1551801861932.3533,
-      "mtimeMs": 1551801861633.2168,
-      "ctimeMs": 1551801861633.2168,
-      "birthtimeMs": 1550254383656.6694,
-      "atime": "2019-03-05T16:04:21.932Z",
-      "mtime": "2019-03-05T16:04:21.633Z",
-      "ctime": "2019-03-05T16:04:21.633Z",
-      "birthtime": "2019-02-15T18:13:03.657Z"
+      "atimeMs": 1561315251303.2473,
+      "mtimeMs": 1561315251311.6858,
+      "ctimeMs": 1561315251311.6858,
+      "birthtimeMs": 1552216162758.7874,
+      "atime": "2019-06-23T18:40:51.303Z",
+      "mtime": "2019-06-23T18:40:51.312Z",
+      "ctime": "2019-06-23T18:40:51.312Z",
+      "birthtime": "2019-03-10T11:09:22.759Z"
     },
     "fde09bcf-1a78-5f06-8818-1fcc69c0311a": {
       "id": "fde09bcf-1a78-5f06-8818-1fcc69c0311a",
@@ -2353,7 +2285,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "775c970f6e1031e819b263af9b199f34",
+        "contentDigest": "af32bf2285ce4a78ea3707eb80ae4f42",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/ctoservices/index.md\"",
@@ -2363,12 +2295,12 @@
       "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices/index.md",
       "relativePath": "ctoservices/index.md",
       "extension": "md",
-      "size": 1120,
-      "prettySize": "1.12 kB",
-      "modifiedTime": "2019-02-18T11:17:37.795Z",
-      "accessTime": "2019-02-18T11:17:37.794Z",
-      "changeTime": "2019-02-18T11:17:37.795Z",
-      "birthTime": "2019-02-16T19:23:44.183Z",
+      "size": 5566,
+      "prettySize": "5.57 kB",
+      "modifiedTime": "2019-06-24T09:00:36.786Z",
+      "accessTime": "2019-06-24T09:00:36.785Z",
+      "changeTime": "2019-06-24T09:00:36.786Z",
+      "birthTime": "2019-03-10T11:09:22.758Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices",
       "base": "index.md",
@@ -2382,16 +2314,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10013037,
-      "blocks": 8,
-      "atimeMs": 1550488657794.24,
-      "mtimeMs": 1550488657795.1316,
-      "ctimeMs": 1550488657795.1316,
-      "birthtimeMs": 1550345024182.8516,
-      "atime": "2019-02-18T11:17:37.794Z",
-      "mtime": "2019-02-18T11:17:37.795Z",
-      "ctime": "2019-02-18T11:17:37.795Z",
-      "birthtime": "2019-02-16T19:23:44.183Z"
+      "ino": 12199209,
+      "blocks": 16,
+      "atimeMs": 1561366836785.25,
+      "mtimeMs": 1561366836786.3894,
+      "ctimeMs": 1561366836786.3894,
+      "birthtimeMs": 1552216162757.913,
+      "atime": "2019-06-24T09:00:36.785Z",
+      "mtime": "2019-06-24T09:00:36.786Z",
+      "ctime": "2019-06-24T09:00:36.786Z",
+      "birthtime": "2019-03-10T11:09:22.758Z"
     },
     "fa38fd6d-e6b2-5518-bedd-60122773ed46": {
       "id": "fa38fd6d-e6b2-5518-bedd-60122773ed46",
@@ -2492,7 +2424,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "5da307380a63ba974631a3c8909aab9c",
+        "contentDigest": "358f6068f160e593ab6e692370751940",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/archservices/index.md\"",
@@ -2502,35 +2434,35 @@
       "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices/index.md",
       "relativePath": "archservices/index.md",
       "extension": "md",
-      "size": 1092,
-      "prettySize": "1.09 kB",
-      "modifiedTime": "2019-03-05T16:12:23.886Z",
-      "accessTime": "2019-03-05T16:12:23.886Z",
-      "changeTime": "2019-03-05T16:12:23.886Z",
-      "birthTime": "2019-02-16T19:28:32.509Z",
+      "size": 1550,
+      "prettySize": "1.55 kB",
+      "modifiedTime": "2019-06-23T14:28:44.267Z",
+      "accessTime": "2019-06-23T14:28:44.266Z",
+      "changeTime": "2019-06-23T14:28:44.267Z",
+      "birthTime": "2019-03-10T11:09:22.759Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
       "relativeDirectory": "archservices",
-      "dev": 16777224,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10013275,
+      "ino": 12199213,
       "blocks": 8,
-      "atimeMs": 1551802343886.136,
-      "mtimeMs": 1551802343886.4707,
-      "ctimeMs": 1551802343886.4707,
-      "birthtimeMs": 1550345312508.6895,
-      "atime": "2019-03-05T16:12:23.886Z",
-      "mtime": "2019-03-05T16:12:23.886Z",
-      "ctime": "2019-03-05T16:12:23.886Z",
-      "birthtime": "2019-02-16T19:28:32.509Z"
+      "atimeMs": 1561300124265.696,
+      "mtimeMs": 1561300124266.5735,
+      "ctimeMs": 1561300124266.5735,
+      "birthtimeMs": 1552216162759.3901,
+      "atime": "2019-06-23T14:28:44.266Z",
+      "mtime": "2019-06-23T14:28:44.267Z",
+      "ctime": "2019-06-23T14:28:44.267Z",
+      "birthtime": "2019-03-10T11:09:22.759Z"
     },
     "e689a496-891e-5082-9e5c-596e54157d62": {
       "id": "e689a496-891e-5082-9e5c-596e54157d62",
@@ -2539,7 +2471,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "ae8d6a335aa31b283e3507ab4bb80235",
+        "contentDigest": "e424d93a1a0580a08869e35d5c046517",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/pages/faq/index.md\"",
@@ -2549,12 +2481,12 @@
       "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq/index.md",
       "relativePath": "faq/index.md",
       "extension": "md",
-      "size": 592,
-      "prettySize": "592 B",
-      "modifiedTime": "2019-02-17T17:56:10.578Z",
-      "accessTime": "2019-02-17T17:56:10.740Z",
-      "changeTime": "2019-02-17T17:56:10.578Z",
-      "birthTime": "2019-02-16T21:56:36.249Z",
+      "size": 1901,
+      "prettySize": "1.9 kB",
+      "modifiedTime": "2019-06-24T09:09:16.521Z",
+      "accessTime": "2019-06-24T09:09:16.520Z",
+      "changeTime": "2019-06-24T09:09:16.521Z",
+      "birthTime": "2019-03-10T11:09:22.757Z",
       "root": "/",
       "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq",
       "base": "index.md",
@@ -2568,16 +2500,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10028690,
+      "ino": 12199207,
       "blocks": 8,
-      "atimeMs": 1550426170740.4065,
-      "mtimeMs": 1550426170577.9192,
-      "ctimeMs": 1550426170577.9192,
-      "birthtimeMs": 1550354196249.3096,
-      "atime": "2019-02-17T17:56:10.740Z",
-      "mtime": "2019-02-17T17:56:10.578Z",
-      "ctime": "2019-02-17T17:56:10.578Z",
-      "birthtime": "2019-02-16T21:56:36.249Z"
+      "atimeMs": 1561367356519.9775,
+      "mtimeMs": 1561367356520.76,
+      "ctimeMs": 1561367356520.76,
+      "birthtimeMs": 1552216162757.2905,
+      "atime": "2019-06-24T09:09:16.520Z",
+      "mtime": "2019-06-24T09:09:16.521Z",
+      "ctime": "2019-06-24T09:09:16.521Z",
+      "birthtime": "2019-03-10T11:09:22.757Z"
     },
     "805357be-ac9d-5256-aebb-a2343d9a36df": {
       "id": "805357be-ac9d-5256-aebb-a2343d9a36df",
@@ -3033,36 +2965,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "e00f34b5-de75-5ae4-ab1e-aa316a4ba947": {
-      "id": "e00f34b5-de75-5ae4-ab1e-aa316a4ba947",
-      "children": [],
-      "parent": "e689a496-891e-5082-9e5c-596e54157d62",
-      "internal": {
-        "content": "\n#### Why do I need a CTO?\n\n[McKinsey on why you need a CTO](https://www.mckinsey.com/business-functions/operations/our-insights/why-you-need-a-cto-and-how-to-make-her-successful)\n\n#### How is it different to a head of/VP of engineering?\n\n[Defining Roles - CTO and/or VP of Engineering](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3)",
-        "type": "MarkdownRemark",
-        "contentDigest": "ce2641bb7bb7288fcf5015352c02a8dd",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "FAQ",
-        "category": "top",
-        "type": "page",
-        "description": "Frequently asked questions on the topics of technology, engineering management and consulting",
-        "date": "2019-02-16",
-        "image": "",
-        "order": 4,
-        "visible": true
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n#### Why do I need a CTO?\n\n[McKinsey on why you need a CTO](https://www.mckinsey.com/business-functions/operations/our-insights/why-you-need-a-cto-and-how-to-make-her-successful)\n\n#### How is it different to a head of/VP of engineering?\n\n[Defining Roles - CTO and/or VP of Engineering](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3)",
-      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq/index.md",
-      "fields": {
-        "slug": "/faq/"
-      }
-    },
     "7cb96ec9-e8d5-57ec-b781-23b419e3fc07": {
       "id": "7cb96ec9-e8d5-57ec-b781-23b419e3fc07",
       "children": [],
@@ -3119,37 +3021,6 @@
       "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/engmgmt/growthframework.md",
       "fields": {
         "slug": "/engmgmt/growthframework/"
-      }
-    },
-    "e9e51f7c-ce91-5a39-9cad-ccca83013042": {
-      "id": "e9e51f7c-ce91-5a39-9cad-ccca83013042",
-      "children": [],
-      "parent": "fde09bcf-1a78-5f06-8818-1fcc69c0311a",
-      "internal": {
-        "content": "\nI provide the following services in a CTO capacity:\n\n| Problem | Description | \n| ------- | ----------- | \n| Department/Team Rescue | Stabilising companies/teams when key people have left, handovers, gap analysis and problem solving | \n| Outsourcing | For companies wanting to outsource/nearshore in order to increase team capacity.  Setup of processes and team training | \n| Restructuring | Transforming teams to be high performing or to address problems | \n| Strategy/Roadmap | Reivew of strategy and process to execute on that strategy with product and engineering teams |\n| Team Resourcing | Resource Plan/Role analysis and design to address department/team gaps | \n| Product Management | Analysis of product management methodology and the interface between product/engineering   | \n| Process Coaching | Coaching around processes using pragmatic agile | \n| Due-Dilligence | Due dilligence of product engineering for seed, series A, series B etc... |       ",
-        "type": "MarkdownRemark",
-        "contentDigest": "17fba461c77e4110dffa520accfc0413",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "CTO Services",
-        "id": "cto-services",
-        "category": "top",
-        "type": "page",
-        "description": "CTO services page",
-        "date": "2019-02-16",
-        "image": "",
-        "order": 1,
-        "visible": true
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nI provide the following services in a CTO capacity:\n\n| Problem | Description | \n| ------- | ----------- | \n| Department/Team Rescue | Stabilising companies/teams when key people have left, handovers, gap analysis and problem solving | \n| Outsourcing | For companies wanting to outsource/nearshore in order to increase team capacity.  Setup of processes and team training | \n| Restructuring | Transforming teams to be high performing or to address problems | \n| Strategy/Roadmap | Reivew of strategy and process to execute on that strategy with product and engineering teams |\n| Team Resourcing | Resource Plan/Role analysis and design to address department/team gaps | \n| Product Management | Analysis of product management methodology and the interface between product/engineering   | \n| Process Coaching | Coaching around processes using pragmatic agile | \n| Due-Dilligence | Due dilligence of product engineering for seed, series A, series B etc... |       ",
-      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices/index.md",
-      "fields": {
-        "slug": "/ctoservices/"
       }
     },
     "263ec75b-99d8-527f-b96d-27476e7d447b": {
@@ -3270,14 +3141,162 @@
         "slug": "/tools/"
       }
     },
+    "8e9a6fba-8848-550e-8e36-87b502f94112": {
+      "id": "8e9a6fba-8848-550e-8e36-87b502f94112",
+      "children": [
+        "f1390b4d-c41e-5ac8-98f6-6b1f21096eca"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "227ae87b751366cd00911f0aa87358f9",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/free.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/images/free.png",
+      "relativePath": "free.png",
+      "extension": "png",
+      "size": 3541,
+      "prettySize": "3.54 kB",
+      "modifiedTime": "2019-03-14T12:05:09.084Z",
+      "accessTime": "2019-03-14T12:06:28.320Z",
+      "changeTime": "2019-03-14T12:06:26.993Z",
+      "birthTime": "2019-03-14T12:05:09.070Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/images",
+      "base": "free.png",
+      "ext": ".png",
+      "name": "free",
+      "relativeDirectory": "",
+      "dev": 16777224,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12500108,
+      "blocks": 8,
+      "atimeMs": 1552565188319.7263,
+      "mtimeMs": 1552565109083.6458,
+      "ctimeMs": 1552565186993.4824,
+      "birthtimeMs": 1552565109070.4585,
+      "atime": "2019-03-14T12:06:28.320Z",
+      "mtime": "2019-03-14T12:05:09.084Z",
+      "ctime": "2019-03-14T12:06:26.993Z",
+      "birthtime": "2019-03-14T12:05:09.070Z"
+    },
+    "f1390b4d-c41e-5ac8-98f6-6b1f21096eca": {
+      "id": "f1390b4d-c41e-5ac8-98f6-6b1f21096eca",
+      "children": [],
+      "parent": "8e9a6fba-8848-550e-8e36-87b502f94112",
+      "internal": {
+        "contentDigest": "227ae87b751366cd00911f0aa87358f9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d7caa447-6f0e-5660-b89c-468c597bdb9a": {
+      "id": "d7caa447-6f0e-5660-b89c-468c597bdb9a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "05c86f448e86de40e10356dc622b1b9b",
+        "type": "Directory",
+        "description": "Directory \"src/pages/contact\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact",
+      "relativePath": "contact",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-06-23T13:57:06.532Z",
+      "accessTime": "2019-06-24T09:09:30.313Z",
+      "changeTime": "2019-06-23T13:57:06.532Z",
+      "birthTime": "2019-06-23T13:57:02.262Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages",
+      "base": "contact",
+      "ext": "",
+      "name": "contact",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22136202,
+      "blocks": 0,
+      "atimeMs": 1561367370313.479,
+      "mtimeMs": 1561298226531.951,
+      "ctimeMs": 1561298226531.951,
+      "birthtimeMs": 1561298222262.3335,
+      "atime": "2019-06-24T09:09:30.313Z",
+      "mtime": "2019-06-23T13:57:06.532Z",
+      "ctime": "2019-06-23T13:57:06.532Z",
+      "birthtime": "2019-06-23T13:57:02.262Z"
+    },
+    "bccb6d3b-e220-55f5-aea0-f386c404e2fe": {
+      "id": "bccb6d3b-e220-55f5-aea0-f386c404e2fe",
+      "children": [
+        "2bb5fac4-400b-5dd8-837b-040404ea3995"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "02c5144c6f9113032194f677f7a41d60",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/pages/contact/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact/index.md",
+      "relativePath": "contact/index.md",
+      "extension": "md",
+      "size": 606,
+      "prettySize": "606 B",
+      "modifiedTime": "2019-06-23T15:09:06.635Z",
+      "accessTime": "2019-06-23T15:09:06.634Z",
+      "changeTime": "2019-06-23T15:09:06.635Z",
+      "birthTime": "2019-06-23T13:57:06.532Z",
+      "root": "/",
+      "dir": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "contact",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22136211,
+      "blocks": 8,
+      "atimeMs": 1561302546633.8994,
+      "mtimeMs": 1561302546634.656,
+      "ctimeMs": 1561302546634.656,
+      "birthtimeMs": 1561298226531.941,
+      "atime": "2019-06-23T15:09:06.634Z",
+      "mtime": "2019-06-23T15:09:06.635Z",
+      "ctime": "2019-06-23T15:09:06.635Z",
+      "birthtime": "2019-06-23T13:57:06.532Z"
+    },
     "ffaf0442-11e6-5a3d-9622-f0793c5c3e21": {
       "id": "ffaf0442-11e6-5a3d-9622-f0793c5c3e21",
       "children": [],
       "parent": "7df9b3f5-b4e7-57ce-863f-973a8ad9b908",
       "internal": {
-        "content": "\nI provide enterprise/solutions/technical services for all size companies, including:\n\n| Service | Description | \n| ------- | ----------- |\n| Product Architecture Review | Review of the architecture of your system, team structure and processes | \n| Data Architecture | Review, design of data architectures (data lake, reporting, pipelines) | \n| Solutions Architecture | Assessment of existing, development of target architectures and transition planning  |\n| Architecture Review | Recommendations around micro-servies transition, analytics/reporting and traditional app development including legacy transition plans | \n| Architecture Training | Mentoring for developers to become more adept at architecture and introduce the concepts to busineses | \n| Cloud Training | Training around cloud (AWS, Google) | \n| Cloud Transformation Projects | evaluation, planning around transition to cloud (AWS, Google) | ",
+        "content": "\nI work as a software engineer providing an architecture **role** to businesses.  I firmly believe it is not a title and every architect should code in part.\n\n---\n**Application Architecture** - Review of applications, recommendations around re-architecting applications (micro-service decomposition, serverless, event driven, pipes and filters).  \n\n---\n**Cloud Native Architecture** - Analysis of existing products for companies looking to transition to the cloud.  Planning of the transition, proposal of cloud native services for applications.  Advice on provisioning, deployment, CI/CD, monitoring, site reliability and performance.\n\n---\n**Data Architecture** - Review of existing systems, planning transitions to the cloud, building data pipelines and best practices for engineering around predictive analytics.  I've worked in adtech, drug modelling, eCommerce, finance, insurance with data lakes, data warehouses and complex data pipelines.\n\n---\n**Architecture Planning** - Baselining your existing architecture. Planning a target architecture and working out how to evolve to that architecture with teams.\n\n---\n**Architecture Training** - How design and architecture fits into teams, processes around design and architecture.  Mentoring for engineers on non-functional requirements, how to formalise those and how to ensure those requirements are met.\n\n---\n",
         "type": "MarkdownRemark",
-        "contentDigest": "bf58a67df2d1d9a55bbcf67c408f631a",
+        "contentDigest": "0418bee03b7175ece458443271e1022a",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -3295,31 +3314,121 @@
         "visible": true
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nI provide enterprise/solutions/technical services for all size companies, including:\n\n| Service | Description | \n| ------- | ----------- |\n| Product Architecture Review | Review of the architecture of your system, team structure and processes | \n| Data Architecture | Review, design of data architectures (data lake, reporting, pipelines) | \n| Solutions Architecture | Assessment of existing, development of target architectures and transition planning  |\n| Architecture Review | Recommendations around micro-servies transition, analytics/reporting and traditional app development including legacy transition plans | \n| Architecture Training | Mentoring for developers to become more adept at architecture and introduce the concepts to busineses | \n| Cloud Training | Training around cloud (AWS, Google) | \n| Cloud Transformation Projects | evaluation, planning around transition to cloud (AWS, Google) | ",
+      "rawMarkdownBody": "\nI work as a software engineer providing an architecture **role** to businesses.  I firmly believe it is not a title and every architect should code in part.\n\n---\n**Application Architecture** - Review of applications, recommendations around re-architecting applications (micro-service decomposition, serverless, event driven, pipes and filters).  \n\n---\n**Cloud Native Architecture** - Analysis of existing products for companies looking to transition to the cloud.  Planning of the transition, proposal of cloud native services for applications.  Advice on provisioning, deployment, CI/CD, monitoring, site reliability and performance.\n\n---\n**Data Architecture** - Review of existing systems, planning transitions to the cloud, building data pipelines and best practices for engineering around predictive analytics.  I've worked in adtech, drug modelling, eCommerce, finance, insurance with data lakes, data warehouses and complex data pipelines.\n\n---\n**Architecture Planning** - Baselining your existing architecture. Planning a target architecture and working out how to evolve to that architecture with teams.\n\n---\n**Architecture Training** - How design and architecture fits into teams, processes around design and architecture.  Mentoring for engineers on non-functional requirements, how to formalise those and how to ensure those requirements are met.\n\n---\n",
       "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/archservices/index.md",
       "fields": {
         "slug": "/archservices/"
       }
     },
-    "SitePage /faq/": {
-      "jsonName": "faq-19a",
-      "internalComponentName": "ComponentFaq",
-      "path": "/faq/",
-      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/faq/"
+    "2bb5fac4-400b-5dd8-837b-040404ea3995": {
+      "id": "2bb5fac4-400b-5dd8-837b-040404ea3995",
+      "children": [],
+      "parent": "bccb6d3b-e220-55f5-aea0-f386c404e2fe",
+      "internal": {
+        "content": "\nContact me via one of the following.  If you can't get hold of me, please leave a message.\n\n**Phone**\n\n[07854 651897](tel: 07854 651897)\n\n**Email** \n\n[jonathan.holloway@gmail.com](mailto: jonathan.holloway@gmail.com)\n\n**Linkedin** \n\n[Connect](https://www.linkedin.com/in/jonathanholloway/) with me on Linkedin, please provide a message with why you're contacting me.\n\nPlease do not contact me looking to place developers or for business development purposes.",
+        "type": "MarkdownRemark",
+        "contentDigest": "a4385e2ac7aed2d69bebfb8511fe4fa4",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
       },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
-      "id": "SitePage /faq/",
+      "frontmatter": {
+        "title": "Contact Me",
+        "id": "contact",
+        "category": "top",
+        "type": "page",
+        "description": "Contact page",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 5,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nContact me via one of the following.  If you can't get hold of me, please leave a message.\n\n**Phone**\n\n[07854 651897](tel: 07854 651897)\n\n**Email** \n\n[jonathan.holloway@gmail.com](mailto: jonathan.holloway@gmail.com)\n\n**Linkedin** \n\n[Connect](https://www.linkedin.com/in/jonathanholloway/) with me on Linkedin, please provide a message with why you're contacting me.\n\nPlease do not contact me looking to place developers or for business development purposes.",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact/index.md",
+      "fields": {
+        "slug": "/contact/"
+      }
+    },
+    "e9e51f7c-ce91-5a39-9cad-ccca83013042": {
+      "id": "e9e51f7c-ce91-5a39-9cad-ccca83013042",
+      "children": [],
+      "parent": "fde09bcf-1a78-5f06-8818-1fcc69c0311a",
+      "internal": {
+        "content": "\n#### How do you work in an interim capacity?\n\nI typically work in one interim role at a time.  That involves three to four days working with companies and their product/engineering teams on-site predominantly.  I use my other day for fractional work and startup advisory.\n\n#### How do you work in a fractional capacity?\n\nThis might involve one day a week or a few days a month depending on the problems the company is trying to solve.  I usually work with existing teams, analyse specific problems, set goals and coach teams towards those.  This is on-site.\n\n#### What problems do you work on?\n\nI've worked with the following problem areas, but please get in contact if you have something other than this.\n\n---\n**My CTO/lead engineer is leaving**\n\nIn the unfortunate situation whereby your most senior product/tech is leaving I can help with bridging the gap until you find the next person.  In some situations it's necessary to understand why they have left and solve the root cause or set of problems that led to the situation.  \n\n--- \n\n**\"I need to build a team in-house to build out the product\"**\n\nI can help with building a product and engineering team from the very beginning of the company journey.  I help founders find the right product/tech people and also advise on when the right time is to bring in specific roles to the business, including a CTO, VP/head of engineering, devops engineers etc..\n\n--- \n\n**I need to bring a product in-house from an agency**\n\nIt's great having an agency build out a product for you, but there are lots of questions that should be asked prior to the build of a product.  There are also key checkpoints and ways to ensure you build a scalable product or platform from the beginning, rather than it being an after-thought.  I can help with the rescue of products/software when things have gone awry, I can also help put a team around the product when you bring it in-house.\n\n--- \n\n**I need to grow my team, but not sure how to do this effectively**\n\nBuilding product/engineering teams for companies can be hard, especially if you just have engineers who need help with identifying gaps, weakenesses and strengths. I help by providing support here.  I can also carry out a review of the team and propose hiring plans.  I can also help with team structure (where it's needed) and where it compliments the product/platform you're building.\n\n--- \n\n**I think my team need help**\n\nYour team might have told you directly or you might sense this based on problems in the day to day running of the business.  I help with transformation of people, process and product to solve issues that people might be having.\n\n--- \n\n**We're having issues with delivery**\n\nThere's a common problem with project delivery in the software industry.  This is a non-trivial area in-which I can help a business identify what they're delivering, and the issues with measurement around delivery.  This might be because of issues around communication, specification, interface between product/engineering, wasteful practices, measuring the wrong metric or something else.  I can help with identification and resolution. \n\n--- \n\n**We're not sure how to structure the team for growth**\n\nI help you to understand the existing team, the interfaces between it and the rest of the business and what type of structure might be suitable.  This includes hiring where there are gaps in technology, process or capability.  I also look at identifying roles people are playing in the team, providing help on items such\nas architecture, devops etc...  The individual contributor vs manager split is often mis-understood here.\n\n**We'd like to outsource functions or parts of the software**\n\nOutsourcing isn't quite as straightforward as it sounds.  There are many challenges/hurdles to overcome, especially if the team haven't done this before.  Should you outsource parts of the product or specific roles (e.g. testing)?  I can help with the outsourcing problem, preparing the product/engineering function for outsourced projects, help identify potential agencies and make the ride a little less bumpy.\n\n---\n\n**Product Strategy and Execution is harder than we thought, help!**\n\nThere's often a gap between product and engineering in terms of communication, specification and execution of projects to meet goals.  I can hel with the product management side here in terms of specification, forecasting models, estimation, how to validate without building etc...\n\n---\n\n**Development/Release Management Processes**\n\nI've seen many different process models over the years - from waterfall to RUP to scrum (and other agile methodologies).  There are pros/cons to all of them so I can help to understand what you have today, what is working/isn't working, change management and pragmatic adoption of process (rather than carte blanche Scrum by the book).\n\n---\n\n**We want to ensure our product/processes/people are good for a funding round or potential acquisition**\n\nI've done lots of due dilligence around product and software in terms of understanding the structure, how it maps onto business process and product features.  This is often for companies wanting to bring something in-house, for funding rounds and potential sale.\n\n---\n\n#### Other Problems\n\nThis is not a definitive list of problems.  If you do have other problems you need help with them in get in-touch with me and ask whether I can help with them.  ",
+        "type": "MarkdownRemark",
+        "contentDigest": "19ca8ce8ad88efe05e35df4855539b45",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "CTO Services",
+        "id": "cto-services",
+        "category": "top",
+        "type": "page",
+        "description": "CTO services page",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 1,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n#### How do you work in an interim capacity?\n\nI typically work in one interim role at a time.  That involves three to four days working with companies and their product/engineering teams on-site predominantly.  I use my other day for fractional work and startup advisory.\n\n#### How do you work in a fractional capacity?\n\nThis might involve one day a week or a few days a month depending on the problems the company is trying to solve.  I usually work with existing teams, analyse specific problems, set goals and coach teams towards those.  This is on-site.\n\n#### What problems do you work on?\n\nI've worked with the following problem areas, but please get in contact if you have something other than this.\n\n---\n**My CTO/lead engineer is leaving**\n\nIn the unfortunate situation whereby your most senior product/tech is leaving I can help with bridging the gap until you find the next person.  In some situations it's necessary to understand why they have left and solve the root cause or set of problems that led to the situation.  \n\n--- \n\n**\"I need to build a team in-house to build out the product\"**\n\nI can help with building a product and engineering team from the very beginning of the company journey.  I help founders find the right product/tech people and also advise on when the right time is to bring in specific roles to the business, including a CTO, VP/head of engineering, devops engineers etc..\n\n--- \n\n**I need to bring a product in-house from an agency**\n\nIt's great having an agency build out a product for you, but there are lots of questions that should be asked prior to the build of a product.  There are also key checkpoints and ways to ensure you build a scalable product or platform from the beginning, rather than it being an after-thought.  I can help with the rescue of products/software when things have gone awry, I can also help put a team around the product when you bring it in-house.\n\n--- \n\n**I need to grow my team, but not sure how to do this effectively**\n\nBuilding product/engineering teams for companies can be hard, especially if you just have engineers who need help with identifying gaps, weakenesses and strengths. I help by providing support here.  I can also carry out a review of the team and propose hiring plans.  I can also help with team structure (where it's needed) and where it compliments the product/platform you're building.\n\n--- \n\n**I think my team need help**\n\nYour team might have told you directly or you might sense this based on problems in the day to day running of the business.  I help with transformation of people, process and product to solve issues that people might be having.\n\n--- \n\n**We're having issues with delivery**\n\nThere's a common problem with project delivery in the software industry.  This is a non-trivial area in-which I can help a business identify what they're delivering, and the issues with measurement around delivery.  This might be because of issues around communication, specification, interface between product/engineering, wasteful practices, measuring the wrong metric or something else.  I can help with identification and resolution. \n\n--- \n\n**We're not sure how to structure the team for growth**\n\nI help you to understand the existing team, the interfaces between it and the rest of the business and what type of structure might be suitable.  This includes hiring where there are gaps in technology, process or capability.  I also look at identifying roles people are playing in the team, providing help on items such\nas architecture, devops etc...  The individual contributor vs manager split is often mis-understood here.\n\n**We'd like to outsource functions or parts of the software**\n\nOutsourcing isn't quite as straightforward as it sounds.  There are many challenges/hurdles to overcome, especially if the team haven't done this before.  Should you outsource parts of the product or specific roles (e.g. testing)?  I can help with the outsourcing problem, preparing the product/engineering function for outsourced projects, help identify potential agencies and make the ride a little less bumpy.\n\n---\n\n**Product Strategy and Execution is harder than we thought, help!**\n\nThere's often a gap between product and engineering in terms of communication, specification and execution of projects to meet goals.  I can hel with the product management side here in terms of specification, forecasting models, estimation, how to validate without building etc...\n\n---\n\n**Development/Release Management Processes**\n\nI've seen many different process models over the years - from waterfall to RUP to scrum (and other agile methodologies).  There are pros/cons to all of them so I can help to understand what you have today, what is working/isn't working, change management and pragmatic adoption of process (rather than carte blanche Scrum by the book).\n\n---\n\n**We want to ensure our product/processes/people are good for a funding round or potential acquisition**\n\nI've done lots of due dilligence around product and software in terms of understanding the structure, how it maps onto business process and product features.  This is often for companies wanting to bring something in-house, for funding rounds and potential sale.\n\n---\n\n#### Other Problems\n\nThis is not a definitive list of problems.  If you do have other problems you need help with them in get in-touch with me and ask whether I can help with them.  ",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/ctoservices/index.md",
+      "fields": {
+        "slug": "/ctoservices/"
+      }
+    },
+    "e00f34b5-de75-5ae4-ab1e-aa316a4ba947": {
+      "id": "e00f34b5-de75-5ae4-ab1e-aa316a4ba947",
+      "children": [],
+      "parent": "e689a496-891e-5082-9e5c-596e54157d62",
+      "internal": {
+        "content": "\n#### Biography\n\nI've spent 17+ years covering a wide number of roles in the product world - both hardware and software as a:\n\n* **Engineering Manager/CTO** - building teams as the first employee, growing teams to around 100 in size.  Architecting and coding v1 of the product and beyond in-house and with agencies.\n* **Engineer** - working with deep-tech companies for many years building complex products/SaaS platforms using Java/Python/Javascript/Ruby technology, often utilising predictive analytics.  Mixture of web and mobile.\n* **Product Manager** - working on the product/engineering interface, user interviews, synthesis and product validation.  \n* **Founder** - I've founded/co-founded several startups in the e-commerce, ed-tech, health-tech and pet-tech world.  \n\nI've worked at/consulted at/founded tech companies in Bristol, London, Berlin and Vancouver, understanding the tech ecosystems, startup scene and the unique challenges of each country and city.\n\n---\n\n#### Why do I need a CTO?\n\nThe role of the CTO is often confusing and very different depending on the stage of company. There's a good article by McKinsey consulting on the subject - [Why you need a CTO](https://www.mckinsey.com/business-functions/operations/our-insights/why-you-need-a-cto-and-how-to-make-her-successful)\n\n---\n\n#### How is it different to a head of/VP of engineering?\n\nI believe that CTO's at a point in their career in a company make a choice - either to remain hands on and technical or to move more into a people management - [Defining Roles - CTO and/or VP of Engineering](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3)\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "492cb3827c5e903bbeff2dd93bea89a2",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "About Me/FAQ",
+        "category": "top",
+        "type": "page",
+        "description": "About me and frequently asked questions on the topics of technology, engineering management and consulting",
+        "date": "2019-02-16",
+        "image": "",
+        "order": 4,
+        "visible": true
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n#### Biography\n\nI've spent 17+ years covering a wide number of roles in the product world - both hardware and software as a:\n\n* **Engineering Manager/CTO** - building teams as the first employee, growing teams to around 100 in size.  Architecting and coding v1 of the product and beyond in-house and with agencies.\n* **Engineer** - working with deep-tech companies for many years building complex products/SaaS platforms using Java/Python/Javascript/Ruby technology, often utilising predictive analytics.  Mixture of web and mobile.\n* **Product Manager** - working on the product/engineering interface, user interviews, synthesis and product validation.  \n* **Founder** - I've founded/co-founded several startups in the e-commerce, ed-tech, health-tech and pet-tech world.  \n\nI've worked at/consulted at/founded tech companies in Bristol, London, Berlin and Vancouver, understanding the tech ecosystems, startup scene and the unique challenges of each country and city.\n\n---\n\n#### Why do I need a CTO?\n\nThe role of the CTO is often confusing and very different depending on the stage of company. There's a good article by McKinsey consulting on the subject - [Why you need a CTO](https://www.mckinsey.com/business-functions/operations/our-insights/why-you-need-a-cto-and-how-to-make-her-successful)\n\n---\n\n#### How is it different to a head of/VP of engineering?\n\nI believe that CTO's at a point in their career in a company make a choice - either to remain hands on and technical or to move more into a people management - [Defining Roles - CTO and/or VP of Engineering](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3)\n\n",
+      "fileAbsolutePath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/faq/index.md",
+      "fields": {
+        "slug": "/faq/"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c699f3d4e238be7f06647c2e17aeb289",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "contentDigest": "e2a31e7d5a80316aa6407c10cf9436cd",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
         "owner": "internal-data-bridge"
       }
     },
@@ -3363,28 +3472,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "9df632c38836538700937dac6cc5679f",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /ctoservices/": {
-      "jsonName": "ctoservices-683",
-      "internalComponentName": "ComponentCtoservices",
-      "path": "/ctoservices/",
-      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/ctoservices/"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
-      "id": "SitePage /ctoservices/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "64e41d7dd092409218c2d9a2191a62d3",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3455,26 +3542,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /404/": {
-      "jsonName": "404-22d",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
-      "pluginCreatorId": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
-      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "70c7a5ce3593b1d1897d95585a3a4456",
-        "description": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /contact/": {
       "jsonName": "contact-26a",
       "internalComponentName": "ComponentContact",
@@ -3491,6 +3558,70 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "cefe2c6ab182c67e3f72c8515fabe590",
+        "description": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /ctoservices/": {
+      "jsonName": "ctoservices-683",
+      "internalComponentName": "ComponentCtoservices",
+      "path": "/ctoservices/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/ctoservices/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /ctoservices/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "64e41d7dd092409218c2d9a2191a62d3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /faq/": {
+      "jsonName": "faq-19a",
+      "internalComponentName": "ComponentFaq",
+      "path": "/faq/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/faq/"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/templates/blog-post.js",
+      "id": "SitePage /faq/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c699f3d4e238be7f06647c2e17aeb289",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "pluginCreatorId": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "70c7a5ce3593b1d1897d95585a3a4456",
         "description": "e08b0c8a-7532-58f7-ac51-1804ab53ee19",
         "owner": "internal-data-bridge"
       }
@@ -3543,8 +3674,8 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
-        "sq--src-components-layout-js"
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
       ],
       "e9e51f7c-ce91-5a39-9cad-ccca83013042": [
         "/ctoservices/"
@@ -3567,15 +3698,11 @@
       "03fea4e0-d915-549c-8b1c-fc982be46558": [
         "/previouswork/"
       ],
-      "73476005-d773-5e66-a278-c2ff94d3578b": [
-        "/"
-      ],
+      "73476005-d773-5e66-a278-c2ff94d3578b": [],
       "632ee010-c0f4-5475-b73b-5c3b5eb0dc2e": [
         "/"
       ],
-      "c92026c8-f158-545c-a2c3-1ecb65b51094": [
-        "/"
-      ],
+      "c92026c8-f158-545c-a2c3-1ecb65b51094": [],
       "c542a503-0ee7-5a3c-97ec-0636d6bfd081": [
         "/"
       ],
@@ -3590,15 +3717,11 @@
       ],
       "f2a39dc4-1b99-58be-a1ba-0fa5b0b27f43": [],
       "d2e3cf2e-96bf-5993-a93b-896a53b46470": [],
-      "cdf8d2e8-736a-55d1-839d-be396ab3f6de": [
-        "/"
-      ],
+      "cdf8d2e8-736a-55d1-839d-be396ab3f6de": [],
       "463ab008-1ac5-5128-8366-70d5221d0f9e": [
         "/"
       ],
-      "b5588d95-1689-506c-a9ba-ba059a38801a": [
-        "/"
-      ],
+      "b5588d95-1689-506c-a9ba-ba059a38801a": [],
       "766ffa33-e633-5eee-8d10-f5b9ef887a08": [
         "/"
       ],
@@ -3642,6 +3765,15 @@
       ],
       "cc74288b-23a3-5dd6-914c-53b362964014": [
         "/"
+      ],
+      "8e9a6fba-8848-550e-8e36-87b502f94112": [
+        "/"
+      ],
+      "f1390b4d-c41e-5ac8-98f6-6b1f21096eca": [
+        "/"
+      ],
+      "2bb5fac4-400b-5dd8-837b-040404ea3995": [
+        "/contact/"
       ]
     },
     "connections": {
@@ -3655,16 +3787,16 @@
   "jsonDataPaths": {
     "sq--src-components-layout-js": 3261102345,
     "sq--src-components-seo-js": 1025518380,
-    "ctoservices-683": "413/path---ctoservices-683-5dc-BHTsEZRfAI9okR7g40SCdAslz4",
-    "archservices-9ad": "74/path---archservices-9-ad-0c6-PKlAeV30zdJ0jKWNHO2PdNfw",
+    "ctoservices-683": "398/path---ctoservices-683-5dc-pNIjC46lVlGWkFLLUM9mFuufsk",
+    "archservices-9ad": "397/path---archservices-9-ad-0c6-vUM1TdGi3SnjGODHX5MHNBw8dA",
     "previouswork-dd4": "567/path---previouswork-dd-4-f9d-9EZ5EghUuTx3Dshgg0PCdWJbOK4",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "whycto-16b": "35/path---whycto-16-b-4b1-ZU3RBtDnySRbEuXiVzI0KGM6OLI",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "353/path---index-6a9-tFoPKN33wBBA945gSgsSUz7H4",
+    "index": "603/path---index-6a9-gqkRU9p38qTgz2CMrfWRcJNjJ2g",
     "articles-18f": "520/path---articles-18-f-849-yperFCIInrQQoKhj1JKj02ylAEM",
-    "faq-19a": "777/path---faq-19-a-275-IxJLnWzEfpTv861mU05gZjGy4",
+    "faq-19a": "605/path---faq-19-a-275-E8gb8DKPQLYBXuj9PacGHEbX0w",
     "tools-211": "470/path---tools-211-862-10haw3GbCHu6jQlsTZ25LqwXtc",
     "growthframework-2b6": "498/path---growthframework-2-b-6-e1d-43pY5GbJfdyMR4NpI8dBrYVmYc",
     "engmgmt-15a": "427/path---engmgmt-15-a-ec4-TXLghDmvLrXftmAscveIgcwirvA",
@@ -3688,12 +3820,12 @@
       "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/contact.js"
     },
     "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js": {
-      "query": "query ImageQuery {\n  cv: file(relativePath: {eq: \"cv.png\"}) {\n    childImageSharp {\n      fixed(width: 70, height: 70) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  linkedin: file(relativePath: {eq: \"linkedin.png\"}) {\n    childImageSharp {\n      fixed(width: 80, height: 80) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  angel: file(relativePath: {eq: \"angel.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  medium: file(relativePath: {eq: \"medium.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  twitter: file(relativePath: {eq: \"twitter.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  github: file(relativePath: {eq: \"github.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  stackoverflow: file(relativePath: {eq: \"stackoverflow.png\"}) {\n    childImageSharp {\n      fixed(width: 100, height: 100) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  fractional: file(relativePath: {eq: \"fractional.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  interim: file(relativePath: {eq: \"interim.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  architecture: file(relativePath: {eq: \"architecture.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  dd: file(relativePath: {eq: \"dd.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  coaching: file(relativePath: {eq: \"coaching.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "query": "query ImageQuery {\n  linkedin: file(relativePath: {eq: \"linkedin.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  free: file(relativePath: {eq: \"free.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  angel: file(relativePath: {eq: \"angel.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  medium: file(relativePath: {eq: \"medium.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  twitter: file(relativePath: {eq: \"twitter.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  github: file(relativePath: {eq: \"github.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  stackoverflow: file(relativePath: {eq: \"stackoverflow.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  fractional: file(relativePath: {eq: \"fractional.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  interim: file(relativePath: {eq: \"interim.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  architecture: file(relativePath: {eq: \"architecture.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  dd: file(relativePath: {eq: \"dd.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  coaching: file(relativePath: {eq: \"coaching.png\"}) {\n    childImageSharp {\n      fixed(width: 30, height: 30) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
       "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/src/pages/index.js"
     },
-    "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js": {
+    "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/.cache/dev-404-page.js"
+      "componentPath": "/Users/jon/workspace/jonathanholloway.co.uk/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {
