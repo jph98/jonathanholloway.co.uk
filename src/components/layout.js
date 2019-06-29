@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
+import './bootstrap.min.css';
 
 const Layout = ({ children }) => (
 
@@ -15,7 +16,7 @@ const Layout = ({ children }) => (
       query SiteTitleQuery {
         site {
           siteMetadata {
-            title
+            title            
           }
         }
         allMarkdownRemark(
@@ -39,7 +40,7 @@ const Layout = ({ children }) => (
             }
         },     
       }
-    `}
+    `}  
 
     render={data => (
       <>
@@ -48,7 +49,7 @@ const Layout = ({ children }) => (
         {/* TODO: use filter in the above GraphQL query */}
         <Header posts={data.allMarkdownRemark} siteTitle={data.site.siteMetadata.title} />
 
-        <div style={{ margin: `0 auto`, maxWidth: 750, paddingTop: 0, }}>
+        <div style={{ margin: `0 auto`, maxWidth: 800, padding: `0rem 1rem 0rem 1rem`}}>        
 
           {/* Children */}
           <main>{children}</main>

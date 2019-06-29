@@ -2,13 +2,17 @@
 id: architecture-services
 category: 'top'
 type: 'page'
-title: "Software Architecture"
-description: Architecture services page
+title: "Software Services"
+description: Software services page
 date: '2019-02-16'
 image: ''
 order: 2
 visible: true
 ---
+
+![](../soft.png)
+
+#### Software Services
 
 I work as a software engineer providing an architecture **role** to businesses.  I firmly believe it is not a title and every architect should code in part.
 

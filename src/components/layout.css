@@ -3,6 +3,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+tabular {
+  margin-left: 0.5rem,
+}
+
 body {
   margin: 0;
 }
@@ -15,7 +20,6 @@ footer,
 header,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
@@ -614,4 +618,37 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* Navbar */
+
+.navbar { margin-bottom: 0; padding: 0 }
+
+.active {
+  text-decoration: underline;
+}
+
+.navlink {
+  padding: 0;
+  color: 'white';
+  text-decoration: 'none';
+}
+
+.navitem, .nav-item {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.nav, .navbar, .navbar-nav, .navbar-collapse, .navitem {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-nav, .navlink {
+  text-align: left;
+}
+
+.navmenulink, .navbar-expand-md .navbar-nav .nav-link {  
+  padding-left: 0;
 }

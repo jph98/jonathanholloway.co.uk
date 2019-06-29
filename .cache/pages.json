@@ -16,11 +16,16 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "aboutme-b72",
+        "path": "/aboutme/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "archservices-9ad",
         "path": "/archservices/"
     },
     {
-        "componentChunkName": "component---src-pages-contact-js",
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
     },
@@ -40,11 +45,6 @@
         "path": "/engmgmt/teamradar/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "faq-19a",
-        "path": "/faq/"
-    },
-    {
         "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
         "jsonName": "offline-plugin-app-shell-fallback-a30",
         "path": "/offline-plugin-app-shell-fallback/"
@@ -53,6 +53,11 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "previouswork-dd4",
         "path": "/previouswork/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "startupfounders-c0d",
+        "path": "/startupfounders/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",

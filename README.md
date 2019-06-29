@@ -3,10 +3,17 @@
 ### Core
 
 * Add Google Analytics
-* Fix Contact Form - send to backend, cleanup, or use Segment
 * Exercises/Tools - dynamic page for docs/skills.io
-* Consider replacing markdown pages with dynamic pages - can we mix the two?
-* 
+* Implement sub-pages
+
+Affiliates
+https://affiliate-program.amazon.co.uk/home/productlinks/customize?asin=0735611319&request_source=quicklinks&subflow=sp_
+
+Contact Form
+https://docs.google.com/forms/d/165aMDxw0uccEXM4Zje-zI1EyXeSInOuCf8-nCTLWLYc
+
+Topics To Include
+https://docs.google.com/document/d/1eGFDMQFdBWUf5cB6m_rMPl_bLvOI22kh1uzNm1DwWeQ/edit
 
 ### Tools
 

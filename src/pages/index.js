@@ -9,59 +9,51 @@ const IndexPage = (props) => {
     <Layout>     
 
     <div id="container">   
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jonathanholloway/"> 
-          <Img fixed={props.data.linkedin.childImageSharp.fixed} />
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/82865/jon">
-          <Img fixed={props.data.stackoverflow.childImageSharp.fixed} />
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="http://www.github.com/jph98">
-          <Img fixed={props.data.github.childImageSharp.fixed} />
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@jonathan.holloway">
-          <Img fixed={props.data.medium.childImageSharp.fixed} />
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/jph98">
-          <Img fixed={props.data.twitter.childImageSharp.fixed} />
-        </a>
-        <p>I'm a CTO/technology director, software architect and engineer with 17+ years experience based in London working in tech companies across the UK and Europe. I work with startups/scaleups/enterprises to help with change in terms of process, people or product.  I am an engineer, not just a people manager. For more information, see the FAQ page.</p>
+
         <table>
+          <tbody>
+            <tr>
+              <td> <img alt="avatar" src="https://s.gravatar.com/avatar/053082988d5c2da6fe500a209f8cfdd8?s=700"/> </td>
+              <td>        
+              <p>I'm a CTO/Technology Director, Software Engineer/Architect and Engineering Manager with 17+ years experience based in London. I work with all companies from early, mid and late stage companies helping them as a CTO with people, process and product problems.  Working across the UK and Europe, I bring a unique combination as skills with a strong engineering background and experience leading successful teams.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table>
+          <tbody>
           <tr>
-            <td><Img fixed={props.data.interim.childImageSharp.fixed} /></td>
-            <td><b>Interim CTO Services</b> - Working with companies needing to cover a departing CTO, build a team, carry out project rescue. This includes finding a replacement CTO.&nbsp;
-              <a href="mailto: jonathan.holloway@gmail.com?subject=InterimCTO">Email</a>
+            <td><Img alt="interim" fixed={props.data.interim.childImageSharp.fixed} /></td>
+            <td><b>Interim CTO Services</b> - Working with companies needing to cover a departing CTO, build a team, carry out project rescue. This includes finding a replacement CTO.            
             </td>
           </tr>
           <tr>
-            <td><Img fixed={props.data.fractional.childImageSharp.fixed} /></td>
-            <td><b>Fractional CTO Services</b> - For startups/small companies who only need a few days a month.&nbsp;
-              <a href="mailto: jonathan.holloway@gmail.com?subject=FractionalCTO">Email</a>
+            <td><Img alt="fractional" fixed={props.data.fractional.childImageSharp.fixed} /></td>
+            <td><b>Fractional CTO Services</b> - For startups/small companies who only need a few days a month.&nbsp;              
             </td>
           </tr>
           <tr>
-            <td><Img fixed={props.data.free.childImageSharp.fixed} /></td>
-            <td><b>Free Consultancy Calls/Lunches/Days</b> - I provide help via 30 minute calls, lunch-time slots and two half days a month to "social good" startups/scaleups wanting advice.&nbsp; 
-              <a href="mailto: jonathan.holloway@gmail.com?subject=SocialGoodConsulting">Email</a>
+            <td><Img alt="calls" fixed={props.data.free.childImageSharp.fixed} /></td>
+            <td><b>Free Consultancy Calls/Lunches/Days</b> - I provide help via 30 minute calls, lunch-time slots and two half days a month to "social good" startups/scaleups wanting advice.&nbsp;               
             </td>
           </tr>
           <tr>
-            <td><Img fixed={props.data.architecture.childImageSharp.fixed} /></td>
-            <td><b>Startup Product/Software Architecture Review</b> - Product/architecture support for sole founders who aren't technical.&nbsp;
-              <a href="mailto: jonathan.holloway@gmail.com?subject=Architecture">Email</a>
+            <td><Img alt="startup" fixed={props.data.architecture.childImageSharp.fixed} /></td>
+            <td><b>Startup Product/Software Architecture Review</b> - Product/architecture support for sole founders who aren't technical.&nbsp;              
             </td>
           </tr>
           <tr>
-            <td><Img fixed={props.data.coaching.childImageSharp.fixed} /></td>
-            <td><b>Tech/Product Coaching</b> - tech/product leadership and department/team coaching.&nbsp;
-              <a href="mailto: jonathan.holloway@gmail.com?subject=Coaching">Email</a>
+            <td><Img alt="coach" fixed={props.data.coaching.childImageSharp.fixed} /></td>
+            <td><b>Tech/Product Coaching</b> - tech/product leadership and department/team coaching.&nbsp;              
             </td>
           </tr>
           <tr>
-            <td><Img fixed={props.data.dd.childImageSharp.fixed} /></td>
-            <td><b>Due Dilligence</b> - with investors looking for product/engineering insight, for companies working with agencies or companies looking to acquire/bring in-house  product/tech.&nbsp;
-              <a href="mailto: jonathan.holloway@gmail.com?subject=DueDilligence">Email</a>
+            <td><Img alt="duedilligence" fixed={props.data.dd.childImageSharp.fixed} /></td>
+            <td><b>Due Dilligence</b> - with investors looking for product/engineering insight, for companies working with agencies or companies looking to acquire/bring in-house  product/tech.&nbsp;              
             </td>
           </tr>
+          </tbody>
         </table>
       </div>    
 
