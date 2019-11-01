@@ -15,7 +15,7 @@ const IndexPage = (props) => {
             <tr>
               <td> <img alt="avatar" src="https://s.gravatar.com/avatar/053082988d5c2da6fe500a209f8cfdd8?s=700"/> </td>
               <td>        
-              <p>I'm a CTO/Technology Director, Software Engineer/Architect and Engineering Manager with 17+ years experience based in London. I work with all companies from early, mid and late stage companies helping them as a CTO with people, process and product problems.  Working across the UK and Europe, I bring a unique combination as skills with a strong engineering background and experience leading successful teams.</p>
+              <p>I'm a Chief Technology Officer/Technology Director, Software Engineer/Architect and Engineering Manager with 17+ years experience based in London. I work with all companies from early, mid and late stage companies helping them as a CTO with people, process and product problems.  Working across the UK and Europe, I bring a unique combination as skills with a strong engineering background and experience leading successful teams.</p>
               </td>
             </tr>
           </tbody>

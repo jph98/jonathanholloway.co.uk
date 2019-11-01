@@ -15,7 +15,21 @@ visible: true
 
 #### CTO Services
 
+###### What do you do?
+
+It depends on the company and problems, but in summary:
+
+* Grow startups from seed to series A, B and beyond
+* Stabilise teams and businesses when communication has broken down or key people have left
+* Product discovery, development and helping companies with product & technology roadmaps and execution
+* Architect, design and develop applications with the teams
+
+###### How do you start with a company?
+
+I normally carry out discovery over three to five days and write a report on product, process and people with an aim to transform the business depending on the problems.  I'll work closely with teams and work hands-on with engineers, devops, product, QA and the wider business.
+
 ###### How do you work in an interim capacity?
+
 I typically work in one interim role at a time.  That involves three to four days working with companies and their product/engineering teams on-site predominantly.  I use my other day for fractional work and startup advisory.
 
 --- 

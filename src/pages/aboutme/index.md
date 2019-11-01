@@ -13,7 +13,23 @@ visible: true
 
 #### About Me
 
-I'm a consulting CTO (interim, freelance), advisory and angel investor.  I've  spent 17+ years covering a wide number of roles in the product/tech industry building companies, teams and software/hardware solutions.  I invest in pet-tech, ed-tech and F&B companies.
+I'm a consulting CTO (interim, freelance), advisory and angel investor.  I've  spent 17+ years covering a wide number of roles in the product/tech industry building companies, teams and software/hardware solutions.  I invest in pet-tech, ed-tech and F&B companies.  The majority of my work these days is in London, where I live although I've also worked in Germany (Berlin, Hamburg, Dusseldorf), Holland (Amsterdam) and North America (New York, Boston, San Francisco and Vancouver).
+
+#### Research
+
+I studied software engineering from Aberystwyth University, receiving an MEng in 2003.  My final year project was spun out as a set of research papers and a startup that was funded to build learning platforms in higher education. I then studied and attained an MPhil over the next few years working on software design between academia and industry.  I completed my Viva in 2008.  
+
+I was a frequent participant in Stackoverflow (47k, top 0.5%), mostly in the Java, Python and Javascript spaces.
+
+https://stackoverflow.com/users/82865/jon
+
+I'm an active coder got Github with a few hundred repositories, some personal projects, some scaffolding starter projects for frameworks such as Flask, React Native mobile applications for B2C ventures, devops tooling (log file viewer/seacher) and tooling for architecture/design - service canvas design and implicit rules.
+
+https://github.com/jph98
+
+I've also run meetups in the past, I founded the South West JVM meetup which still runs out of Bristol:
+
+https://www.meetup.com/South-West-Java/
 
 #### What?
 

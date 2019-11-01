@@ -21,8 +21,13 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "archservices-9ad",
-        "path": "/archservices/"
+        "jsonName": "articles-18f",
+        "path": "/articles/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "clients-0df",
+        "path": "/clients/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
@@ -56,8 +61,8 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "startupfounders-c0d",
-        "path": "/startupfounders/"
+        "jsonName": "software-932",
+        "path": "/software/"
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",

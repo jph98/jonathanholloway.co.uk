@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jonathan Holloway, Consulting CTO`,
+    title: `Jonathan Holloway, Chief Technology Officer | Chief Architect | Advisor | Due Dilligence`,
     description: ``,
     author: `@gatsbyjs`    
   },

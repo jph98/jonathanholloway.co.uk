@@ -11,8 +11,8 @@ const Header = ({posts, siteTitle }) => {
         
     <header style={{ background: `#3d4f5a`, marginBottom: `1.45rem` }}>
 
-      <SEO title="Jonathan Holloway - Consulting CTO: UK (Bristol, Bath, London), Germany (Berlin), Holland (Amsterdam)" 
-           keywords={[`CTO`, `Interim CTO`, `Fractional CTO`, `Consulting CTO`, `architect`, `engineering management`, `technology`, 
+      <SEO title="Jonathan Holloway - Chief Technology Officer - Interim/Fractional CTO: UK (Bristol, Bath, London), Germany (Berlin), Holland (Amsterdam)" 
+           keywords={[`Chief Technology Officer`, `CTO`, `Interim CTO`, `Fractional CTO`, `Consulting CTO`, `architect`, `engineering management`, `technology`, 
            `CTO london`, `CTO bristol`, `CTO bath`, `CTO berlin`, `CTO Amsterdam`, 
            `CTO hiring`, `CTO startup`]} />
 
