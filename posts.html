@@ -1,0 +1,12 @@
+---
+title: Blog
+---
+
+<h2 class='pagetitle'>Posts</h2>
+
+{% for post in site.posts %}
+    <h2 class='sectiontitle'><a class='projectlink' href="{{ post.url }}">{{ post.title }}</a></h2>
+    <!-- <div class='contenttext'>
+        {{ post.excerpt }}
+    </div> -->
+{% endfor %}

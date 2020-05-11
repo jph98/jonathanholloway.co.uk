@@ -2,28 +2,60 @@
 title: Contact
 ---
 
-<h2 class='pagetitle'>Contact</h2>
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-<h3 class='sectiontitle'>Location(s)</h3>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+  type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+  type="text/javascript" charset="utf-8"></script>
 
-<div class='contenttext'>
-Battersea, London
-<br>
-Chipping Sodbury, Bristol.
+<div class='contactcontainer'>
+
+    <div class='leftcontainer'>
+        <h2 class='pagetitle'>Contact</h2>
+
+        <h3 class='sectiontitle'>Location(s)</h3>
+
+        <div class='contenttext'>
+        Battersea, London
+        <br>
+        Chipping Sodbury, Bristol.
+        </div>
+
+        <h3 class='sectiontitle'>Email</h3>
+        <div class='contenttext'>
+        jonathan.holloway at gmail.com
+        </div>
+
+        <h3 class='sectiontitle'>Phone</h3>
+        <div class='contenttext'>
+        +44 7854 651897
+        </div>
+
+        <h3 class='sectiontitle'>Consulting</h3>
+
+        <div class='contenttext'>
+        <a class='projectlink' href='https://www.hwintegral.com'>Hire me @ HW Integral </a>
+        </div>
+    </div>
+
+    <div class='rightcontainer'>
+        <div class='mapcustom' id="mapContainer"></div>        
+    </div>
 </div>
 
-<h3 class='sectiontitle'>Email</h3>
-<div class='contenttext'>
-jonathan.holloway at gmail.com
-</div>
+<script>
+var platform = new H.service.Platform({
+'apikey': 'SD2uhcqX6U-GSwG-h2Y3xWHY4DXP8hoJqSTtNcnPe04'
+});
 
-<h3 class='sectiontitle'>Phone</h3>
-<div class='contenttext'>
-+44 7854 651897
-</div>
+var maptypes = platform.createDefaultLayers();
 
-<h3 class='sectiontitle'>Consulting</h3>
-
-<div class='contenttext'>
-<a class='projectlink' href='https://www.hwintegral.com'>Hire me @ HW Integral </a>
-</div>
+var map = new H.Map(
+document.getElementById('mapContainer'),
+maptypes.vector.normal.map,
+{
+    zoom: 10,
+    center: { lat: 51.46645, lng: -0.18194 }
+});
+</script>
