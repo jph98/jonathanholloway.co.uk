@@ -12,6 +12,11 @@ Battersea, London
 Chipping Sodbury, Bristol.
 </div>
 
+<h3 class='sectiontitle'>Email</h3>
+<div class='contenttext'>
+jonathan.holloway at gmail.com
+</div>
+
 <h3 class='sectiontitle'>Phone</h3>
 <div class='contenttext'>
 +44 7854 651897
