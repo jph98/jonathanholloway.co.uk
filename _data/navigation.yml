@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Experience
+  link: /experience.html
+- name: Projects
+  link: /projects.html
+- name: Music/Art
+  link: /musicart.html
+- name: Blog
+  link: /blog.html
+- name: Contact
+  link: /contact.html
