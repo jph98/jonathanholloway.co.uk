@@ -5,7 +5,7 @@ const mustache = require('mustache');
 const chokidar = require('chokidar');
 const ncp = require('ncp').ncp;
 
-const OUTPUT_FOLDER = '_site';
+const OUTPUT_FOLDER = 'docs';
 
 function getTime() {
     var d = new Date();
@@ -28,7 +28,7 @@ function writeFile(pageName, template, metadata) {
 }
 const watcher = chokidar.watch('.', {
     persistent: true,
-    ignored: '_site',
+    ignored: 'docs',
 });
 
 watcher.on('change', () => {
@@ -51,8 +51,8 @@ watcher.on('change', () => {
         });
     });
 
-    ncp('css', '_site/css');
-    ncp('js', '_site/js');
-    ncp('images', '_site/images');
+    ncp('css', OUTPUT_FOLDER + '/css');
+    ncp('js', OUTPUT_FOLDER + '_site/js');
+    ncp('images', OUTPUT_FOLDER + '_site/images');
 });
     
