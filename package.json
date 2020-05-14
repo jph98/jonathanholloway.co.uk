@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server _site"
+    "start": "npx http-server docs",
+    "watch": "./site.js"
   },
   "author": "",
   "license": "ISC",

@@ -26,6 +26,14 @@ function writeFile(pageName, template, metadata) {
     fs.writeFileSync(loc, renderedContent);
     console.log(`Wrote file ${loc}`);
 }
+
+function copyResources() {
+    ncp('css', OUTPUT_FOLDER + '/css');
+    ncp('js', OUTPUT_FOLDER + '/js');
+    ncp('images', OUTPUT_FOLDER + '/images');
+    console.log('Copied resources');
+}
+
 const watcher = chokidar.watch('.', {
     persistent: true,
     ignored: 'docs',
@@ -51,8 +59,6 @@ watcher.on('change', () => {
         });
     });
 
-    ncp('css', OUTPUT_FOLDER + '/css');
-    ncp('js', OUTPUT_FOLDER + '_site/js');
-    ncp('images', OUTPUT_FOLDER + '_site/images');
+    copyResources();
 });
     
