@@ -70,11 +70,7 @@ nav .sidenav-trigger {
 }
 
 .parallax-container {
-  margin-top: 100px;
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,.9);  
 }
 
 .small-parallax-container {
