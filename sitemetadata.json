@@ -1,0 +1,57 @@
+{
+    "sitetitle": "Jonathan Holloway",
+    "sitedescription": "Founder, Product Design, Engineering",
+    "twitter": "https://www.twitter.com/jph98",
+    "github": "https://www.github.com/jph98",
+    "linkedin": "https://www.linkedin.com/in/jonathanholloway",
+    "blog": [
+        {
+            "name": "Technology Management and Culture",
+            "posts": [
+                {
+                    "title": "How do I make the developers go faster?",
+                    "link": "https://medium.com/hwintegral-consulting-cto/how-do-i-make-the-developers-go-faster-eb2cf34a1ee2"
+                },
+                {
+                    "title": "What makes an effective tech team?",
+                    "link": "https://medium.com/@jonathan.holloway/what-makes-an-effective-tech-team-8ea7c4d2b68f"
+                },
+                {
+                    "title": "More Effective Product and Engineering Teams",
+                    "link": "https://medium.com/hwintegral-consulting-cto/more-effective-product-and-engineering-teams-652aa34656c2"
+                }
+            ]
+        },
+        {
+            "name": "Music",
+            "posts": [
+                { 
+                    "title": "Sonic Pi: Part One",
+                    "link": "https://medium.com/@jonathan.holloway/sonic-pi-introduction-part-one-e2f12e9611df"
+                },
+                { 
+                    "title": "Sonic Pi: Part Two - Structure/FX",
+                    "link": "https://medium.com/@jonathan.holloway/sonic-pi-introduction-part-two-ade5f5c91bde"
+                },
+                { 
+                    "title": "Sonic Pi: Sequencing Multiple Music Parts",
+                    "link": "https://medium.com/@jonathan.holloway/sonic-pi-part-3-multiple-music-parts-cfb9bd8f4ed3"
+                }
+
+            ]
+        },
+        {
+            "name": "Mobile Application Development",
+            "posts": [
+                { 
+                    "title": "React Native and Migration to Hooks",
+                    "link": "https://medium.com/@jonathan.holloway/react-native-and-migrating-to-hooks-21f9995c3d73"
+                },
+                { 
+                    "title": "React Native Embedded Database Options",
+                    "link": "https://medium.com/@jonathan.holloway/react-native-embedded-database-options-2d04da023e4e"
+                }                
+            ]
+        }
+    ]
+}

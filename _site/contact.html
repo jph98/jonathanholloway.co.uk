@@ -1,107 +1,115 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
-    <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Contact</title>
-<meta name="generator" content="Jekyll v4.0.1" />
-<meta property="og:title" content="Contact" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/contact.html" />
-<meta property="og:url" content="http://localhost:4000/contact.html" />
-<script type="application/ld+json">
-{"headline":"Contact","url":"http://localhost:4000/contact.html","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+<!DOCTYPE html>
+<html lang="en">
 
-  </head>
-  <body>
-    <div class='outercontainer'>
-        <div class='titlecontainer'>
-            <h2 class='title'>Jonathan Holloway</h2>
-        </div>
-        <div class='navcontainer'>
-            <nav>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jonathan Holloway</title>
 
-    <a class='menulink' href="/" >Home</a>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="black">
 
-    <a class='menulink' href="/experience.html" >Experience</a>
+  <nav class="black" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo white-text">Jonathan Holloway</a>
 
-    <a class='menulink' href="/projects.html" >Projects</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./posts.html">Posts</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
 
-    <a class='menulink' href="/musicart.html" >Music/Art</a>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a class="white-text" href="./about.html">About</a></li>
+          <li><a class="white-text" href="./projects.html">Projects</a></li>
+          <li><a href="./posts.html">Posts</a></li>
+          <li><a class="white-text" href="./contact.html">Contact</a></li>
+        </ul>
 
-    <a class='menulink' href="/posts.html" >Posts</a>
-
-    <a class='menulink' href="/contact.html" class="current">Contact</a>
-
-</nav>    
-        </div>
-    </div>
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
-
-<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
-
-<div class="contactcontainer">
-
-    <div class="leftcontainer">
-        <h2 class="pagetitle">Contact</h2>
-
-        <h3 class="sectiontitle">Location(s)</h3>
-
-        <div class="contenttext">
-        Battersea, London
-        <br />
-        Chipping Sodbury, Bristol.
-        </div>
-
-        <h3 class="sectiontitle">Email</h3>
-        <div class="contenttext">
-        jonathan.holloway at gmail.com
-        </div>
-
-        <h3 class="sectiontitle">Phone</h3>
-        <div class="contenttext">
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+  </nav>
+  <div id="index-banner" class="small-parallax-container topheader">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="left grey-text text-lighten-2">Contact</h1>        
+      </div>      
+    </div>  
+  </div>
+  <div class="section black">
+    <div class="row container" style='margin-top: 140px'>                
+      <h4 class='grey-text contact-section'>Location(s)</h4>
+      <p class="white-text">
+      SW11, Battersea, London
+      </p>
+      <p class="white-text">
+      BS37, Bristol
+      </p>
+      <div class='mapcustom' id="mapContainer"></div>
+      <h4 class='grey-text contact-section'>Email</h4>
+      <p class="white-text">
+        <a href='mailto: jonathan.holloway@gmail.com'>jonathan.holloway at gmail.com</a>
+      </p>   
+      <h4 class='grey-text contact-section'>Phone</h4>
+      <p class="white-text">
         +44 7854 651897
-        </div>
-
-        <h3 class="sectiontitle">Consulting</h3>
-
-        <div class="contenttext">
-        <a class="projectlink" href="https://www.hwintegral.com">Hire me @ HW Integral </a>
-        </div>
+      </p>   
+      <h4 class='grey-text contact-section'>Web</h4>
+      <p class="white-text">
+        <a href='https://www.hwintegral.com'>Interim/Fractional CTO Consulting</a>
+      </p>       
     </div>
+  </div>  
 
-    <div class="rightcontainer">
-        <div class="mapcustom" id="mapContainer"></div>        
-    </div>
-</div>
+    <footer class="page-footer blue-grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s13">
+            <h5 class="white-text">About Me</h5>
+            <p class="grey-text text-lighten-4">Interim/Fractional CTO services, product and engineering.</p>
+          </div>
+          <div class="col l3 s12">
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li>
+                <i class="material-icons">add</i>
+                <a class="white-text" href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jonathanholloway">Linkedin</a>
+              </li>
+              <li>
+                <i class="material-icons">add</i>
+                <a class="white-text" href="https:&#x2F;&#x2F;www.github.com&#x2F;jph98">Github</a>
+              </li>
+              <li>
+                <i class="material-icons">add</i>
+                <a class="white-text" href="https:&#x2F;&#x2F;www.twitter.com&#x2F;jph98">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>, hamster wheels and caffeine.
+        </div>
+      </div>
+    </footer>
 
-<script>
-var platform = new H.service.Platform({
-'apikey': 'SD2uhcqX6U-GSwG-h2Y3xWHY4DXP8hoJqSTtNcnPe04'
-});
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-var maptypes = platform.createDefaultLayers();
-
-var map = new H.Map(
-document.getElementById('mapContainer'),
-maptypes.vector.normal.map,
-{
-    zoom: 10,
-    center: { lat: 51.46645, lng: -0.18194 }
-});
-</script>
-
+  <script src="js/map.js"/>
     
-    <h3 class='footer'>Copyright © Jonathan Holloway, Made with Jekyll/Github</h3>
-
-
-    <p class='content'>Dev Mode</p>
-
   </body>
 </html>
+
