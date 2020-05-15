@@ -10,13 +10,24 @@ html {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 
-h1, h5 { 
+h1, h2, h3, h4, h5, p { 
   margin-left: -60px;
 }
 
 /* If screen is 600px or less then */
 @media screen and (max-width: 800px) {
-  h1, h5 {
+  h1, h2, h3, h4, h5, p {
+    margin-left: 0px;
+  }
+}
+
+.page-footer { 
+  margin-left: -60px;
+}
+
+/* If screen is 600px or less then */
+@media screen and (max-width: 800px) {
+  .page-footer {
     margin-left: 0px;
   }
 }
@@ -25,6 +36,12 @@ nav ul,
 nav .brand-logo {
   color: #fff;
   margin-left: -60px;
+}
+
+@media screen and (max-width: 800px) {
+  nav .brand-logo {
+    margin-left: -35px;
+  }
 }
 
 a {

@@ -31,6 +31,7 @@ function copyResources() {
     ncp('css', OUTPUT_FOLDER + '/css');
     ncp('js', OUTPUT_FOLDER + '/js');
     ncp('images', OUTPUT_FOLDER + '/images');
+    ncp('images/favicon.ico', OUTPUT_FOLDER + '/favicon.ico');
     console.log('Copied resources');
 }
 
