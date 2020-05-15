@@ -11,10 +11,10 @@ html {
 }
 
 h1, h2, h3, h4, h5, p { 
-  margin-left: -60px;
+  /* margin-left: -60px; */
 }
 
-/* If screen is 600px or less then */
+/* If screen is 800px or less then */
 @media screen and (max-width: 800px) {
   h1, h2, h3, h4, h5, p {
     margin-left: 0px;
@@ -25,17 +25,21 @@ h1, h2, h3, h4, h5, p {
   margin-left: -60px;
 }
 
-/* If screen is 600px or less then */
 @media screen and (max-width: 800px) {
   .page-footer {
     margin-left: 0px;
   }
 }
 
+.firstcontainer {
+  margin-top: 70px;
+  margin-bottom: -70px;
+}
+
 nav ul,
 nav .brand-logo {
   color: #fff;
-  margin-left: -60px;
+  margin-left: 0px;
 }
 
 @media screen and (max-width: 800px) {
@@ -82,36 +86,19 @@ p {
   width: '100%';
 }
 
+@media screen and (max-width: 800px) {
+  .bannerimg {
+    width: 100px;
+  }
+}
+
 nav .sidenav-trigger {
   margin-left: 0px;
 }
 
-.parallax-container {
-  color: rgba(255,255,255,.9);  
-}
-
-.small-parallax-container {
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-
-.parallax-container .section {
-  /* width: 100%; */
-}
-
 .topheader {
   margin-top: 70px;
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+  margin-left: 0px;
 }
 
 @media only screen and (max-width : 600px) {

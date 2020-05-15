@@ -7,13 +7,22 @@
 
   {{> navbar }}
 
-  <div id="index-banner" class="parallax-container topheader">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="left grey-text text-lighten-2">Posts</h1>        
-        <br><br><br><br>
-        <h5 class="header left col s12 light">          
+  <div class="container firstcontainer">
+    <div class="row">
+      <div class="section">
+        <h1 class="header left white-text">Posts</h1>        
+        <p class="left white-text">
+          I've written various posts, articles in the technology, music or development space.  Most of these can be found on Medium here or linked below.
+          <br><br>
+          <a href='https://medium.com/@jonathan.holloway/'>Me on Medium</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="section">    
           {{#blog}}
             <h4 class='grey-text' style='margin-top: 60px;'>{{name}}</h4>
             {{#posts}}
