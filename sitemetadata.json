@@ -8,6 +8,7 @@
     "blog": [
         {
             "name": "Technology Management and Culture",
+            "description": "Common technology management problems, questions and improvement for teams.",
             "posts": [
                 {
                     "title": "How do I make the developers go faster?",
@@ -25,6 +26,7 @@
         },
         {
             "name": "Music",
+            "description": "A series of articles on making music programatically with Sonic Pi.",
             "posts": [
                 { 
                     "title": "Sonic Pi: Part One",
@@ -43,6 +45,7 @@
         },
         {
             "name": "Mobile Application Development",
+            "description": "Number of articles on my (currently) preferred method of developing mobile apps - React Native.",
             "posts": [
                 { 
                     "title": "React Native and Migration to Hooks",
