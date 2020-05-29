@@ -49,7 +49,7 @@ watcher.on('change', () => {
     fs.readdir('.', function (err, files) {        
         if (err) { return console.log('Unable to scan directory: ' + err); }         
         files.forEach(function (templateName) {            
-            if (templateName.includes('page-')) {
+            if (templateName.includes('page-') || templateName.includes('project-')) {
                 var templatePrefix = templateName.substring(
                     templateName.lastIndexOf("-") + 1, 
                     templateName.lastIndexOf(".")
