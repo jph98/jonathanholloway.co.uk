@@ -15,7 +15,7 @@ function getTime() {
     return hours + ':' + minutes + ':' + seconds;
 }
 
-function writeFile(pageName, template, metadata) {
+function writeFile(pageName, template, metadata, templateName) {
 
     const renderedContent = mustache.render(template, metadata, {
         header: fs.readFileSync('header.mustache', 'utf8'),
@@ -24,7 +24,7 @@ function writeFile(pageName, template, metadata) {
     });
     const loc = OUTPUT_FOLDER + '/' + pageName;
     fs.writeFileSync(loc, renderedContent);
-    console.log(`Wrote file ${loc}`);
+    console.log(`Wrote template ${templateName} as file ${loc}`);
 }
 
 function copyResources() {
@@ -35,31 +35,42 @@ function copyResources() {
     console.log('Copied resources');
 }
 
-const watcher = chokidar.watch('.', {
-    persistent: true,
-    ignored: 'docs',
-});
-
-watcher.on('change', () => {
+function publish() {
     console.log('Building site [' + getTime() + ']');
-    var template = fs.readFileSync('index.mustache', 'utf8');
+    const templateName = 'index.mustache';
+    var template = fs.readFileSync(templateName, 'utf8');
     var metadata = JSON.parse(fs.readFileSync('sitemetadata.json', 'utf8'));
-    writeFile('index.html', template, metadata)
+    writeFile('index.html', template, metadata, templateName)
 
     fs.readdir('.', function (err, files) {        
         if (err) { return console.log('Unable to scan directory: ' + err); }         
         files.forEach(function (templateName) {            
-            if (templateName.includes('page-') || templateName.includes('project-')) {
+            if (templateName.includes('page-') 
+                || templateName.includes('project-')
+                || templateName.includes('post-')) {
                 var templatePrefix = templateName.substring(
                     templateName.lastIndexOf("-") + 1, 
                     templateName.lastIndexOf(".")
                 );
                 var template = fs.readFileSync(templateName, 'utf8');                
-                writeFile(templatePrefix + '.html', template, metadata)
+                writeFile(templatePrefix + '.html', template, metadata, templateName)
             }
-        });
+        }); 
     });
 
     copyResources();
-});
-    
+}
+
+if (process.argv.length === 3 && process.argv[2] === 'watch') {
+    const watcher = chokidar.watch('.', {
+        persistent: true,
+        ignored: ['docs', 'site.js', 'package*'],
+    });
+    watcher.add('css/style.css');
+    watcher.on('change', () => {
+        publish();
+    });
+    console.log(`Watching resources... CTRL-C to quit`);    
+} else {
+    publish();    
+}

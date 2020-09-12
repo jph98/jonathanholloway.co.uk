@@ -25,6 +25,15 @@ h1, h2, h3, h4, h5, p {
   margin-left: -60px;
 }
 
+.bullet {
+  list-style-type: square !important;
+  color: white;
+}
+
+.post-list {
+  margin-left: 30px;
+}
+
 @media screen and (max-width: 800px) {
   .page-footer {
     margin-left: 0px;
@@ -48,12 +57,16 @@ nav .brand-logo {
   }
 }
 
+p {
+  color: white;
+}
+
 a {
   color: #e1ad01;
 }
 
-.contact-section {
-  margin-top: 50px;
+.post {
+  
 }
 
 /* ul li::before {
@@ -84,6 +97,11 @@ p {
 
 .bannerimg {
   width: '100%';
+}
+
+.post-text {
+  color: white;
+  width: 50%;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,11 +1,25 @@
 {
     "sitetitle": "Jonathan Holloway",
-    "sitedescription": "Founder, Product Design, Engineering",
+    "sitedescription": "Deep-tech Founder, CTO, Product/Software Architect",
     "twitter": "https://www.twitter.com/jph98",
     "github": "https://www.github.com/jph98",
     "linkedin": "https://www.linkedin.com/in/jonathanholloway",
     "stackoverflow": "https://stackoverflow.com/users/82865/jon",
     "blog": [
+        {
+            "name": "The Chief Technology Officer/CTO Role",
+            "description": "Hiring a fractional/interim CTO, technology strategy and hiring",
+            "posts": [
+                {
+                    "title": "Hiring an interim or fractional CTO",
+                    "link": "./hiringaninterimfractionalcto.html"
+                },
+                {
+                    "title": "What is a fractional CTO?",
+                    "link": "https://medium.com/@jonathan.holloway/what-is-a-fractional-cto-8889e37c3e36"
+                }
+            ]
+        },
         {
             "name": "Technology Management and Culture",
             "description": "Common technology management problems, questions and improvement for teams.",
