@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx http-server docs",
+    "publish": "./site.js",
     "watch": "./site.js watch"
   },
   "author": "",
