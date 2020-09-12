@@ -10,12 +10,9 @@
   <div class="container firstcontainer">
     <div class="row">
       <div class="section">
-        <h1 class="header left white-text">Posts</h1>        
-        <p class="left white-text">
-          I've written various posts, articles in the technology, music or development space.  Most of these can be found on Medium here or linked below.
-          <br><br>
-          <a href='https://medium.com/@jonathan.holloway/'>Me on Medium</a>
-        </p>
+        <h1 class="header white-text">Posts</h1>        
+        <p>Posts, articles and writing in the technology, music or development space.</p>
+        <img src='./images/interim3.png' style='width: 100%'>
       </div>
     </div>
   </div>
@@ -25,17 +22,30 @@
       <div class="section">    
           {{#blog}}
             <h4 class='grey-text' style='margin-top: 60px;'>{{name}}</h4>
-            <p class='white-text' style='margin-bottom: 50px'>{{description}}</p>
+            <p style='margin-bottom: 50px'>{{description}}</p>
             {{#posts}}
               <h5 class="white-text" style='margin-top: 30px'>
                 <a href={{link}}>{{title}}</a>
               </h5>
             {{/posts}}
           {{/blog}}
-        </h5>
+        <div>
+          <div class="row">
+            <div class="section">
+              <h4 class='grey-text' style='margin-top: 60px;'>More Articles</h4>
+              <a href='https://medium.com/@jonathan.holloway'>Me on Medium</a>
+              <br><br>
+              <img src='./images/interim-me.png' style='width: 100%'>
+            </div>
+          </div>          
+        </div>
+
       </div>
+
     </div>
   </div>
+
+  
 
   {{> footer }}
 
