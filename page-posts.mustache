@@ -10,10 +10,10 @@
   <div class="container firstcontainer">
     <div class="row">
       <div class="section">
-        <h1 class="header white-text">Posts</h1>        
-        <p>Posts, articles and writing in the technology, music or development space.</p>
-        <img src='./images/interim3.png' style='width: 100%'>
-      </div>
+            <h1 class="header white-text">Posts</h1>        
+            <p>Posts, articles and writing in the technology, music or development space.</p>
+            {{! <img src='./images/interim3.png' style='height: 200'> }}
+          </div>
     </div>
   </div>
 
@@ -21,13 +21,29 @@
     <div class="row">
       <div class="section">    
           {{#blog}}
-            <h4 class='grey-text' style='margin-top: 60px;'>{{name}}</h4>
-            <p style='margin-bottom: 50px'>{{description}}</p>
-            {{#posts}}
-              <h5 class="white-text" style='margin-top: 30px'>
-                <a href={{link}}>{{title}}</a>
-              </h5>
-            {{/posts}}
+            <div class="row">
+              <h4 class='grey-text' style='margin-top: 60px'>{{name}}</h4>
+              <p>{{description}}</p>
+            </div>
+
+            <div class="container post-row-container">
+              <div class="row nopad">
+                {{#posts}}
+                    <div class="col s12 m4 nopad">
+                      <div class="icon-block nopad">
+                        <h6 class="white-text" >
+                          <a href={{link}}>{{title}}</a>
+                        </h6>
+                        <p class='post-desc'>{{desc}}</p>
+                        <a href={{link}}><img src='{{image}}' style='width: 200px'></a>
+                      </div>
+                      <div class="col s12 m4">                      
+                      </div>
+                    </div>
+                {{/posts}}
+                </div>
+            </div>
+
           {{/blog}}
         <div>
           <div class="row">
