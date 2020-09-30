@@ -74,18 +74,9 @@ a {
   color: #e1ad01;
 }
 
-.post {
-  
+.hi {
+  color: #e1ad01;
 }
-
-/* ul li::before {
-  content: "\2022";
-  color: #fff;
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: 1em;
-} */
 
 li {
   color: #fff;
