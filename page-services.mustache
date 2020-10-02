@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> header }}
+
+<body class="black">
+
+  {{> navbar }}
+
+<div class="container firstcontainer">
+    <div class="row">
+      <div class="section">
+            <h1 class="header white-text">Services</h1>        
+            <p>Services I offer as a CTO, architect, engineer as follows.</p>
+            {{! <img src='./images/interim3.png' style='height: 200'> }}
+          </div>
+    </div>
+  </div>  
+
+  <div class="container">
+    <div class="row">
+      <div class="section">
+        {{#services}}
+          <div class="container post-row-container">
+            <div class="row nopad">
+              <div class="col s12 m8 nopad">
+                <h4 class="left grey-text">{{title}}</h4>
+                <p class="left white-text">
+                  <b>Overview: </b> {{description}}<br>          
+                  <b>Cost: </b><a href='#'>{{cost}}</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        {{/services}}
+      </div>
+    </div>            
+  </div>  
+
+  {{> footer }}
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

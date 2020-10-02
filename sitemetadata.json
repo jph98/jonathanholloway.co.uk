@@ -5,6 +5,33 @@
     "github": "https://www.github.com/jph98",
     "linkedin": "https://www.linkedin.com/in/jonathanholloway",
     "stackoverflow": "https://stackoverflow.com/users/82865/jon",
+    "services": [
+        {
+            "title": "Software Architecture Review",
+            "description": "Review of the underlying software architecture for a product - monolithic, microservices applications.",
+            "cost": "£3000+ depending on size/breadth/depth"
+        },
+        {
+            "title": "Team, Process, Product/Tech Review",
+            "description": "Review of your product/engineering function and associated components",
+            "cost": "Approximately £5000+ depending on size"
+        },
+        {
+            "title": "Interim CTO Services",
+            "description": "Interim CTO services to cover a departing CTO/VP of engineering",
+            "cost": "£1000+ day"
+        },
+        {
+            "title": "Fractional CTO Services",
+            "description": "To advise you on product/tech strategy, review a pitchdeck, plan a product build or guide a product build",
+            "cost": "Starting from £1500 a month"
+        },
+        {
+            "title": "Hourly CTO Support",
+            "description": "Hourly support/advice on a problem or situation",
+            "cost": "£250 an hour"
+        }
+    ],
     "blog": [
         {
             "name": "The Chief Technology Officer/CTO Role",
