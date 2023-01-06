@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "par 'npx http-server docs' './site.js watch'",
+    "start": "./par 'npx http-server docs' './site.js watch'",
     "publish": "./site.js",
     "watch": "./site.js watch"
   },
