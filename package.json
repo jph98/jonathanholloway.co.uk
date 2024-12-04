@@ -13,7 +13,7 @@
   "dependencies": {
     "chokidar": "3.4.0",
     "commonmark": "0.29.1",
-    "http-server": "0.12.3",
+    "http-server": "14.1.1",
     "mustache": "4.0.1",
     "ncp": "2.0.0"
   }
