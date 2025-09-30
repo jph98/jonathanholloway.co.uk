@@ -1,59 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Jonathan Holloway</title>
+{{> header }}
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-  <!-- Precendence -->
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-  <!-- Ionicons -->
-  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134641214-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-134641214-1');
-  </script>
-
-</head>
 <body class="black">
 
-  <nav class="black" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo white-text">
-          Jonathan Holloway
-        </a>
+  {{> navbar }}
 
-        <ul class="right hide-on-med-and-down">
-          <li><a class="grey-text" href="./about.html">About</a></li>
-          <li><a class="grey-text" href="./posts.html">Writing</a></li>
-        </ul>
-
-        <!-- Navbar -->
-        <ul id="nav-mobile" class="sidenav">
-          <li><a class="white-text" href="./">Home</a></li>
-          <li><a class="white-text" href="./about.html">About</a></li>
-          <li><a class="white-text" href="./coaching.html">Coaching</a></li>
-          <li><a class="white-text" href="./posts.html">Writing</a></li>
-          <li><a class="white-text" href="mailto: jonathan.holloway@gmail.com">Email</a></li>
-          <li><a class="white-text" href="tel: +44 7854 651897">07854 651897</a></li>
-        </ul>
-
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      </div>
-  </nav>
   <div class="container firstcontainer">
     <div class="row">
       <div class="section">
@@ -140,38 +93,7 @@
     </div>            
   </div>  
 
-    <footer class="page-footer blue-grey darken-4">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-          </div>
-          <div class="col l3 s12">
-          </div>
-          <div class="col l3 s12">
-            <h5 class="white-text" style='margin-left: 0px'>Connect</h5>
-            <ul>
-              <li>              
-                <a class="white-text" href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;jonathanholloway"><ion-icon name="logo-linkedin" style='color: #fff; margin-right: 5px'></ion-icon>Linkedin</a>
-              </li>
-              <li>              
-                <a class="white-text" href="https:&#x2F;&#x2F;www.github.com&#x2F;jph98"><ion-icon name="logo-github" style='color: #fff; margin-right: 5px'></ion-icon>Github</a>
-              </li>
-              <li>              
-                <a class="white-text" href="https:&#x2F;&#x2F;www.twitter.com&#x2F;jph98"><ion-icon name="logo-twitter" style='color: #fff; margin-right: 5px'></ion-icon>Twitter</a>
-              </li>
-              <li>              
-                <a class="white-text" href="https:&#x2F;&#x2F;stackoverflow.com&#x2F;users&#x2F;82865&#x2F;jon"><ion-icon name="logo-stackoverflow" style='color: #fff; margin-right: 5px'></ion-icon>Stackoverflow</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>, hamster wheels and caffeine.
-        </div>
-      </div>
-    </footer>
+  {{> footer }}
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
